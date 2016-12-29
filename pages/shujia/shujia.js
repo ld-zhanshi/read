@@ -1,10 +1,3 @@
-/* 
-* @Author: Marte
-* @Date:   2016-12-29 11:42:40
-* @Last Modified by:   Marte
-* @Last Modified time: 2016-12-29 13:32:40
-*/
-
-$(document).ready(function(){
-    
-});
+var mySwiper = new Swiper('.swiper-container', {
+    autoplay: 1000,//可选选项，自动滑动
+})
