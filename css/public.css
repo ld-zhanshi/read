@@ -1,0 +1,19 @@
+a{
+	text-decoration:none;
+}
+*{
+	font-size:.24rem;
+    font-family:"Microsoft Yahei";
+}
+* img{
+	border:none;
+}
+body,p,pre,ul,ol,li,form,a,table,dd,input,h1,h2,h3,h4,h5,h6{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+body{
+    background: #f5f6fa;
+}
+/*页脚*/
