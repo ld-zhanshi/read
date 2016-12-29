@@ -1,14 +1,193 @@
+
+/*书架-发现*/
+.zlf_top{
+    height:.9rem;
+}
 .zlf_container{
     width:7.02rem;
     height:auto;
+    margin:0 auto;
 }
 .zlf_find{
     width:100%;
-    height:1.3rem;
-    display: flex;
+    height:1.1rem;
+    padding:0.2rem 0;
+    text-align: center;
 }
 .zlf_find_title{
-    font-size:0.24rem;
+    height:.6rem;
+    line-height: .6rem;
     color: rgb( 136, 135, 135 );
 }
+.zlf_find_tu{
+    height:.4rem;
+}
+.zlf_fixed1{
+    width:5.50rem;
+    height:.4rem;
+    position: fixed;
+    left:1rem;
+    top:2.3rem;
+    background: #fff;
+    border-radius: .05rem;
+    box-shadow:0 0 0.03rem rgba(0, 0, 0, 0.2);
+}
+.zlf_fixed2{
+    width:6.15rem;
+    height:.6rem;
+    position: fixed;
+    left:.675rem;
+    top:2.45rem;
+    background: #fff;
+    border-radius: .05rem;
+    box-shadow:0 0 0.03rem rgba(0, 0, 0, 0.2);
+}
+
+/*swiper 开始*/
+.zlf_swiper-container{
+    margin-top:.4rem;
+}
+.zlf_item{
+    width:100%;
+    height:auto;
+    background:#fff;
+}
+.zlf_cover{
+    height:5rem;
+    width:7.02rem;
+    border-radius: 0.03rem;
+    overflow: hidden;
+    position:relative;
+}
+.zlf_cover .zlf_book{
+    width:7.02rem;
+}
+.zlf_photo{
+    width:.8rem;
+    height:.8rem;
+    background:#fff;
+    border-radius: 50%;
+    border:2px solid #fff;
+    overflow:hidden;
+    position:absolute;
+    left:.2rem;
+    top:.2rem;
+}
+.zlf_photo img{
+    width:.8rem;
+    height:.8rem;
+}
+.zlf_name {
+    font-size: .36rem;
+    color: rgb( 255, 255, 255 );
+    line-height: 1;
+    position: absolute;
+    left: 1.4rem;
+    top: .25rem;
+}
+.zlf_dian_box{
+   width:3rem;
+   position: absolute;
+   left: 1.4rem;
+   top: .45rem;
+}
+.zlf_dian_box img{
+    width:3rem;
+}
+.zlf_xing_box{
+   height:.2rem;
+   position: absolute;
+   left: 1.4rem;
+   top: .75rem;
+}
+.zlf_xing_box img{
+    height:.2rem;
+}
+.zlf_huo_box{
+   height:.4rem;
+   line-height:.4rem;
+   position: absolute;
+   right: .3rem;
+   top: .6rem;
+}
+.zlf_huo_box img{
+   height:.4rem;
+   vertical-align:top;
+}
+.zlf_huo_box i{
+    font-size: .36rem;
+    color: rgb( 255, 255, 255 );
+}
+
+/*信息*/
+.zlf_msg{
+    width:calc(100% - .5rem);
+    height:auto;
+    padding:.25rem;
+    position:relative;
+}
+.zlf_time_box,.zlf_tuijian_box{
+    height:.4rem;
+    line-height: .4rem;
+}
+.zlf_time_box{
+    margin-top: .1rem;
+}
+.zlf_time_tu{
+    width:.4rem;
+    vertical-align: top;
+    margin-right: .1rem;
+}
+.zlf_tuijian_box{
+    margin-top:.2rem;
+}
+.zlf_span{
+    font-size: .40rem;
+    color: rgb( 80, 79, 79 );
+    font-weight: bold;
+}
+.zlf_span2{
+    font-weight: normal;
+}
+.zlf_tuijian_tu{
+    height:.4rem;
+    vertical-align: top;
+}
+.zlf_line{
+    width:100%;
+    height:.01rem;
+    margin-top: .15rem;
+    border-bottom:.01rem solid #a2a2a2;
+}
+.zlf_dec{
+    line-height: 1.5;
+    color:#807e7e;
+    margin:.2rem 0;
+}
+.zlf_address{
+    color: rgb( 162, 161, 161 );
+}
+.zlf_people_box{
+    width:3rem;
+    height:.5rem;
+    position:absolute;
+    bottom:.2rem;
+    right:.2rem;
+}
+.zlf_people{
+    width:.5rem;
+    height:.5rem;
+    border-radius: 50%;
+    overflow:hidden;
+}
+
+
+
+
+
+
+
+
+
+
 
