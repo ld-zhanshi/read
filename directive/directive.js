@@ -2,15 +2,18 @@
 * @Author: Marte
 * @Date:   2016-12-30 16:42:17
 * @Last Modified by:   Marte
-* @Last Modified time: 2016-12-30 17:28:03
+* @Last Modified time: 2016-12-30 17:49:28
 */
 var data=[
     {
-        "id":1,
-        "title":"老干部",
-        "time":"2016-12-2",
-        "content":"要不怎么说",
-        "url":"#/show/1"
+        "photo":"软萌萌",
+        "name":@name,
+        "title":@title,
+        "comment":@comment,
+        "city":@city,
+        "cityenglish":@cityenglish,
+        "zannum":@zannum
+        "commentnum":@commentnum
     },
     {
         "id":2,
@@ -37,7 +40,10 @@ directive.directive('quanzilis',function(){
             name:@name,
             title:@title,
             comment:@comment,
-
+            city:@city,
+            cityenglish:@cityenglish,
+            zannum:@zannum
+            commentnum:@commentnum
 
          }
     }

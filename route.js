@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-30 10:26:56
 * @Last Modified by:   Marte
-* @Last Modified time: 2016-12-30 17:25:09
+* @Last Modified time: 2016-12-30 22:42:38
 */
 
 var data=[
@@ -28,7 +28,7 @@ var data=[
         "url":"#/show/3"
     }
 ]
-var ctrl=angular.module('ctrl',['directive']);
+var ctrl=angular.module('ctrl',[]);
 // 首页/书库
 ctrl.controller('home',function($scope){
     $scope.data=data;
