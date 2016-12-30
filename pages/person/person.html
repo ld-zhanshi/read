@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="app">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" >
@@ -33,87 +33,18 @@
     	<div class="sy_five"></div>
     </div>
 <!-- 好友主页的轮播块 -->
-    <ul class="sy_pluul">
-    	<li class="sy_pluli">
+    <ul class="sy_pluul" ng-controller="sy_plist">
+    	<li class="sy_pluli" ng-repeat="v in sy_lists track by $index" >
     		<div class="sy_pluli_img">
-                <img src="../../images/sy_images/sy_mjh_2.png" alt="">      
+                <img src="{{v.src}}" alt="">      
             </div>
     		<div class="sy_pluli_right">
     			<div class="sy_pluli_Word">Word<br>Litera<span>ture</span></div>
-    			<p class="sy_pluli_p">收藏书籍</p>
+    			<p class="sy_pluli_p">{{v.title}}</p>
     			<span class="sy_san_dian">···</span>
     		</div>
     	</li>
-    	<li class="sy_pluli">
-    		<div class="sy_pluli_img">
-                <img src="../../images/sy_images/sy_mjh_2.png" alt="">
-            </div>
-    		<div class="sy_pluli_right">
-    			<div class="sy_pluli_Word">Word<br>Litera<span>ture</span></div>
-    			<p class="sy_pluli_p">我的关注</p>
-    			<span class="sy_san_dian">···</span>
-    		</div>
-    	</li>
-    	<li class="sy_pluli">
-    		<div class="sy_pluli_img">
-                <img src="../../images/sy_images/sy_mjh_2.png" alt="">      
-            </div>
-    		<div class="sy_pluli_right">
-    			<div class="sy_pluli_Word">Word<br>Litera<span>ture</span></div>
-    			<p class="sy_pluli_p">我的粉丝</p>
-    			<span class="sy_san_dian">···</span>
-    		</div>
-    	</li>
-    	<li class="sy_pluli">
-    		<div class="sy_pluli_img">
-                <img src="../../images/sy_images/sy_mjh_2.png" alt="">      
-            </div>
-    		<div class="sy_pluli_right">
-    			<div class="sy_pluli_Word">Word<br>Litera<span>ture</span></div>
-    			<p class="sy_pluli_p">我的动态</p>
-    			<span class="sy_san_dian">···</span>
-    		</div>
-    	</li>
-    	<li class="sy_pluli">
-    		<div class="sy_pluli_img">
-                <img src="../../images/sy_images/sy_mjh_2.png" alt="">      
-            </div>
-    		<div class="sy_pluli_right">
-    			<div class="sy_pluli_Word">Word<br>Litera<span>ture</span></div>
-    			<p class="sy_pluli_p">编辑设置</p>
-    			<span class="sy_san_dian">···</span>
-    		</div>
-    	</li>
-    	<li class="sy_pluli">
-    		<div class="sy_pluli_img">
-                <img src="../../images/sy_images/sy_mjh_2.png" alt="">      
-            </div>
-    		<div class="sy_pluli_right">
-    			<div class="sy_pluli_Word">Word<br>Litera<span>ture</span></div>
-    			<p class="sy_pluli_p">个性装扮</p>
-    			<span class="sy_san_dian">···</span>
-    		</div>
-    	</li>
-    	<li class="sy_pluli">
-    		<div class="sy_pluli_img">
-                <img src="../../images/sy_images/sy_mjh_2.png" alt="">      
-            </div>
-    		<div class="sy_pluli_right">
-    			<div class="sy_pluli_Word">Word<br>Litera<span>ture</span></div>
-    			<p class="sy_pluli_p">会员中心</p>
-    			<span class="sy_san_dian">···</span>
-    		</div>
-    	</li>
-    	<li class="sy_pluli">
-    		<div class="sy_pluli_img">
-                <img src="../../images/sy_images/sy_mjh_2.png" alt="">      
-            </div>
-    		<div class="sy_pluli_right">
-    			<div class="sy_pluli_Word">Word<br>Litera<span>ture</span></div>
-    			<p class="sy_pluli_p">消息通知</p>
-    			<span class="sy_san_dian">···</span>
-    		</div>
-    	</li>
+    	
     </ul>
 
 
@@ -123,6 +54,7 @@
 <script src="../../js/angular.min.js"></script>
 <script src="../../js/angular-route.min.js"></script>
 <script type="text/javascript" src="../../js/rem.js"></script>
-<script type="text/javascript"src="../../js/swiper-3.4.0.min.js"></script>
+<script type="text/javascript" src="../../js/swiper-3.4.0.min.js"></script>
 <script type="text/javascript" src="../../js/zepto.js"></script>
 <script src="../../index.js"></script>
+<script src="person.js"></script>
