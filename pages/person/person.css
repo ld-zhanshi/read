@@ -104,7 +104,7 @@ body{
     	width: 1.3rem;height: 100%;
     	float: left;
     }
-    .sy_pluli:nth-child(1) .sy_pluli_img{
+    /*.sy_pluli:nth-child(1) .sy_pluli_img{
         background: url(../../images/sy_images/sy_mjh_1.png) no-repeat center;
     }
     .sy_pluli:nth-child(2) .sy_pluli_img{
@@ -127,7 +127,7 @@ body{
     }
     .sy_pluli:nth-child(8) .sy_pluli_img{
         background: url(../../images/sy_images/sy_mjh_1.png) no-repeat center;
-    }
+    }*/
     .sy_pluli_right{
     	float: left;
     	margin-top: 0.14rem;

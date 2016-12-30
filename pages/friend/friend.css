@@ -8,13 +8,27 @@
     	overflow: hidden;
     	position: relative;
     }
-    .sy_pluul_box .sy_pluul{
-    	width: 28.08rem;height: 1.54rem;
+    /*.sy_pluul_box .sy_pluul{
+    	width: 100%;height: 1.54rem;
     	display: flex;
     	justify-content:space-around;
     	position: absolute;
     	left: 0;top: 0;
     	overflow: hidden;
+    }*/
+    .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+        bottom: 0;
+    }
+    .swiper-pagination-bullet{
+        width: 0.15rem;height: 0.15rem;
+        background: #FDD809;
+        border-radius: 50%;
+        opacity: 1;
+    }
+    .swiper-pagination-bullet-active{
+        width: 0.30rem;height: 0.15rem;
+        background: #FDD809;
+        border-radius: 0.15rem;
     }
 /*最新动态*/
     .sy_news{
