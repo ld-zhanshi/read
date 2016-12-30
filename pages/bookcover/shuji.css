@@ -1,0 +1,308 @@
+ 
+/* @Author: guanlin
+* @Date:   2016-12-29 11:54:43
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-12-30 08:50:43
+*/
+.gl_bg{
+    background: #EAEAEA;
+}
+#gl_warp{
+    width:calc(100% - 0.5rem);
+    height:calc(100% - 0.35rem);
+    margin:0 auto;
+    padding: 0.35rem 0.25rem 0 0.25rem;
+}
+/*内容以上*/
+.gl_top{
+    width:100%;
+    height:3.14rem;
+    margin:0 auto;
+    display:flex;
+}
+.gl_top_left{
+    border-radius: 0.05rem;
+    border:2px solid #fff;
+    box-shadow: 0.005rem 0.00866rem 0.05rem 0 rgb( 204, 202, 202 );
+    width: 2.29rem;
+    height: 3.11rem;
+}
+.gl_top_left img{
+    width:100%;
+    height:3.11rem;
+}
+.gl_top_right{
+    margin-left: 0.14rem;
+    width:4.51rem;
+    height:100%;
+}
+.gl_snow{
+    display: block;
+    font-weight: bold;
+    font-size: .36rem;
+    line-height: 0.38rem;
+    float:left;
+    color: #585656;
+}
+.gl_snowtop span{
+    display:block;
+    float:left;
+    width:0.6rem;
+    margin-left: 0.23rem;
+    height:0.38rem;
+    background:url(../../images/gl_images/gl_yh.png)no-repeat;
+    background-size:0.6rem auto;
+}
+.gl_snowtop{
+    width:100%;
+    margin-top: 0.13rem;
+}
+.gl_clearfix:after{
+    content: "";
+    display:block;
+    clear:both;
+}
+.gl_snowbot i{
+    font-weight: bold;
+    font-size: .36rem;
+    line-height: 0.38rem;
+    color: #585656;
+}
+.gl_bl{
+    margin: 0.15rem 0.1rem 0 0.15rem;
+    height:.37rem;
+    width:100%;
+    color:#7c7a7a;
+}
+.gl_bl i{
+    display:block;
+    width:1.18rem;
+    height:100%;
+    
+    background:url(../../images/gl_images/gl_bl.png)no-repeat;
+    background-size: 1.18rem auto;
+    float:left;
+}
+.gl_bl span{
+    float:left;
+    margin-left: 0.15rem;
+    font-size: 0.3rem;
+    line-height: .37rem;
+}
+.gl_zuozhe{
+    margin-top:0.3rem;
+    margin-left: 0.15rem;
+    font-size: 0.24rem;
+    color:#7c7a7a;
+}
+.gl_zuozhe span{
+    display:block;
+}
+/*按钮*/
+.gl_btnbox{
+   box-sizing: border-box;
+    width:100%;
+    margin:0 auto;
+     margin-top: 0.2rem;
+    display:flex;
+    height:auto;
+    overflow: hidden;
+    justify-content: space-between;
+}
+.gl_btn{
+    width:1.6rem;
+    height:0.36rem;
+    padding:0.22rem 0.25rem;
+    border-radius: 39px;
+    border:2px solid #e1dfdf;
+    background:#fff;
+    /*display:flex;*/
+}
+.gl_ii{
+    width:0.5rem;
+    height:0.4rem;
+    background:url(../../images/gl_images/bg.png)no-repeat;
+    background-size: 1rem auto;
+    float:left;
+}
+.gl_ii1{
+    background-position: -0.45rem -0.99rem;
+}
+.gl_ii2{
+    background-position: -0.48rem -0.52rem;
+}
+.gl_ii3{
+    background-position: -0.47rem -1.55rem;
+}
+.gl_eng{
+    /*margin-left:0.12rem;*/
+    float:right;
+    text-align: center;
+    width:1.1rem;
+    height:auto;
+    overflow:hidden;
+}
+.gl_che{
+    display:block;
+    line-height: 0.36rem;
+    font-size: 0.2rem;
+    color:#b2b3b4;
+}
+.gl_engl{
+    display:block;
+    white-space: nowrap;
+    word-wrap: break-word;
+    font-size: 0.02rem;
+    color:#c9caca;
+}
+/*按钮完*/
+
+/*内容以上完*/
+/*内容*/
+.gl_content{
+  margin:0 auto;
+  margin-top: 0.2rem;
+  width: 6.99rem;
+  min-height: 3.12rem;
+  height:auto;
+  background:#fff;
+  box-shadow: 0.5px 0.866px 5px 0px rgb( 208, 208, 208 );
+  border-radius: 5px;
+}
+.gl_con{
+    width:6.8rem;
+    height:100%;
+    margin:0 auto;
+}
+.gl_title{
+    width:auto;height:auto;
+    overflow:hidden;
+}
+.gl_content h2{
+    width:auto;
+      font-size: .26rem;
+      color: rgb( 66, 66, 67 );
+      line-height: 1.5;
+      float:left;
+}
+.gl_dian{
+    width:0.05rem;
+    height:0.05rem;
+    border-radius: 50%;
+    margin-top: 0.28rem;
+    background-color: rgb( 254, 23, 121 );
+     float:left;
+     margin-left: 0.04rem;
+}
+.gl_cont{
+    margin-top: .25rem;
+}
+.gl_cont img{
+    width:0.29rem;height:0.18rem;
+}
+.gl_cont img:last-of-type{
+    float:right;
+}
+.gl_cont p{
+    padding:0.1rem 0.2rem;
+    font-size: 0.24rem;
+    line-height:1.25;
+    color: rgb( 108, 108, 109 );
+}
+.gl_bottom{
+    height:0.85rem;
+    width:6.2rem;
+    margin:0 auto;
+}
+.gl_bottleft{
+    float:left;
+}
+.gl_zan{
+    width:auto;height:auto;
+    overflow:hidden;
+    float:left;
+}
+.gl_zan i{
+    display:block;
+    width:0.5rem;height:0.5rem;
+    background:url(../../images/gl_images/bg.png)no-repeat;
+    background-size: 1rem auto;
+    float:left;
+}
+.gl_zan span{
+   font-size: .24rem;
+  color: rgb( 90, 90, 89 );
+  font-weight: bold;
+  font-variant: small-caps;
+  line-height: 0.5rem;
+  margin-left: 0.1rem;
+}
+.gl_pl{
+    margin-left:0.2rem;
+}
+.gl_pl i{
+    background-position: -0.5rem 0;
+}
+.gl_bottright{
+    float:left;
+    margin-left: 0.85rem;
+}
+.gl_bottright img{
+    width:0.6rem;height:0.6rem;
+    margin-left: -0.3rem;float:left;
+    border-radius: 50%;
+}
+.gl_bottright i{
+    font-style: normal;
+    display:block;
+    width:0.6rem;height:0.6rem;
+    margin-left: -0.3rem;
+    background:#898888;
+    border:1px solid #ccc;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0.6rem;
+    color:#D1CECE;
+    float:left;
+}
+/*内容结束*/
+/*立即阅读*/
+.gl_ljyd{
+  margin:0 auto;
+  width: 7.02rem;
+  height: 1.02rem;
+  margin-top: 0.13rem;
+  background:#2B75FF; 
+  color:#fff;
+  font-size: .36rem;
+  text-align: center;
+  line-height:1.02rem;
+}
+/*立即阅读*/
+/*同类推荐*/
+.gl_tltj{
+    width:7.02rem;
+    height:auto;
+    overflow:hidden;
+    margin:0 auto;
+    margin-top: .38rem;
+}
+.gl_gl_tl{
+    width:auto;height:auto;
+    overflow:hidden;
+}
+.gl_gl_tl i{
+    display:block;
+    width:.55rem;height:.47rem;
+    float:left;
+    background:url(../../images/gl_images/dan.png);
+    background-size: .55rem .47rem;
+}
+.gl_gl_tl span{
+    font-size: .34rem;
+  color: rgb( 55, 56, 56 );
+  font-weight: bold;
+  font-variant: small-caps;
+  float:left;margin-left: 0.1rem;
+}
+/*同类推荐结束*/
