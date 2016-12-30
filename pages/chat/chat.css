@@ -1,0 +1,269 @@
+/*聊天界面最外框开始*/
+	.yhp_chat_box{
+		width: 100%;
+		height: 100%;
+		margin: 0 auto;
+	}
+	/*聊天界面头部开始*/
+		.yhp_chat_header{
+			width: 100%;
+			height: 0.9rem;
+			background: #fff;
+			display: flex;
+			justify-content:space-between;
+			padding:0 0.24rem;
+			box-sizing:border-box;
+		}
+		.yhp_chat_backbtn{
+			width: 0.9rem;
+			height: 0.9rem;
+			background: url("../../images/yhp_images/yhp_backbtn.png") no-repeat;
+			background-position: left center;
+			background-size: 0.63rem 0.49rem;
+			border:none;
+			padding: 0;
+		}
+		.yhp_chat_pic{
+			width: 5.22rem;
+			height: 0.9rem;
+			padding-top: 0.09rem;
+			box-sizing:border-box;
+
+		}
+		.yhp_chat_pic .yhp_pic_inner{
+			width: auto;
+			height: 100%;
+			margin: 0 auto;
+			display: flex;
+			justify-content:center;
+			align-content:center;
+		}
+		.yhp_pic_bg{
+			width: 0.8rem;
+			height: 0.76rem;
+			background:url("../../images/yhp_images/yhp_picbg.png") no-repeat;
+			background-position: center;
+			background-size: 0.8rem 0.76rem; 
+			padding-top: 0.09rem;
+			padding-left: 0.08rem;
+			box-sizing:border-box;
+		}
+		.yhp_pic_bg img{
+			width: 0.58rem;
+			height: 0.58rem;
+			border-radius: 50%;
+		}
+		.yhp_chat_nick{
+			width: auto;
+			height: 0.76rem;
+			padding-top: 0.09rem;
+			padding-left: 0.04rem;
+			box-sizing:border-box;
+		}
+		.yhp_chat_nick .yhp_nick_name{
+			padding-left: 0.08rem;
+			box-sizing:border-box;
+			font-size: 0.36rem;
+			height: 0.36rem;
+			line-height: 0.36rem;
+			color: #403f3f;
+		}
+		.yhp_chat_nick .yhp_nick_motto{
+			font-size: 0.20rem;
+			color: #979797;
+		}
+		.yhp_chat_vip{
+			width: 0.48rem;
+			height: 0.25rem;
+			margin-top: 0.10rem;
+		}
+		.yhp_chat_barbtn{
+			width: 0.9rem;
+			height: 0.9rem;
+			background: url("../../images/yhp_images/yhp_navbtn.png") no-repeat;
+			background-position: right center;
+			background-size: 0.27rem 0.14rem;
+			border:none;
+			padding: 0;
+		}
+	/*聊天界面头部结束*/
+	/*聊天界面内容开始*/
+		.yhp_chat_inner{
+			width: 100%;
+			min-height: 13.34rem;
+			margin: 0 auto;
+			background: #EAEAEA;
+		}
+		.yhp_chat_inner .yhp_chat_text{
+			width: 7.01rem;
+			height: 13.34rem;
+			margin:0 auto;
+			border-top: 0.01rem solid #EAEAEA;
+		}
+		.yhp_chat_groupleft{
+			width: 3.86rem;
+			min-height: 1.30rem;
+			margin-top: 0.2rem;
+			display: flex;
+			justify-content:space-between;
+		}
+		.yhp_chat_groupleft .yhp_chat_icon{
+			margin-top: 0.12rem;
+			background: url("../../images/yhp_images/yhp_chat_iconleft.png") no-repeat;
+			background-position: center;
+			background-size: 0.22rem 0.18rem;
+			width: 0.22rem;
+			height: 0.18rem;
+		}
+		.yhp_chat_groupleft .yhp_chat_mess{
+			width: 2.84rem;
+			min-height: 0.92rem;
+			height: auto;
+			background:white;
+			margin-top: 0.12rem;
+			margin-left: -0.12rem;
+			z-index: 4;
+			border-radius: 0.04rem;
+			box-shadow: 0 0 4px 1px #ccc;
+			position: relative;
+		}
+		.yhp_chat_mess .yhp_chatmess_up{
+			width: 90%;
+			height: 0.18rem;
+			margin: 0.10rem auto;
+			display: flex;
+			justify-content:space-between;
+		}
+		.yhp_messup_left{
+			color: #1b87d2;
+			font-size: 0.20rem;
+			display: block;
+			height: 0.18rem;
+			line-height: 0.18rem;
+		}
+		.yhp_messup_right{
+			background: url("../../images/yhp_images/yhp_chat_clock.png") no-repeat;
+			background-position: left center;
+			background-size: 0.20rem 0.26rem;
+			color: #a4a4a4;
+			font-size: 0.14rem;
+			padding-left: 0.20rem;
+		}
+		.yhp_chat_dashed{
+			width: 100%;
+			height: 0;
+			border-bottom:1px dotted #ccc;
+		}
+		.yhp_chatmess_bottom{
+			height: auto;
+			width: 90%;
+			margin: 0 auto;
+			color: #828282;
+			font-size: 0.16rem;
+			letter-spacing: 0.03rem;
+			line-height: 0.26rem;
+		}
+
+		.yhp_chat_groupright{
+			width: 3.00rem;
+			min-height: 1.30rem;
+			margin-top: 0.2rem;
+			margin-left: 4.00rem;
+			display: flex;
+			justify-content:space-between;
+		}
+		.yhp_chat_groupright .yhp_chat_icon{
+			margin-top: 0.12rem;
+			background: url("../../images/yhp_images/yhp_chat_iconright.png") no-repeat;
+			background-position: center;
+			background-size: 0.22rem 0.18rem;
+			width: 0.22rem;
+			height: 0.18rem;
+		}
+		.yhp_chat_groupright .yhp_chat_mess{
+			width: 2.84rem;
+			min-height: 0.92rem;
+			height: auto;
+			background:white;
+			margin-top: 0.12rem;
+			border-radius: 0.04rem;
+			box-shadow: 0 0 4px 1px #ccc;
+			position: relative;
+			z-index: 4;
+			margin-right: -0.04rem;
+		}
+		.yhp_chat_groupright .yhp_messup_right{
+			background: url("../../images/yhp_images/yhp_chat_clock.png") no-repeat;
+			background-position: 1.32rem center;
+			background-size: 0.20rem 0.26rem;
+			color: #a4a4a4;
+			font-size: 0.14rem;
+			display: block;
+			width: 100%;
+			text-align: right;
+		}
+	/*聊天界面内容结束*/
+	/*聊天界面底部开始*/
+		.yhp_chat_footer{
+			width: 100%;
+			height: 1.49rem;
+			background: #1B87D2;
+			position: fixed;
+			margin: 0 auto;
+			bottom: 0;
+			border-bottom: 0.01rem solid #1B87D2;
+		}
+		.yhp_chatfoot{
+			width: 7.02rem;
+			height: 1.15rem;
+			margin: 0.12rem auto;
+		}
+		.yhp_chatfoot .yhp_chat_word{
+			width: 91.2%;
+			height: 0.55rem;
+			border-radius: 0.30rem;
+			border:none;
+			background: white url("../../images/yhp_images/yhp_wait_icon.png") no-repeat;
+			background-position: 0.3rem center;
+			background-size: 0.26rem 0.13rem;
+			padding-left: 0.62rem;
+			font-size: 0.24rem;
+			color: #aeadad;
+			box-shadow: 0 0 0.06rem 0.01rem #10598b;
+		}
+		.yhp_chatfoot .yhp_foot_bottom{
+			width: 100%;
+			height:0.60rem;
+			display: flex;
+			justify-content:flex-start;
+		}
+		.yhp_foot_bottom button{
+			width: 0.90rem;
+			height: 100%;
+			border: none;
+			background-position: center;
+			margin-top: 0.04rem;
+		}
+		.yhp_chat_voice{
+			background: url("../../images/yhp_images/yhp_yuyin.png") no-repeat;
+			background-size: 0.35rem 0.45rem; 
+		}
+		.yhp_chat_look{
+			background: url("../../images/yhp_images/yhp_look.png") no-repeat;
+			background-size: 0.44rem 0.46rem; 
+		}
+		.yhp_chat_pic{
+			background: url("../../images/yhp_images/yhp_pic.png") no-repeat;
+			background-size: 0.46rem 0.46rem; 
+		}
+		.yhp_chat_share{
+			background: url("../../images/yhp_images/yhp_share.png") no-repeat;
+			background-size: 0.39rem 0.46rem; 
+		}
+		.yhp_chat_more{
+			background: url("../../images/yhp_images/yhp_more.png") no-repeat;
+			background-position: center;
+			background-size: 0.29rem 0.12rem; 
+		}
+	/*聊天界面底部结束*/
+/*聊天界面最外框结束*/

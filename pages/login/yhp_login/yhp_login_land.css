@@ -1,0 +1,16 @@
+/*登录界面最外框开始*/
+	.yhp_loginland_box{
+		width: 100%;
+		height: 13.14rem;
+		margin: 0 auto;
+		background: #EAEAEA;
+	}
+	/*登录界面內宽开始*/
+		.yhp_loginland_inner{
+			width: 7.02rem;
+			height:100%;
+			background: blue;
+			margin: 0 auto;
+		}
+	/*登录界面內宽结束*/
+/*登录界面最外框结束*/
