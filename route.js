@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-30 10:26:56
 * @Last Modified by:   Marte
-* @Last Modified time: 2016-12-30 14:48:42
+* @Last Modified time: 2016-12-30 15:55:38
 */
 
 var data=[
@@ -35,13 +35,17 @@ ctrl.controller('home',function($scope){
 })
 // 书架
 ctrl.controller('shujia',function($scope){
-    $scope.data=data;
-    
+
 })
 // 社区
 ctrl.controller('shequ',function($scope){
-    $scope.data=data;
-   
+    $scope.topFlag=false;
+    $scope.changeQuanzi=function(){
+        $scope.topFlag=!$scope.topFlag;
+    }
+    $scope.changeShuyou=function(){
+        $scope.topFlag=!$scope.topFlag;
+    }
 })
 // 账户
 ctrl.controller('zhanghu',function($scope){
