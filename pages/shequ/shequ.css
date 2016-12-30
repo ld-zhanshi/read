@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-29 13:45:24
 * @Last Modified by:   Marte
-* @Last Modified time: 2016-12-30 14:25:56
+* @Last Modified time: 2016-12-30 16:20:41
 */
 /*社区顶部开始*/
 .ld_sqtopbar{
@@ -34,6 +34,21 @@
     width:1.6rem;height:.59rem;
     box-sizing: border-box;
     padding:.1rem;
+    position:relative;
+}
+.ld_top_cen span{
+    display:block;
+    width:1.6rem;height:.59rem;
+    padding:.1rem;
+    position:absolute;
+    left:0;top:0;
+    z-index: 0;
+    background:url(../../images/ld_images/ld_top_bg.png) center center no-repeat;
+    background-size:auto 100%;
+    transition: all .4s;
+}
+.ld_top_active span{
+    left:1.8rem;
 }
 .ld_sq_quanzi{
     float:left;
@@ -46,14 +61,18 @@
     text-align:center;line-height: .39rem;
     margin:0 auto;
     font-size:.24rem;
-    color:#279ca7;
+    color:#fff;
+    position:relative;
+    z-index: 1;
+    transition: all .4s;
 }
 .ld_top_active{
-     background:url(../../images/ld_images/ld_top_bg.png) center center no-repeat;
-     background-size:auto 100%;
+     /*background:url(../../images/ld_images/ld_top_bg.png) center center no-repeat;
+     background-size:auto 100%;*/
 }
 .ld_top_active .ld_qz_wenzi{
-    color:#fff;
+    
+    color:#279ca7;
 }
 .ld_sq_rig{
     float:right;
@@ -302,7 +321,7 @@ span.ld_sy_circle2{
 }
 /*好友数量*/
 .ld_sy_haoyou{
-    width:100%;height:.42rem;
+    width:100%;
     line-height: .42rem;
     display:flex;
     justify-content: space-between;
@@ -313,10 +332,10 @@ span.ld_sy_circle2{
     font-size:.5rem;
 }
 .ld_sy_letter{
-    width:100%;height:.25rem;
+    width:100%;
     font-size:.24rem;
     color:#333;
-        padding-bottom:.16rem;
+    padding-bottom:.16rem;
 }
 .ld_sy_ltnum{
     margin-left:.35rem;
