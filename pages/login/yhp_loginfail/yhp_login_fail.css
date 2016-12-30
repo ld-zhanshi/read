@@ -1,0 +1,86 @@
+/*登录失败最外框开始*/
+	.yhp_loginfail_box{
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		background: rgba(234,234,234,0.8);
+	}
+	/*登录失败內宽开始*/
+		.yhp_loginfail_inner{
+			width: 7.02rem;
+			height:7.00rem;
+			background: url("../../../images/yhp_images/yhp_loginfailbg.png") no-repeat center 0.98rem;
+			background-size: 7.02rem 5.55rem;
+			margin: 0 auto;
+			margin-top: 3.00rem;
+		}
+		.yhp_loginfail_up{
+			width: 100%;
+			height: 2.80rem;
+			background: url("../../../images/yhp_images/yhp_loginfailpic.png") no-repeat center bottom;
+			background-size: 3.27rem 2.45rem;
+		}
+		.yhp_loginfail_text{
+			color: #504e4e;
+			font-size: 0.36rem;
+			text-align: center;
+			margin-top: 0.56rem;
+		}
+		.yhp_loginfail_eng{
+			color: #7c7b7b;
+			font-size: 0.20rem;
+			text-align: center;
+			margin-top: 0.08rem;
+			margin-bottom: 0.17rem;
+			font-family: "Tahoma";
+		}
+		.yhp_loginfailwave{
+			width: 100%;
+			height: 0.33rem;
+			background: url("../../../images/yhp_images/yhp_loginfail_wave.png") no-repeat center;
+			background-size: 1.18rem 0.33rem;
+		}
+		.yhp_loginfailbtn{
+			width: 4.84rem;
+			height: 1.03rem;
+			background: #31363A;
+			border-radius: 0.60rem;
+			margin: 0 auto;
+			margin-top: 1.34rem;
+			border: 0.03rem solid #fff;	
+		}
+		.yhp_loginfailbtn:after{
+			content: "";
+			display: block;
+			clear: both;
+		}
+		.yhp_loginfailsure{
+			width: 2.33rem;
+			height: 0.90rem;
+			background: #FDD01E url("../../../images/yhp_images/yhp_loginfailspoint.png") no-repeat center;
+			background-size: 1.99rem 0.12rem;
+			border: none;
+			border-radius: 0.60rem;
+			margin-top: 0.06rem;
+			margin-left: 0.06rem;
+			float: left;
+			color: #8d5f17;
+			font-size: 0.30rem;
+			outline: none;
+		}
+		.yhp_loginfailcancel{
+			width: 2.33rem;
+			height: 0.90rem;
+			background:url("../../../images/yhp_images/yhp_loginfailfpoint.png") no-repeat center;
+			background-size: 1.99rem 0.12rem;
+			border: none;
+			border-radius: 0.60rem;
+			margin-top: 0.06rem;
+			margin-left: 0.06rem;
+			float: left;
+			color: #5e6163;
+			font-size: 0.30rem;
+			outline: none;
+		}
+	/*登录失败內宽结束*/
+/*登录失败最外框结束*/

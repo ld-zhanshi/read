@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+}
+a{color: #333;}
+img{vertical-align: middle;}
+
+ 
+body,html{width:7.5rem;height: 100%;overflow: hidden;}
+.yhp_dl_wk{
+    width:7.5rem;
+    height: 100%;
+    position: relative;
+    background: #eaeaea;
+}
+.yhp_dl_back{
+    position:absolute;
+    width:.63rem;
+    height:.49rem;
+    top: .24rem;
+    left: .24rem;
+}
+.yhp_dl_bg1{
+    position:absolute;
+    width:5.04rem;height:1.85rem;
+    top: .15rem;left: 50%;
+    margin-left: -2.52rem;
+}
+.yhp_dl_bg2{
+    position:absolute;
+    width:5.04rem;height:2rem;
+    bottom:0rem;left: 50%;
+    margin-left: -2.55rem;
+}
+.yhp_xq_box {
+    width:7rem;
+    height:9.3rem;
+    padding:0  .2rem;
+    border-radius: 0.05rem;
+    background-color: rgb( 255, 255, 255 );
+    box-shadow: 0.5rem 0.866rem 5rem 0rem rgb( 193, 192, 192 );
+    position:absolute;
+    top:2rem;
+    left:.25rem;
+}
+.yhp_num {
+   color: green;
+   font-size:.9rem; 
+   font-weight: bold;
+   background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#2975ff), to(#29ff51));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   float:left;
+}
+.yhp_choose{
+    float:left;
+    margin:.2rem 0 .6rem .2rem;
+}
+.yhp_choose_c{
+   font-size: .36rem;
+   color: rgb( 62, 61, 61 );
+   font-weight: bold;
+}
+.yhp_choose_e {
+   font-size: .2rem;
+   font-family: "San Francisco Display";
+   color: rgb( 142, 142, 142 );
+}
+.yhp_xq_box ul{
+    width:5.6rem;
+    height:.3rem;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.yhp_quan{
+    width:.3rem;
+    height:.3rem;
+    border-radius: 50%;
+    border:3px solid #464545;
+}
+.yhp_choose_point{
+    width:0.54rem;
+    height:.36rem;
+    background:url("../../../images/zlf_images/zlf_zc_10.png") no-repeat left center;
+    background-size: 0.54rem 0.36rem;
+}
+.yhp_xian{
+    width:2.26rem;
+    height:0;
+    border-bottom:0.01rem solid #6b6b6b;
+    margin-top:.17rem;
+}
+/*头像选择*/
+.yhp_people_choose{
+    width:100%;
+}
+.yhp_man{
+    width:3.40rem;
+    height:2.22rem;
+    background: red;
+    margin: 0 auto;
+    margin-top: 0.87rem;
+}
+.yhp_man>img{
+    width:3.40rem;
+    height:2.22rem;
+    margin: 0 auto;
+}
+.yhp_setpic_btns{
+  width: 5.04rem;
+  height: 0.83rem;
+  margin: 0 auto;
+  margin-top: 0.51rem;
+  display: flex;
+    justify-content: space-between;
+}
+.yhp_setpic_btns button{
+  width: 2.28rem;
+  height: 100%;
+  outline: none;
+  border-radius: 60rem;
+  border-width: 0.02rem;
+  border-style: solid;
+}
+.yhp_setpic_xiu{
+  background: #278EF7;
+  font-size: 0.30rem;
+  color: #fff;
+  border-color: #4ea3f9;
+}
+.yhp_setpic_fan{
+  background: #F4F3F3;
+  font-size: 0.30rem;
+  color: #444343;
+  border-color: #EAEAEA;
+}
+.yhp_btn_box{
+    width:4.18rem;
+    height:.9rem;
+    background:#278ef7;
+    border-radius:.5rem;
+    margin:1.3rem 0 .7rem 1.2rem;
+}
+.yhp_btn_box a>img{
+    width:4.18rem;
+    height:.9rem;
+}
+
+
