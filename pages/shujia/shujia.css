@@ -2,7 +2,7 @@
 /*书架-发现*/
 .zlf_top{
     height:.9rem;
-}
+} 
 .zlf_container{
     width:7.02rem;
     height:auto;
@@ -273,13 +273,15 @@
 }
 .zlf_sc{
     left:.2rem;
-    top:.03rem;
+    top:.08rem;
 }
-
+.zlf_sc>img{
+    width:.3rem;
+    height:.3rem;
+}
 .zlf_gz{
     left:.7rem;
     top:.02rem;
-    width:.6rem;
 }
 .zlf_gz>img,.zlf_dz>img{
     width:.2rem;
@@ -287,8 +289,7 @@
     vertical-align: middle;
 }
 .zlf_dz{
-    width:.6rem;
-    left:1.4rem;
+    left:1.3rem;
     top:.02rem;
 }
 .zlf_bg span{
