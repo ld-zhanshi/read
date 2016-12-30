@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+}
+a{color: #333;}
+img{vertical-align: middle;}
+
+ 
+body,html{width:7.5rem;height: 100%;overflow: hidden;}
+.zlf_dl_wk{
+    width:7.5rem;height: 100%;
+    position: relative;
+    background: #eaeaea;
+}
+.zlf_dl_back{
+    position:absolute;
+    width:.63rem;height:.49rem;
+    top: .24rem;left: .24rem;
+}
+.zlf_dl_bg1{
+    position:absolute;
+    width:5.04rem;height:1.85rem;
+    top: .15rem;left: 50%;
+    margin-left: -2.52rem;
+}
+.zlf_dl_bg2{
+    position:absolute;
+    width:5.04rem;height:2rem;
+    bottom:.24rem;left: 50%;
+    margin-left: -2.55rem;
+}
+.zlf_xq_box {
+    width:7rem;
+    height:9rem;
+    padding:0  .2rem;
+    border-radius: 0.05rem;
+    background-color: rgb( 255, 255, 255 );
+    box-shadow: 0.5rem 0.866rem 5rem 0rem rgb( 193, 192, 192 );
+    position:absolute;
+    top:2rem;
+    left:.25rem;
+}
+.zlf_num {
+   color: green;
+   font-size:.9rem; 
+   font-weight: bold;
+   background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#2975ff), to(#29ff51));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   float:left;
+}
+.zlf_choose{
+    float:left;
+    margin:.2rem 0 .6rem .2rem;
+}
+.zlf_choose_c{
+   font-size: .36rem;
+   color: rgb( 62, 61, 61 );
+   font-weight: bold;
+}
+.zlf_choose_e {
+   font-size: .2rem;
+   font-family: "San Francisco Display";
+   color: rgb( 142, 142, 142 );
+}
+.zlf_xq_box ul{
+    width:5.6rem;
+    height:.3rem;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.zlf_quan{
+    width:.3rem;
+    height:.3rem;
+    border-radius: 50%;
+    border:3px solid #464545;
+}
+.zlf_xian{
+    width:2.05rem;
+    height:0.01rem;
+    border:1px solid #6b6b6b;
+    margin-top:.135rem;
+}
+/*性别选择*/
+.zlf_xb{
+  color: rgb( 142, 142, 142 );
+  margin:.5rem 0 .8rem 0;
+}
+.zlf_people_choose{
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+}
+.zlf_man{
+    width:1.8rem;
+    height:2.3rem;
+}
+.zlf_man>img{
+    width:1.8rem;
+    height:2.1rem;
+}
+.zlf_man input{
+    width:.3rem;
+    height:.3rem;
+    margin: .2rem 0 0 .3rem;
+}
+.zlf_man span{
+  font-size: .30rem;
+  color: rgb( 91, 90, 90 );
+}
+.zlf_btn_box{
+    width:4.18rem;
+    height:.9rem;
+    background:#278ef7;
+    border-radius:.5rem;
+    margin:1.3rem 0 .7rem 1.2rem;
+}
+.zlf_btn_box a>img{
+    width:4.18rem;
+    height:.9rem;
+}
+
+
