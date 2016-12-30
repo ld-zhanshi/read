@@ -1,0 +1,433 @@
+/* 
+* @Author: Marte
+* @Date:   2016-12-29 13:45:24
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-12-30 01:45:16
+*/
+/*社区顶部开始*/
+.ld_sqtopbar{
+    width:100%;height:.88rem;
+    padding:0 .24rem;
+    box-sizing: border-box;
+    background:#fff;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ld_sq_photo{
+    width:.76rem;height:.76rem;
+    border-radius:50%;
+    overflow:hidden;
+}
+.ld_sq_photo img{
+    width:100%;height:auto;
+}
+.ld_top_cen{
+    width:3.5rem;height:.69rem;
+    border-radius:.50rem;
+    padding:.05rem;
+    box-sizing: border-box;
+    background:#33c4d2 url(../../images/ld_images/ld_top_bg1.png) center center no-repeat;
+    background-size:auto 70%;
+}
+.ld_top_cen li{
+    width:1.6rem;height:.59rem;
+    box-sizing: border-box;
+    padding:.1rem;
+}
+.ld_sq_quanzi{
+    float:left;
+}
+.ld_sq_shuyou{
+    float:right;
+}
+.ld_qz_wenzi{
+    width:.8rem;height:.39rem;
+    text-align:center;line-height: .39rem;
+    margin:0 auto;
+    font-size:.24rem;
+    color:#279ca7;
+}
+.ld_top_active{
+     background:url(../../images/ld_images/ld_top_bg.png) center center no-repeat;
+     background-size:auto 100%;
+}
+.ld_top_active .ld_qz_wenzi{
+    color:#fff;
+}
+.ld_sq_rig{
+    float:right;
+    width:.51rem;height:100%;
+    background:url(../../images/ld_images/ld_top_fangda.png) center center no-repeat;
+    background-size:100% auto;
+}
+/*社区顶部结束*/
+
+/*社区圈子开始*/
+.ld_qz_condi{
+    width:100%;
+    padding:.44rem .24rem;
+    box-sizing: border-box;
+}
+.ld_qz_con{
+    width:100%;height:4.29rem;
+    background:#fff;
+    border-radius:.15rem;
+    margin-bottom:.13rem;
+}
+.ld_qz_contop{
+    width:100%;height:2.5rem;
+    border-radius:.15rem .15rem 0 0;
+    overflow:hidden;
+    position:relative;
+}
+.ld_qz_contop img{
+    width:100%;
+}
+.ld_qz_label{
+    width:2.05rem;height:.9rem;
+    position:absolute;
+    left:.2rem;top:.2rem;
+    background:url(../../images/ld_images/ld_label.png) 0 0 no-repeat;
+    background-size:100%;
+    padding:.055rem 0 0 .3rem;
+    box-sizing: border-box;
+}
+.ld_qz_label span{
+    float:left;
+    width:.79rem;height:.79rem;
+    overflow:hidden;
+}
+.ld_qz_labelcon{
+    float:left;
+    height:.6rem;
+    margin-top:.1rem;
+    margin-left: .1rem;
+}
+.ld_qz_labelcon li{
+    height:50%;
+    line-height: .3rem;
+    color:#333;
+}
+li.ld_qz_labelzan{
+    color:#999;
+}
+.ld_qz_labelzan i{
+    float:left;
+    width:.3rem;height:100%;
+    background:url(../../images/ld_images/ld_taoxin.png) center center no-repeat;
+    background-size: 100%;
+    margin-right: .08rem;
+
+}
+.ld_qz_label img{
+    width:100%;height:auto;
+}
+.ld_qz_conbtm{
+    padding:0 .25rem;
+}
+.ld_qz_tit{
+    width:100%;height:.6rem;
+    line-height: .6rem;
+    color:#333;
+    font-size:.3rem;
+}
+.ld_qz_tit span{
+    text-transform: uppercase;
+    color:#666;
+    font-size:.26rem;
+    margin-left:.25rem;
+}
+.ld_qz_tit1{
+    font-size:.24rem;
+    color:#666;
+}
+.ld_qz_dizhi{
+    width:100%;height:.52rem;
+    padding-top:.15rem;
+}
+.ld_dizhi_icon{
+    float:left;
+    width:.3rem;height:100%;
+    background:url(../../images/ld_images/zlf_dizhi.png) center center no-repeat;
+    background-size:100% auto;
+}
+.ld_dizhi_con{
+    float:left;
+    width:3.25rem;height:100%;
+    padding-left:.1rem;
+}
+.ld_dizhi_con h4{
+    font-size:.24rem;
+    color:#5a5a59;
+    font-weight:normal;
+    position:relative;
+}
+.ld_dizhi_con span{
+    display:block;
+    width:.68rem;height:.07rem;
+    background:url(../../images/ld_images/ld_dizhi_icon4.png) 0 center no-repeat;
+    background-size: 100%;
+    position:absolute;
+    left:1.59rem;top:.1rem;
+}
+.ld_dizhi_con h5{
+    font-size:.2rem;
+    color:#5a5a59;
+    font-weight:normal;
+    text-transform: uppercase;
+}
+.ld_dizhi_rig{
+    float:right;
+    width:2.1rem;height:100%;
+}
+.ld_dizhi_rig li{
+    float:left;
+    width:50%;height:100%;
+
+}
+.ld_dizhi_rig span{
+    float:right;
+    display: block;
+    width:.37rem;height:100%;
+    margin-right:.08rem;
+}
+.ld_dizhi_icon1{
+    background:url(../../images/ld_images/ld_icon02.png) center center no-repeat;
+    background-size:100%;
+}
+.ld_dizhi_icon2{
+    background:url(../../images/ld_images/ld_icon01.png) center center no-repeat;
+    background-size:100%;
+}
+.ld_dizhi_num{
+    float:right;
+    height:100%;
+    line-height: .52rem;
+    font-size:.24rem;
+    color:#5a5a59;
+}
+/*社区圈子结束*/
+
+/*社区书友开始*/
+.ld_shuyou{
+    width:100%;height:1.17rem;
+    background:#fff;
+    border-radius:.06rem;
+    margin-bottom:.13rem;
+    display:flex;
+    align-items: center;
+    padding:.1rem;
+    box-sizing: border-box;
+}
+.ld_sy_photo{
+    width:1.09rem;height:.97rem;
+    border-radius:.1rem;
+    background:#151642;
+}
+.ld_sy_photo img{
+    width:100%;height:auto;
+}
+.ld_sy_add{
+    width:5rem;height:.76rem;
+    background:url(../../images/ld_images/ld_line.png) 0 center no-repeat;
+    background-size:50%;
+    margin-left:.2rem;
+}
+.ld_sy_add li{
+    width:100%;height:50%;
+    line-height: .38rem;
+    font-size:.22rem;
+    color:#979797;
+}
+li.ld_sy_addtit{
+    font-size:.26rem;
+    color:#666;
+    position:relative;
+}
+.ld_sy_addtit span{
+    width:.07rem;height:.07rem;
+    border-radius:50%;
+    background:#13993f;
+    position:absolute;
+    left:1.18rem;top:.15rem;
+}
+span.ld_sy_circle2{
+    background:#ffcf29;
+    left:1.29rem;
+}
+.ld_sy_num{
+    float:right;
+    width:.31rem;height:.31rem;
+    text-align:center;line-height: .31rem;
+    border-radius:50%;
+    background:#f0f0f0;
+    border:1px solid #d5d5d5;
+    color:#6f6f6f;
+    font-size:.22rem;
+}
+.ld_sy_numactive{
+    width:.73rem;height:.41rem;
+    text-align:center;line-height: .41rem;
+    border-radius:.5rem;
+    background:#ff3469;
+    color:#fff;
+    border:0;
+}
+/*搜索*/
+.ld_sy_search{
+    width:100%;height:.92rem;
+    background:url(../../images/ld_images/ld_sy_input.png) 0 center no-repeat;
+    background-size:100%;
+    display:flex;
+    align-items: center;
+    margin-top:.3rem;
+}
+.ld_sy_search input{
+    width:5.29rem;height:80%;
+    border:0;outline:none;
+    font-size:.24rem;
+    color:#fff;
+    background:transparent;
+    padding-left:.8rem;
+    box-sizing: border-box;
+
+}
+.ld_sy_btn{
+    width:1rem;height:.92rem;
+    text-indent: .8rem;
+    font-size:.24rem;
+    color:#fff;
+    background:transparent;
+}
+/*好友数量*/
+.ld_sy_haoyou{
+    width:100%;height:.42rem;
+    line-height: .42rem;
+    display:flex;
+    justify-content: space-between;
+    color:#999;
+    padding:.16rem 0;
+}
+.ld_haoyou_num{
+    font-size:.5rem;
+}
+.ld_sy_letter{
+    width:100%;height:.25rem;
+    font-size:.24rem;
+    color:#333;
+        padding-bottom:.16rem;
+}
+.ld_sy_ltnum{
+    margin-left:.35rem;
+}
+.ld_friend_di{
+    width:100%;height:2.17rem;
+    position:relative;
+    display:flex;
+}
+.ld_friend{
+    width:6.63rem;height:1.17rem;
+    border-radius:.06rem;
+    margin-bottom:.13rem;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:.12rem;
+    padding-right:.18rem;
+    box-sizing: border-box;
+    background:#fff url(../../images/ld_images/ld_line2.png) 1.21rem center no-repeat;
+    background-size:auto 60%;
+}
+.ld_friend_photo{
+    width:.93rem;height:.99rem;
+    background:url(../../images/ld_images/ld_friend01.png) center center no-repeat;
+    background-size:100%;
+}
+.ld_friend_inner{
+    width:.75rem;height:.75rem;
+    background:red;
+    border-radius:50%;
+    margin-top:.1rem;
+    margin-left:.09rem;
+}
+.ld_friend_inner img{
+    width:100%;height:auto;
+}
+.ld_friend_condi{
+    width:4.65rem;height:auto;
+    display:flex;
+    background:red;
+}
+.ld_friend_con{
+    width:4.65rem;height:.87rem;
+    background:url(../../images/ld_images/ld_line.png) 0 .3rem no-repeat;
+    background-size:50%;
+    margin-left:.38rem;
+}
+.ld_friend_con li{
+    line-height: .35rem;
+    color:#717171;
+    font-size:.22rem;
+}
+.ld_friend_zs b,li.ld_friend_zs{
+    font-size:.18rem;
+    line-height: .15rem;
+}
+.ld_friend_zs i{
+    float:left;
+    width:.12rem;height:.16rem;
+    background:url(../../images/ld_images/ld_weizhi.png) center center no-repeat;
+    background-size:100%;
+    margin-right:.05rem;
+}
+.ld_friend_tit{
+    position:relative;
+}
+.ld_vip{
+    display:block;
+    width:.53rem;height:.24rem;
+    text-align:center;line-height: .24rem;
+    color:#fff;
+    position:absolute;
+    left:2.4rem;top:.05rem;
+    background:#f61d50;
+    border-radius:.15rem;
+    text-transform: uppercase;
+    font-size:.12rem;
+}
+.ld_star{
+    width:.7rem;height:.1rem;
+    position:absolute;
+    left:1.32rem;top:.05rem;
+}
+.ld_friend_tit span{
+    float:left;
+    width:.2rem;height:.2rem;
+    background:url(../../images/ld_images/ld_xingji.png) center center no-repeat;
+    background-size: 100%;
+}
+.ld_firend_rig{
+    width:.28rem;height:.44rem;
+    background:url(../../images/ld_images/ld_iphone.png) center center no-repeat;
+    background-size: 100%;
+}
+.ld_firend_huise{
+    background:url(../../images/ld_images/ld_iphone1.png) center center no-repeat;
+    background-size: 100%;
+}
+.ld_shuzi{
+    width:.4rem;height:4.8rem;
+    align-content: space-between;
+    position:absolute;
+    right:0;top:0;
+}
+.ld_shuzi li{
+    text-align:center;
+    text-transform: uppercase;
+    color:#999;
+}
+li.ld_shuzi_active{
+    color:#1a71ad;
+}
+/*社区书友结束*/
