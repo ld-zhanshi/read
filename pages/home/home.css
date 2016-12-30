@@ -1,3 +1,217 @@
 body{
     color:#333;
+    background:#eaeaea;
+}
+*{box-sizing: border-box;}
+img{
+    vertical-align: middle;
+}
+
+.mjh_header{
+    width:7.5rem;height: 0.68rem;
+    background: #fff;
+    display:flex;
+    justify-content: space-between;
+    line-height: .68rem;
+    padding: 0 .24rem;
+}
+.mjh_header a{display: block;}
+.mjh_header a img{
+    width:.68rem;height:.68rem;
+}
+.mjh_yhtx{border-radius: 50%;}
+
+.mjh_banner,.mjh_banner img{
+    width:7.5rem;
+}
+
+.mjh_banner .swiper-pagination-bullet{ background: #fff;width:.16rem;height:.16rem;border-radius: .08rem;opacity:1;}
+.mjh_banner .swiper-pagination-bullet-active { width:.3rem;}
+.mjh_banner .swiper-pagination-clickable.swiper-pagination-bullets{
+    bottom: 10px;
+    right: .3rem;
+    width: auto;left:auto;
+}
+
+
+.mjh-sy-bt{
+    padding:0 .24rem;
+    width:100%;
+    position:relative;
+}
+.mjh-sy-bty{
+    color:#4b4c4c;
+    font-size: .24rem;
+}
+.mjh-su-btt{width:.6rem;height:.5rem;vertical-align: middle;}
+.mjt-sy-bth{
+    color:#272828;
+    font-size: .34rem;
+    line-height: .5rem;
+}
+.mjh-sy-btgd{
+    position:absolute;
+    bottom:0;right:.24rem;
+    display:block;
+    border:1px solid #000;
+    border-radius: .2rem;
+    height:.4rem;
+    padding:0 .1rem;
+    color:#333;
+    line-height: .4rem;
+}
+
+
+.mjh-sh-wkw{
+    height:5.2rem;width:7.5rem;
+    background:#fff;
+    margin-top: .1rem;
+    margin-bottom: .3rem;
+    overflow:hidden;
+}
+.mjh-sh-wk{
+    height:5.2rem;width:10.2rem;
+    margin-left: 0;
+}
+.mjh-sh-qu{
+    width:4.5rem;height:4.8rem;
+    margin:.2rem .28rem;
+    float:left;
+    position:relative;
+}
+.mjh-sh-fm{
+    width:4.5rem;height:2.9rem;
+}
+.mjh-sh-smy{
+    font-size:.3rem;color:#4b4c4c;
+    line-height: .4rem;
+    margin-left: .1rem;
+}
+.mjh-sh-sm{
+    font-size:.24rem;color:#595a5a;
+    line-height: .3rem;
+    margin-left: .1rem;
+}
+.mjh-sh-wj{
+    color:#ff1c5c;font-size: .2rem;
+    position:absolute;
+    left:.1rem;bottom:0.67rem;
+}
+.mjh-sh-vip{
+    position:absolute;
+    left:2.58rem;bottom:.67rem;
+}
+.mjh-sh-v{
+    width:.6rem;height:.2rem;
+    border-radius: .1rem;
+    background:#f61d50;line-height: .2rem;
+    font-size: .14rem;
+    color:#fff;
+    float: left;
+    text-align: center;
+}
+.mjh-sh-mf{
+    font-size: .18rem;
+    color:#888;
+    line-height: .2rem;
+    float:left;
+    margin-left: .1rem;
+}
+.mjh-sh-au{
+    position:absolute;
+    bottom:0;left:.1rem;
+    line-height: .45rem;
+}
+.mjh-sh-au img{
+    width:.45rem;height:.45rem;
+    border-radius: 50%;
+}
+.mjh-sh-scdz{
+    position:absolute;
+    bottom:0rem;left:2.58rem;
+}
+.mjh-sh-scdz img{
+    width:.25rem;height:.25rem;
+    vertical-align: middle;
+}
+.mjh-sh-scdz span{
+    font-size: .22rem;color:#888;
+    line-height: 1;
+}
+
+.mjh-xs-wkw{
+    height:3.5rem;width:7.5rem;
+    background:#fff;
+    margin-top: .1rem;
+    margin-bottom: .3rem;
+    overflow:hidden;
+}
+.mjh-xs-wk{
+    height:3.5rem;width:11.6rem;
+}
+.mjh-xs-qu{
+    width:5.2rem;height:3.5rem;
+    margin:0rem 0 0 .28rem;
+    float:left;
+    position:relative;
+}
+.mjh-xs-qu img{
+    width:2.4rem;height:3.5rem;
+    float:left;
+}
+.mjh-xs-quri{
+    width:2.8rem;height:3.5rem;
+    padding:.3rem .25rem;
+    float:left;
+}
+.mjh-xs-sm{
+    font-size: .34rem;
+    color:#272828;
+    line-height: 1;
+}
+.mjh-xs-au{
+    font-size: .24rem;
+    color:#888a8a;
+    line-height: .5rem;
+}
+.mjh-xs-lb{
+    font-size: .24rem;
+    color:#fff;
+    line-height: .4rem;
+    width:.65rem;height:.4rem;
+    background:#3ff7c5;
+    border-radius: .2rem;
+    text-align: center;
+}
+.mjh-xs-ms{
+    font-size: .24rem;
+    color:#888a8a;
+    line-height: .4rem;
+    margin-top: .3rem;
+}
+.mjh-xs-lz{
+    font-size: .20rem;
+    color:#ff1c5c;
+    line-height: 1;
+    margin-top: .3rem;
+}
+
+
+.mjh-sy-tab{
+    width:100%;height:1rem;
+    background:#fff;
+    display:flex;
+    justify-content: space-around;
+}
+.mjh-sy-tab a{
+    display:block;
+    width:.7rem;
+    height:1rem;
+    color:#929292;
+    font-size: .22rem;
+    text-align: center;
+    line-height: .5rem;
+}
+.mjh-sy-tab a img{
+    width:.54rem;height:.5rem
 }
