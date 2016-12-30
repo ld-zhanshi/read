@@ -50,10 +50,10 @@ body,html{width:7.5rem;height: 100%;overflow: hidden;}
     top: -.75rem;
 }
 
-.mjh-dl-yhm,.mjh-dl-mm{
+.mjh-dl-sjh,.mjh-dl-yzm,.mjh-dl-fsyz,.mjh-dl-ddyz{
   border-style: solid;
   border-width: 2px;
-  border-color: rgb( 30, 170, 251 );
+  border-color: #e0e0e0;
   border-radius: 5px;
   background-color: rgb( 243, 242, 242 );
   position: absolute;
@@ -65,17 +65,38 @@ body,html{width:7.5rem;height: 100%;overflow: hidden;}
   color:#7d7d7d;
   outline: 0;
 }
-.mjh-dl-yhm{top:.98rem;}
-.mjh-dl-mm{top:2.2rem;}
-
-.mjh-dl-yht,.mjh-dl-mmt{
-    width:.45rem;height:.5rem;
-    position: absolute;
-    left:.7rem;
-    z-index: 99;
+.mjh-dl-sjh{top:.98rem;}
+.mjh-dl-yzm{padding-left: .3rem;top:2.2rem;width:3.15rem;left:3.35rem;}
+.mjh-dl-fsyz,.mjh-dl-ddyz{
+  top:2.2rem;width:2.24rem;padding-left: .0rem;
+  justify-content: space-around;
+  align-items:center;
+  border-color: rgb( 30, 170, 251 );
+  display:none;
 }
-.mjh-dl-yht{top:1.24rem;}
-.mjh-dl-mmt{top:2.5rem;}
+.mjh-dl-fsyz.active,.mjh-dl-ddyz.active{
+  display:flex;
+}
+.mjh-yz-d1{
+  width:.13rem;height:.13rem;
+  border-radius: 50%;
+  background:#ff21a4;
+}
+.mjh-yz-d2{
+  width:.19rem;height:.19rem;
+  border-radius: 50%;
+  background:#1ed2ff;
+}
+.mjh-yz-dd{
+
+}
+
+.mjh-dl-sjt{
+    width:.31rem;height:.54rem;
+    position: absolute;
+    left:.75rem;
+    z-index: 99;top:1.24rem;
+}
 .mjh-dl-mmc{
     position:absolute;
     width:6rem;
@@ -161,32 +182,3 @@ body,html{width:7.5rem;height: 100%;overflow: hidden;}
     width:.85rem;height:.85rem;
 }
 
-.mjh-dl-yhxz{
-  border-width: 1px;
-  border-color: rgb( 224, 224, 224 );
-  border-style: solid;
-  border-radius: 5px;
-  background-color: rgb( 255, 255, 255 );
-  position: absolute;
-  left: .52rem;
-  top: 1.6rem;
-  width: 6rem;
-  height: 1.03rem;
-  z-index: 777;
-  display:flex;
-  justify-content: center;
-}
-.mjh-dl-yhxz a{
-    display:block;
-    text-align: center;
-    width:1rem;height:1rem;
-}
-.mjh-dl-yhxz div{
-    width:.7rem;height:.7rem;
-    border-radius: 50%;
-    overflow:hidden;
-}
-.mjh-dl-yhxz p{
-    line-height: .3rem;
-    font-size:.18rem ;color:#bdbcbc;
-}
