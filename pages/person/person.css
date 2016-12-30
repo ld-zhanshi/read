@@ -13,7 +13,12 @@ body{
     }
     .sy_fslide{
     	width: 1.1rem;height: 100%;
-    	background: red;
+    }
+    .sy_fslide:nth-child(1){
+        background: url(../../images/sy_images/sy_backbtn.gif) no-repeat center;
+    }
+    .sy_fslide:nth-last-child(1){
+        background: url(../../images/sy_images/sy_navbtn.png) no-repeat center;
     }
     .sy_fcenter{
     	height: 100%;flex-grow:1;
@@ -53,9 +58,9 @@ body{
     }
     .sy_header_img{
     	width: 1.6rem;height: 1.6rem;
-    	background: red;
+    	background: url(../../images/sy_images/sy_ld.jpg) no-repeat center/cover;
     	position: absolute;
-    	left: 0.03rem;bottom: 0;top: 0;right: 0;
+    	left: 0.05rem;bottom: 0.06rem;top: 0;right: 0;
     	margin: auto;
     	border:2px solid #fff;
     	border-radius: 50%;
@@ -77,7 +82,7 @@ body{
     }
     .sy_five{
     	width: 100%;height: 0.35rem;
-    	background: gold;
+    	background: url(../../images/sy_images/sy_stars.png) no-repeat center;
     }
 /*好友主页的轮播块*/
     .sy_pluul{
