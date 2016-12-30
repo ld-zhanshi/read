@@ -1,0 +1,138 @@
+/* 
+* @Author: guanlin
+* @Date:   2016-12-30 09:49:54
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-12-30 14:56:27
+*/
+/*弹窗开始*/
+#gl_body{
+    background: #EAEAEA;
+}
+.gl_alert{
+  margin:0 auto;
+  margin-top: .95rem;
+  width: 5.92rem;
+  height: 8.43rem;
+  border-radius: .2rem;
+  background-color: rgb( 255, 255, 255 );;
+    border-top: 1px solid #fff;
+}
+.gl_chacha{
+  border-radius: 50%;
+  background-color: rgb( 255, 255, 255 );
+  box-shadow: 0.005rem 0.00866rem .09rem 0px rgb( 224, 225, 226 );
+  margin:0 auto;
+  margin-top: -.35rem;
+  width: .71rem;
+  height: .71rem;
+  font-size: .45rem;
+  color: rgb( 76, 74, 74 );
+  text-align: center;
+  line-height: .62rem;
+  -webkit-transform: rotate(45deg);
+     -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+       -o-transform: rotate(45deg);
+          transform: rotate(45deg);
+} 
+.gl_h1{
+    width:3.7rem;height:.28rem;
+    margin:0 auto;
+    background:url(../../images/gl_images/start.png)no-repeat center/contain;
+    margin-top: .3rem;
+}
+.gl_h11{
+    text-align: center;
+  font-size: .24rem;
+  color: rgb( 89, 89, 89 );
+  font-weight: bold;
+  margin:0 auto;
+  margin-top: .5rem;
+}
+.gl_h12{
+    text-align: center;
+   font-size: .34rem;
+   font-weight: normal;
+  color: rgb( 168, 167, 167 );
+  -moz-transform: matrix( 0.60042057749055,0,0,0.60042057749056,0,0);
+  -webkit-transform: matrix( 0.60042057749055,0,0,0.60042057749056,0,0);
+  -ms-transform: matrix( 0.60042057749055,0,0,0.60042057749056,0,0);
+}
+.gl_time{
+    width:2.6rem;height:1.9rem;
+    margin:0 auto;
+    margin-top: .2rem;
+}
+.gl_miao{
+    display:block;
+    float:left;
+    width:.23rem;height:.44rem;
+    background:url(../../images/gl_images/dyh2.png)no-repeat center/contain;
+}
+.gl_haomiao{
+    display:block;
+    float:left;
+    width:.37rem;height:.45rem;
+    background:url(../../images/gl_images/dyh1.png)no-repeat center/contain;
+}
+.gl_time i{
+    margin-left: .1rem;
+}
+.gl_time span{
+    display: block;
+    float: left;
+     font-size:1rem;
+  color: #616060;
+  /*text-shadow: 2px 2px 0 #5184F4;*/
+  text-shadow:#5184F4 2px 0 0,#5184F4 0 2px 0,#5184F4 -2px 0 0,#5184F4 0 -2px 0;
+}
+.gl_voice{
+    width:4.5rem;height:1.2rem;
+    background:url(../../images/gl_images/bowen.png)no-repeat center/contain;
+    margin:0 auto;
+}
+.gl_huat{
+      width: 2.25rem;
+      height: 2.25rem;
+      margin:0 auto;
+      position: relative;
+}
+.gl_huat1{
+    width: 2.25rem;
+    height: 2.25rem;
+    background-color: rgba(76, 131, 225, 0.2);
+}
+.gl_huat2{
+      background-color: rgba( 76, 131, 225,.4);
+      width: 194px;
+      height: 194px;
+}
+.gl_ht{
+    position:absolute;
+    left:0;right:0;top:0;bottom: 0;
+    margin:auto;
+    border-radius: 50%;
+}
+.gl_huat3{
+      background-color: rgba( 76, 131, 225,.6);
+      width: 174px;
+      height: 174px;
+}
+.gl_huat4{
+      background-color: rgba( 76, 131, 225,1);
+      width: 154px;
+      height: 154px;
+}
+.gl_huat5{
+      background-color: rgba( 3, 63, 111,1);
+      width: 134px;
+      height: 134px;
+}
+.gl_huat6{
+    position:absolute;
+    left:0;right:0;top:0;bottom: 0;
+    margin:auto;
+    width:.44rem;height:.66rem;
+    background:url(../../images/gl_images/ht.png)no-repeat center/contain;
+}
+/*弹窗结束*/
