@@ -1,0 +1,117 @@
+/* 
+* @Author: guanin
+* @Date:   2016-12-30 15:24:05
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-12-30 17:04:37
+*/
+.gl_dqyy{
+    width:100%;
+    height: 1.98rem;
+    background: #36C4D2;
+    margin:0 auto;
+}
+.gl_dqyycon{
+    width:calc(100% - 0.4rem);
+    height:100%;
+    margin: 0 auto;
+}
+.gl_dqyycon h1{
+  font-size: .36rem;
+  font-weight: normal;
+  color: rgb( 255, 255, 255 );
+  line-height: 1.5;
+}
+.gl_dqyycon h2{
+  font-size: .24rem;
+  color: rgb( 184, 245, 251 );
+  line-height: 1;
+}
+.gl_input{
+    font-size: .28rem;
+    color: rgb( 237, 237, 237 );
+    line-height: 2;
+}
+.gl_input span{
+    padding-left: .1rem;
+}
+/*第一部分*/
+.gl_second{
+    width: 7.03rem;
+    height:auto;
+    overflow: hidden;
+    margin:0 auto;
+    margin-top: .3rem;
+}
+.gl_second li,.gl_tl_tl li{
+  border-radius: .05rem;
+  background-color: rgb( 255, 255, 255 );
+  box-shadow: 0.005rem 0.00866rem .05rem 0 rgb( 202, 200, 200 );
+  width:100%;
+  height: 1.36rem;
+  margin:0 auto;
+  margin-bottom: .1rem;
+}
+.gl_second li input,.gl_tl_tl li input{
+    margin-top: .6rem;
+    margin-left: .1rem;
+    float: left;
+}
+.gl_secr{
+    float:left;
+    margin-left:.3rem;
+    padding:.3rem 0;
+}
+.gl_secr span:nth-child(1){
+    display: block;
+    font-size: .26rem;
+    color: rgb( 102, 102, 102 );
+}
+.gl_secr span:nth-child(2){
+    display: block;
+  font-size: .22rem;
+  color: rgb( 151, 151, 151 );
+  text-align: left;
+}
+/*第二部分*/
+/*第三部分*/
+.gl_other{
+    width: 7.03rem;
+    height:auto;
+    overflow: hidden;
+    margin:0 auto;
+    margin-top: .2rem;
+}
+.gl_gl_tl{
+    width:auto;height:auto;
+    overflow:hidden;
+}
+.gl_gl_tl i{
+    display:block;
+    width:.55rem;height:.47rem;
+    float:left;
+    background:url(../../images/gl_images/dan.png);
+    background-size: .55rem .47rem;
+}
+.gl_gl_tl span{
+    font-size: .34rem;
+  color: rgb( 55, 56, 56 );
+  font-weight: bold;
+  font-variant: small-caps;
+  float:left;margin-left: 0.1rem;
+}
+.gl_gl_tl b{
+    clear:both;
+  font-size: .2rem;
+  color: rgb( 146, 144, 144 );
+  display:block;
+}
+.gl_tl_tl li{
+    margin-top: .2rem;
+}
+.gl_tl_tl li span{
+    line-height: 1.36rem;
+    margin-left: .2rem;
+  font-size: .26rem;
+  color: rgb( 102, 102, 102 );
+}
+/*第三部分完*/

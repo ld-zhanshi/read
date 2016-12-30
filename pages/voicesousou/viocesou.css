@@ -2,7 +2,7 @@
 * @Author: guanlin
 * @Date:   2016-12-30 09:49:54
 * @Last Modified by:   Marte
-* @Last Modified time: 2016-12-30 14:56:27
+* @Last Modified time: 2016-12-30 15:21:18
 */
 /*弹窗开始*/
 #gl_body{
@@ -104,8 +104,8 @@
 }
 .gl_huat2{
       background-color: rgba( 76, 131, 225,.4);
-      width: 194px;
-      height: 194px;
+      width: 1.94rem;
+      height: 1.94rem;
 }
 .gl_ht{
     position:absolute;
@@ -115,18 +115,18 @@
 }
 .gl_huat3{
       background-color: rgba( 76, 131, 225,.6);
-      width: 174px;
-      height: 174px;
+      width: 1.74rem;
+      height: 1.74rem;
 }
 .gl_huat4{
       background-color: rgba( 76, 131, 225,1);
-      width: 154px;
-      height: 154px;
+      width: 1.54rem;
+      height: 1.54rem;
 }
 .gl_huat5{
       background-color: rgba( 3, 63, 111,1);
-      width: 134px;
-      height: 134px;
+      width: 1.34rem;
+      height: 1.34rem;
 }
 .gl_huat6{
     position:absolute;
@@ -134,5 +134,10 @@
     margin:auto;
     width:.44rem;height:.66rem;
     background:url(../../images/gl_images/ht.png)no-repeat center/contain;
+}
+.gl_voice1{
+  width:1.15rem;height:.95rem;
+    background:url(../../images/gl_images/bowen1.png)no-repeat center/contain;
+    margin:0 auto;
 }
 /*弹窗结束*/
