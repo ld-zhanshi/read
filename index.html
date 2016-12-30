@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html ng-app="app">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" >
@@ -7,16 +7,45 @@
     <link rel="stylesheet" type="text/css" href="css/swiper-3.4.0.min.css" />
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/public.css"/>
-    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="pages/home/home.css" />
+    <link rel="stylesheet" type="text/css" href="pages/shujia/shujia.css" />
+    <link rel="stylesheet" type="text/css" href="pages/shequ/shequ.css" />
+    <link rel="stylesheet" type="text/css" href="pages/zhanghu/zhanghu.css" />
 </head>
-<body>
-    <div ng-view class="index_contain"></div>
-</body>
-</html>
-<script src="js/angular.min.js"></script>
-<script src="js/angular-route.min.js"></script>
-<script type="text/javascript" src="js/rem.js"></script>
-<script type="text/javascript"src="js/swiper-3.4.0.min.js"></script>
+<script type="text/javascript" src="js/angular.min.js"></script>
+<script type="text/javascript" src="js/angular-route.min.js"></script>
+<script type="text/javascript" src="js/swiper-3.4.0.min.js"></script>
 <script type="text/javascript" src="js/zepto.js"></script>
-<script type="text/javascript" src="js/index.js"></script>
-<script src="index.js"></script>
+<script type="text/javascript" src="js/touch.js"></script>
+<script type="text/javascript" src="js/rem.js"></script>
+<script type="text/javascript" src="route.js"></script>
+<script type="text/javascript" src="pages/home/home.js"></script>
+<script type="text/javascript" src="pages/shujia/shujia.js"></script>
+<script type="text/javascript" src="pages/shequ/shequ.js"></script>
+<script type="text/javascript" src="pages/zhanghu/zhanghu.js"></script>
+<script type="text/javascript" src="index.js"></script>
+
+<body>
+    <div ng-view></div>
+    <!-- 首页tab -->
+    <div class="mjh-sy-tab" ng-controller="ctrl">
+        <a href="#/shujia" class="mjh-sy-tabt">
+            <img src="images/mjh/sy-mjh_83.png" alt="" />
+            <p>书架</p>
+        </a>
+        <a href="#/" class="mjh-sy-tabt">
+            <img src="images/mjh/sy-mjh_86.png" alt="" />
+            <p>书库</p>
+        </a>
+        <a href="#/shequ" class="mjh-sy-tabt">
+            <img src="images/mjh/sy-mjh_77.png" alt="" />
+            <p>社区</p>
+        </a>
+        <a href="#/zhanghu" class="mjh-sy-tabt">
+            <img src="images/mjh/sy-mjh_80.png" alt="" />
+            <p>账户</p>
+        </a>
+    </div>
+</body>
+
+</html>
