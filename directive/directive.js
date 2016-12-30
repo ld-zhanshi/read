@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-30 16:42:17
 * @Last Modified by:   Marte
-* @Last Modified time: 2016-12-31 02:23:39
+* @Last Modified time: 2016-12-31 02:26:47
 */
 var directive=angular.module('directive',[]);
 app.directive('shequtopbar',function(){
