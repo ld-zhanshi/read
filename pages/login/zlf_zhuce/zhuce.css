@@ -28,6 +28,7 @@ body,html{width:7.5rem;height: 100%;overflow: hidden;}
     bottom:.24rem;left: 50%;
     margin-left: -2.55rem;
 }
+/*03 兴趣选择*/
 .zlf_xq_box {
     width:7rem;
     height:9rem;
@@ -94,17 +95,18 @@ body,html{width:7.5rem;height: 100%;overflow: hidden;}
 .zlf_man{
     width:1.8rem;
     height:2.3rem;
+    text-align:center;
 }
 .zlf_man>img{
     width:1.8rem;
     height:2.1rem;
 }
-.zlf_man input{
+.zlf_man p input{
     width:.3rem;
     height:.3rem;
-    margin: .2rem 0 0 .3rem;
+    margin: .2rem 0 0 0rem;
 }
-.zlf_man span{
+.zlf_man p span{
   font-size: .30rem;
   color: rgb( 91, 90, 90 );
 }
@@ -119,5 +121,60 @@ body,html{width:7.5rem;height: 100%;overflow: hidden;}
     width:4.18rem;
     height:.9rem;
 }
+/*喜欢的作者*/
+.zlf_like_author{
+    width:1.4rem;
+}
+.zlf_author_img{
+    width:1.4rem;
+    height:1.4rem;
+    border-radius:50%;
+    overflow:hidden;
+}
+.zlf_author_img img{
+    width:1.4rem;
+    height:1.4rem;
+}
+.zlf_like_zz{
+    margin:.5rem 0 0.2rem 0;
+}
+.zlf_author_btn{
+    margin:.2rem 0 0rem 1.2rem;
+}
+
+/*02 头像选择*/
+.zlf_photo{
+    width:3.43rem;
+    height:2.22rem;
+    margin:0.8rem auto;
+}
+.zlf_photo>img{
+    width:3.43rem;
+    height:2.22rem;
+}
+.zlf_btn{
+    margin-top:.5rem;
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    line-height:.8rem;
+}
+.zlf_btn_item{
+    width:2.25rem;
+    height:.8rem;
+    border-radius: .5rem;
+    background:#278ef7;
+    color: rgb( 255, 255, 255 );
+    font-size: .3rem;
+}
+.zlf_btn_item1{
+    background:#f4f3f3;
+    color: rgb( 68, 67, 67 );
+    font-size: .3rem;
+}
 
 
+/*01 基本信息*/
+.zlf_btn_box1{
+     background:#ccc;
+}
