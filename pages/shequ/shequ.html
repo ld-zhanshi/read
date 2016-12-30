@@ -1,71 +1,40 @@
 
-    <div class="index_contain">
+    <div class="index_contain" ng-controller="shequ">
     <!-- 社区圈子开始 -->
         <!-- 圈子顶部栏开始 -->
-        <div class="ld_sqtopbar">
-            <div class="ld_sq_photo"><img src="images/ld_images/ld_qz_photo.png" alt="" /></div>
-            <ul class="ld_top_cen">
-                <li ng-class="{true:'ld_sq_quanzi ld_top_active',false:'ld_sq_quanzi'}[topFlag]" ng-click="changeQuanzi()"><div class="ld_qz_wenzi">圈子</div><span></span></li>
-                <li ng-class="{true:'ld_sq_shuyou ld_top_active',false:'ld_sq_shuyou'}[!topFlag]" ng-click="changeShuyou()"><div class="ld_qz_wenzi">书友</div></li>
-            </ul>
-             <div class="ld_sq_rig"></div>
-        </div>
+        <shequtopbar></shequtopbar>
         <!-- 圈子顶部栏结束 -->
         <!-- 社会圈子下面内容开始 -->
         <div class="ld_qz_condi">
                 <!-- 社会圈子 -->
-            <div class="ld_shqz_di" ng-show="!topFlag">
-                <div class="ld_qz_con">
+            <div class="ld_shqz_di" ng-show="topFlag">
+                <div class="ld_qz_con" ng-repeat="v in sheququanzi track by $index">
                     <div class="ld_qz_contop">
-                        <img src="images/ld_images/ld_sq_lis01.png" alt="" />
+                        <img src="{{v.bgurl}}" alt="" />
                         <div class="ld_qz_label">
-                            <span><img src="images/ld_images/ld_qz_photo.png" alt="" /></span>
-                            <ul class="ld_qz_labelcon"><li>软萌萌</li><li class="ld_qz_labelzan"><i></i>49</li></ul>
+                            <span><img src={{v.photourl}} alt="" /></span>
+                            <ul class="ld_qz_labelcon"><li>{{v.name}}</li><li class="ld_qz_labelzan"><i></i>{{v.love}}</li></ul>
                         </div>
                     </div>
                     <div class="ld_qz_conbtm">
-                        <h4 class="ld_qz_tit">冬雪<span>the first snow</span></h4>
-                        <p class="ld_qz_tit1">秋雨不宜相见，冬雪不能饮醉，从春到冬，一直...</p>
+                        <h4 class="ld_qz_tit">{{v.title}}<span>{{v.titleenglish}}</span></h4>
+                        <p class="ld_qz_tit1">{{v.comment}}</p>
                         <div class="ld_qz_dizhi">
                             <div class="ld_dizhi_icon"></div>
                             <div class="ld_dizhi_con">
-                                <h4>太原.小店区<span></span></h4>
-                                <h5>taiyuan knick-knacks</h5>
+                                <h4>{{v.city}}<span></span></h4>
+                                <h5>{{v.cityenglish}}</h5>
                             </div>
                             <ul class="ld_dizhi_rig">
-                                <li><div class="ld_dizhi_num">230</div><span class="ld_dizhi_icon1"></span></li>
-                                <li><div class="ld_dizhi_num">230</div><span class="ld_dizhi_icon2"></span></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="ld_qz_con">
-                    <div class="ld_qz_contop">
-                        <img src="images/ld_images/ld_sq_lis01.png" alt="" />
-                        <div class="ld_qz_label">
-                            <span><img src="images/ld_images/ld_qz_photo.png" alt="" /></span>
-                            <ul class="ld_qz_labelcon"><li>软萌萌</li><li class="ld_qz_labelzan"><i></i>49</li></ul>
-                        </div>
-                    </div>
-                    <div class="ld_qz_conbtm">
-                        <h4 class="ld_qz_tit">冬雪<span>the first snow</span></h4>
-                        <p class="ld_qz_tit1">秋雨不宜相见，冬雪不能饮醉，从春到冬，一直...</p>
-                        <div class="ld_qz_dizhi">
-                            <div class="ld_dizhi_icon"></div>
-                            <div class="ld_dizhi_con">
-                                <h4>太原.小店区<span></span></h4>
-                                <h5>taiyuan knick-knacks</h5>
-                            </div>
-                            <ul class="ld_dizhi_rig">
-                                <li><div class="ld_dizhi_num">230</div><span class="ld_dizhi_icon1"></span></li>
-                                <li><div class="ld_dizhi_num">230</div><span class="ld_dizhi_icon2"></span></li>
+                                <li><div class="ld_dizhi_num">{{v.zannum}}</div><span class="ld_dizhi_icon1"></span></li>
+                                <li><div class="ld_dizhi_num">{{v.commentnum}}</div><span class="ld_dizhi_icon2"></span></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>   
                 <!-- 社会书友 -->
-            <div class="ld_shsy_di" ng-show="topFlag">
+            <div class="ld_shsy_di" ng-show="!topFlag">
                 <div class="ld_shuyou">
                     <div class="ld_sy_photo"><img src="images/ld_images/ld_photo01.png" alt="" /></div>
                     <ul class="ld_sy_add">

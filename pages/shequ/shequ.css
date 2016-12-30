@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-29 13:45:24
 * @Last Modified by:   Marte
-* @Last Modified time: 2016-12-30 16:20:41
+* @Last Modified time: 2016-12-30 23:43:17
 */
 /*社区顶部开始*/
 .ld_sqtopbar{
@@ -86,6 +86,7 @@
 .ld_qz_condi{
     width:100%;
     padding:.44rem .24rem;
+    padding-bottom:1rem;
     box-sizing: border-box;
 }
 .ld_qz_con{

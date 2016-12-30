@@ -1,0 +1,9 @@
+<!-- shequ_quanzi bar -->
+<div class="ld_sqtopbar" ng-repeat="v in shequtopbar track by $index">
+    <div class="ld_sq_photo"><img src="{{v.personurl}}" alt="" /></div>
+    <ul class="ld_top_cen">
+        <li ng-class="{true:'ld_sq_quanzi ld_top_active',false:'ld_sq_quanzi'}[!topFlag]" ng-click="changeQuanzi()"><div class="ld_qz_wenzi">{{v.left}}</div><span></span></li>
+        <li ng-class="{true:'ld_sq_shuyou ld_top_active',false:'ld_sq_shuyou'}[topFlag]" ng-click="changeQuanzi()"><div class="ld_qz_wenzi">{{v.right}}</div></li>
+    </ul>
+    <div class="ld_sq_rig"></div>
+</div>
