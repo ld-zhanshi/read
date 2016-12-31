@@ -3,7 +3,7 @@
 * @Author: Marte
 * @Date:   2016-12-30 10:26:56
 * @Last Modified by:   Marte
-* @Last Modified time: 2016-12-31 02:24:09
+* @Last Modified time: 2016-12-31 22:32:12
 */
 
 var sheququanzi=[
@@ -47,14 +47,14 @@ var sheququanzi=[
         "commentnum":"534"
     }
 ]
-var shequtopbar=[
-    {
-        "personurl":"images/ld_images/ld_qz_photo.png",
-        "left":"圈子",
-        "right":"书友"
-    }
-]
-var ctrl=angular.module('ctrl',['directive','shequitem']);
+// var shequtopbar=[
+//     {
+//         "personurl":"images/ld_images/ld_qz_photo.png",
+//         "left":"圈子",
+//         "right":"书友"
+//     }
+// ]
+var ctrl=angular.module('ctrl',['dir','shequitem']);
 // 首页/书库
 ctrl.controller('home',function($scope){
     
@@ -66,10 +66,12 @@ ctrl.controller('shujia',function($scope){
 // 社区
 ctrl.controller('shequ',function($scope){
     $scope.sheququanzi=sheququanzi;
+    // $scope.shequtopbar=shequtopbar;
+    // 社区圈子顶部bar
     $scope.topFlag=true;
-    $scope.shequtopbar=shequtopbar;
-    $scope.changeQuanzi=function(){
-        $scope.topFlag=!$scope.topFlag;
+    $scope.changeQuanzi=function(f){
+        $scope.topFlag=f;
+        console.log($scope.topFlag)
     }
 })
 // 账户
