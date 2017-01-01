@@ -272,10 +272,13 @@
     position:absolute;
 }
 .zlf_sc{
-    left:.2rem;
-    top:.03rem;
+    left:.15rem;
+    top:.01rem;
 }
-
+.zlf_sc img{
+    width:.3rem;
+    height:.3rem;
+}
 .zlf_gz{
     left:.7rem;
     top:.02rem;
