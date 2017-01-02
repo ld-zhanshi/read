@@ -1,0 +1,112 @@
+
+    <div id="gl_warp" ng-repeat="v in bookcon track by $index">
+    <!-- 内容以上 -->
+        <div class="gl_top gl_clearfix">
+            <div class="gl_top_left">
+                <a href="{{v.url}}"><img src="images/gl_images/1.jpg"alt="" /></a>
+            </div>
+            <div class="gl_top_right">
+                <div class="gl_snowtop gl_clearfix">
+                    <i class="gl_snow">{{v.title1}} &nbsp;
+                    </i>
+                    <span></span>
+                </div>
+                <div class="gl_snowbot">
+                    <i>{{v.title2}}</i>
+                </div>
+                <div class="gl_bl">
+                    <i></i>
+                    <span>{{v.title}}</span>
+                </div>
+                <div class="gl_zuozhe">
+                    <span>{{v.done}}</span>
+                    <span>作者:{{v.author}}</span>
+                    <span>更新:{{v.time}}</span>
+                </div>
+            </div>
+        </div>
+        <!-- 按钮 -->
+        <div class="gl_btnbox">
+            <div class="gl_btn">
+                <div class="gl_ii gl_ii1"></div>
+                <div class="gl_eng">
+                    <span class="gl_che">移动书架</span>
+                    <!-- <span class="gl_engl">TO REMOVE BOOK</span> -->
+                </div>
+            </div>
+            <div class="gl_btn">
+                <div class="gl_ii gl_ii2"></div>
+                <div class="gl_eng">
+                    <span class="gl_che">查看目录</span>
+                    <!-- <span class="gl_engl">TO REMOVE BOOK</span> -->
+                </div>
+            </div>
+            <div class="gl_btn">
+                <div class="gl_ii gl_ii3"></div>
+                <div class="gl_eng">
+                    <span class="gl_che">全本缓存</span>
+                    <!-- <span class="gl_engl">TO REMOVE BOOK</span> -->
+                </div>
+            </div>
+        </div>
+        <!-- 按钮完 -->
+        <!-- 内容以上完 -->
+        <!-- 内容开始 -->
+        <div class="gl_content gl_clearfix">
+            <div class="gl_con">
+                <div class="gl_title">
+                    <h2>内容如下</h2>
+                    <div class="gl_dian" style="margin-left:0.1rem;"></div>
+                    <div class="gl_dian" style="background:rgb( 254, 104, 23 );"></div>
+                    <div class="gl_dian" style="background: rgb( 197, 254, 23 );"></div>
+                </div>
+                <div class="gl_cont gl_clearfix">
+                    <img src="images/gl_images/gl_dy.png" alt="" />
+                    <p>
+                        {{v.contain}}
+                    </p>
+                    <img src="images/gl_images/gl_dy.png" alt="" />
+                </div>
+                <div class="gl_bottom">
+                    <div class="gl_bottleft">
+                        <div class="gl_zan">
+                            <i></i>
+                            <span>{{v.love}}</span>
+                        </div>
+                        <div class="gl_zan gl_pl">
+                            <i></i>
+                            <span>{{v.comment}}</span>
+                        </div>
+                    </div>
+                    <div class="gl_bottright">
+                        <img src="images/gl_images/tx.png" alt="" />
+                        <img src="images/gl_images/tx2.png" alt="" />
+                        <img src="images/gl_images/tx.png" alt="" />
+                        <img src="images/gl_images/tx2.png" alt="" />
+                        <img src="images/gl_images/tx.png" alt="" />
+                        <img src="images/gl_images/tx2.png" alt="" />
+                        <i>+42</i>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <!-- 内容结束 -->
+        <!-- 立即阅读 -->
+        <div class="gl_ljyd"><a href="{{v.url}}">立即阅读</a></div>
+        <!-- 立即阅读 -->
+        <!-- 同类推荐 -->
+        <div class="gl_tltj">
+            <div class="gl_gl_tl">
+                <i></i>
+                <span>同类推荐</span>
+            </div>
+            <div class="gl_tltjcon">
+                <ul ng-controller="home">
+                    <tongleituijian></tongleituijian>
+                </ul>
+            </div>
+        </div>
+        <!-- 同类推荐 -->
+    </div>
+

@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-29 09:23:48
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-02 16:39:19
+* @Last Modified time: 2017-01-03 01:30:30
 */
 var sheququanzi=[
     {
@@ -47,24 +47,27 @@ var sheququanzi=[
 ]
 var shequadd=[
     {
+        url:'#/',
         photo:"images/ld_images/ld_photo01.png",
         title:"新增好友",
         mes:"查看我的新增好友信息",
-        myhref:"http://localhost/angular_app/read/index.html#/shequ",
+        // myhref:"http://localhost/angular_app/read/index.html#/shequ",
         flag:"true"
     },
     {
+        url:'#/friendqun',
         photo:"images/ld_images/ld_photo01.png",
-        title:"新增好友",
-        mes:"查看我的新增好友信息",
-        myhref:"http://localhost/angular_app/read/index.html#/shequ",
+        title:"好友群",
+        mes:"查看我收藏的好友群进行群聊",
+        // myhref:"http://localhost/angular_app/read/index.html#/shequ",
         flag:"false"
     },
     {
+        url:'#/friend',
         photo:"images/ld_images/ld_photo01.png",
-        title:"新增好友",
-        mes:"查看我的新增好友信息",
-        myhref:"http://localhost/angular_app/read/index.html#/shequ",
+        title:"特殊关注",
+        mes:"您可以选择五位好友作为特殊关注",
+        // myhref:"http://localhost/angular_app/read/index.html#/shequ",
         flag:"false"
     }
 ]
@@ -124,6 +127,7 @@ var shequletter=[
         sum:'43'
     }
 ]
+var letter=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
 // 社区
 var shequitem=angular.module('shequitem',[]);
 shequitem.controller('shequ',function($scope){
@@ -131,6 +135,7 @@ shequitem.controller('shequ',function($scope){
     $scope.shequadd=shequadd;
     $scope.shequfriend=shequfriend;
     $scope.shequletter=shequletter;
+    $scope.letter=letter;
     // 社区圈子顶部bar
     $scope.topFlag=true;
     $scope.changeQuanzi=function(f){

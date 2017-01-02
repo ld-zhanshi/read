@@ -1,0 +1,18 @@
+<!-- 首页书荒大解救 -->
+<div class="mjh-sh-qu" ng-repeat="v in indexjiejiu track by $index">
+    <img src="{{v.bookcover}}" alt="" class="mjh-sh-fm" />
+    <p class="mjh-sh-smy">{{v.title}}</p>
+    <a href="##" class="mjh-sh-sm">{{v.mes}}</a>
+    <span class="mjh-sh-wj">{{v.done}}</span>
+    <div class="mjh-sh-vip">
+        <div class="mjh-sh-v">VIP</div>
+        <span class="mjh-sh-mf">免费</span>
+    </div>
+    <div class="mjh-sh-au">
+        <img src="{{v.photo}}" alt="" /><span>{{v.author}}</span>
+    </div>
+    <div class="mjh-sh-scdz">
+        <a href="##"><img src="images/mjh/sy-mjh_61.png" alt="" /><span>{{v.look}}</span></a>
+        <a href="##"><img src="images/mjh/sy-mjh_63.png" alt="" /><span>{{v.fire}}</span></a>
+    </div>
+</div>

@@ -3,7 +3,8 @@ html,body{width:100%;height:auto;background: #fafafa;}
 *{box-sizing: border-box;}	
 /*顶部开始*/
 .lrc_da{
-	width:7.02rem;
+	/*width:7.02rem;*/
+	width:100%;
 	height:auto;
 	background: #2358df;
 	margin:0 auto;
@@ -117,18 +118,25 @@ html,body{width:100%;height:auto;background: #fafafa;}
 .san{background: #17ee07;}
 .lrc_diyid{margin-top:.4rem;
 	text-indent: .3rem;font-size: .24rem;
-	color: #737373}
+	color: #737373;}
 .lrc_dierd{margin-top:.6rem;
 	text-indent: .3rem;font-size: .24rem;
-	color: #737373}
+	color: #737373;}
 /*内容结束*/
 
 /*底部开始*/
+.lrc_bottom1{
+	width:100%;
+	height:.35rem;
+}
 .lrc_bottom{
 	width:100%;
 	height:1.35rem;
 	background: #2358df;
 	padding: .05rem .3rem;
+	position:fixed;
+	left:0;bottom:0;
+	z-index:101;
 }
 .lrc_bt{
 	width:100%;

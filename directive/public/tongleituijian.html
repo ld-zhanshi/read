@@ -1,0 +1,28 @@
+<!-- 同类推荐列表 -->
+<li class="ld_tuijian gl_clearfix" ng-repeat="v in tltuijian track by $index">
+    <a href="#/show" class="ld_tuijiana">
+        <div class="gl_nnleft">
+            <img src="{{v.bookcover}}"alt="" />
+        </div>
+        <div class="gl_nnright">
+            <div class="gl_nntop">
+                <h1>{{v.title}}</h1>
+                <h2>{{v.titleenglish}}</h2>
+                 <h3>{{v.author}}</h3>
+                <img src="{{v.photo}}" alt="" />
+                <div class="gl_star">
+                    <div class="gl_star1"></div>
+                    <div class="gl_star1"></div>
+                    <div class="gl_star1"></div>
+                    <div class="gl_star1"></div>
+                    <div class="gl_star1"></div>
+                </div>
+            </div>
+            <div class="gl_nnbottom">
+                <p>{{v.contain}} </p>
+                <div class="gl_zz"></div>
+                <div class="gl_plpl"></div>
+            </div>
+        </div>
+    </a>
+</li>

@@ -11,72 +11,7 @@
         </div>
         <!-- find 结束 -->
         <!-- swiper 开始 -->
-        <div class="swiper-container zlf_swiper-container">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide zlf_item" ng-repeat="v in shujiafind track by $index">
-                <div class="zlf_cover">
-                    <img class="zlf_book1" src="{{v.bg}}" alt="" />
-                    <!-- 头像 -->
-                    <div class="zlf_photo">
-                        <img src="{{v.photo}}" alt="">
-                    </div>
-                    <!-- 姓名 -->
-                    <span class="zlf_name">{{v.name}}</span>
-                    <!-- 点 -->
-                    <div class="zlf_dian_box">
-                        <img class="zlf_dian"src="images/zlf_images/zlf_dian.png" alt="" />
-                    </div>
-                    <!-- 五角星 -->
-                    <div class="zlf_xing_box">
-                        <img src="images/zlf_images/zlf_xing.png" alt="" />
-                        <img src="images/zlf_images/zlf_xing.png" alt="" />
-                        <img src="images/zlf_images/zlf_xing.png" alt="" />
-                        <img src="images/zlf_images/zlf_xing.png" alt="" />
-                    </div>
-                    <!-- 火 -->
-                    <div class="zlf_huo_box">
-                        <img src="images/zlf_images/zlf_huo.png" alt="" />
-                        <i>{{v.fire}}</i>
-                    </div>
-                </div>
-                <div class="zlf_msg">
-                    <div class="zlf_time_box">
-                        <img class="zlf_time_tu" src="images/zlf_images/zlf_sj.png" alt="" />
-                        <span>{{v.time}}</span>
-                    </div>
-                    <div class="zlf_tuijian_box">
-                        <span class="zlf_span zlf_span1">{{v.title1}}</span>
-                        <span class="zlf_span zlf_span2">{{v.title2}}</span>
-                        <img class="zlf_tuijian_tu" src="images/zlf_images/zlf_tuijian.png" alt="" />
-                    </div>
-                    <div class="zlf_line"></div>
-                    <p class="zlf_dec">{{v.contain}}</p>
-                    <div class="zlf_time_box">
-                        <img class="zlf_time_tu" src="images/zlf_images/zlf_dizhi.png" alt="" />
-                        <span class="zlf_address">{{v.location}}</span>
-                    </div>
-                    <div class="zlf_people zlf_people1">
-                        <img src="{{v.love1}}" alt="" />
-                    </div>
-                    <div class="zlf_people zlf_people2">
-                        <img src="{{v.love2}}" alt="" />
-                    </div>
-                     <div class="zlf_people zlf_people3">
-                        <img src="{{v.love1}}" alt="" />
-                    </div>
-                    <div class="zlf_people zlf_people4">
-                        <img src="{{v.love2}}" alt="" />
-                    </div>
-                    <div class="zlf_people zlf_people5">
-                        <img src="{{v.love1}}" alt="" />
-                    </div>
-                    <div class="zlf_people zlf_people6">
-                       {{v.sum}}
-                    </div>
-                </div>
-            </div>
-          </div>
-        </div>
+        <shujiafind></shujiafind>
         <!-- swiper 结束 -->
     </div>
     <!-- 书架-发现 结束-->

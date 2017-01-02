@@ -1,49 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1" >
-	<title>THE SNOW</title>
-	<link rel="stylesheet" href="../../css/normalize.css">
-	<link rel="stylesheet" href="../../css/public.css">
-	<link rel="stylesheet" href="../../css/swiper-3.4.0.min.css">
-	<link rel="stylesheet" href="show.css">
-</head>
-<body>
+
 	<!-- 详情页开始 -->
 	<div class="lrc_da">
 		<div class="lrc_top">
 			<div class="lrc_topleft">
-				<img src="../../images/lrc_images/lrc_fh.gif" alt="">
+				<a href="#/bookcover"><img src="images/lrc_images/lrc_fh.gif" alt=""></a>
 			</div>
 			<div class="lrc_topright">
 				<div class="lrc_huadong">
 					<div class="lrc_baikuai">
-						<img src="../../images/lrc_images/lrc_yj.png" alt="">
+						<img src="images/lrc_images/lrc_yj.png" alt="">
 					</div>
 				</div>
-				<img class="lrc_sz" src="../../images/lrc_images/lrc_sz.png" alt="">
+				<img class="lrc_sz" src="images/lrc_images/lrc_sz.png" alt="">
 			</div>
 		</div>
-		<div class="lrc_conent">
-			<i class="lrc_zimu">the snow " "</i>
-			<i class="lrc_zimu">line welding knife ···</i>
+		<div class="lrc_conent" ng-repeat="v in neirong track by $index">
+			<i class="lrc_zimu">{{v.title1}} " "</i>
+			<i class="lrc_zimu">{{v.title2}} ···</i>
 			<div class="lrc_xzhuang">
 				<div class="lrc_lv"></div>
 				<div class="lrc_yuan"></div>
 				<div style="clear:both"></div>
 			</div>
-			<p class="lrc-shuming">《慧眼识豹,白衣最悲凉》</p>
+			<p class="lrc-shuming">{{v.title}}</p>
 			<ul class="lrc_sdian">
 				<li class="lrc_quan yi"></li>
 				<li class="lrc_quan er"></li>
 				<li class="lrc_quan san"></li>
 			</ul>
-			<p class="lrc_diyid">  武力杀臂圣枪仙，智谋夺天险西垒壁，十八岁即可封王列士，在雪中一直是一个近乎完美的存在，可越是完美的，就越是掩藏着莫大的悲哀。</p>
-			<p class="lrc_dierd">年少丧父，脸藏黄土，谁也不知这个少年想什么，可那时必然是种下了仇恨的种子，这颗种子是什么，谁也不知道。可以肯定的，不是徐骁，父亲是心甘情愿带人换徐骁一线生机的，他没有理由仇恨，他待徐骁如父的轻易也是真的。</p>
-			<p class="lrc_dierd">后来兔死狗烹，赵家天子欲置徐骁与死地，这颗种子开始萌芽，却一直未破土，他知道徐骁不会反离阳，即使再大的委屈也不反，于是他便安静等待徐骁死去，接替凉王，报生父之仇，也雪义父之恨。虽然生父不是赵家所杀，可好歹也是为了赵家；虽然义父不反离阳，可王妃之死，悲凉人心的涣散，都是赵家天子一手触成。</p>
-			<p class="lrc_dierd">他只想安静的等待，等凉王老去，他便做叛逆的千古罪人，徐骁不老，他绝不陷义父于不忠。</p>
+			<p class="lrc_diyid">{{v.p1}}</p>
+			<p class="lrc_dierd">{{v.p2}}</p>
+			<p class="lrc_dierd">{{v.p3}}</p>
+			<p class="lrc_dierd">{{v.p4}}</p>
 		</div>
+		<div class="lrc_bottom1"></div>
 		<div class="lrc_bottom">
 			<div class="lrc_bt">
 				<div class="lrc_bleft">上一章</div>
@@ -56,29 +46,26 @@
 			</div>
 			<div class="lrc_bb">
 				<div class="lrc_xtbiao">
-					<img src="../../images/lrc_images/lrc_ml.png" alt="">
+					<img src="images/lrc_images/lrc_ml.png" alt="">
 					<p>目录</p>
 				</div>
 				<div class="lrc_xtbiao">
-					<img src="../../images/lrc_images/lrc_yl.png" alt="">
+					<img src="images/lrc_images/lrc_yl.png" alt="">
 					<p>模式</p>
 				</div>
 				<div class="lrc_xtbiao">
-					<img src="../../images/lrc_images/lrc_sq.png" alt="">
+					<img src="images/lrc_images/lrc_sq.png" alt="">
 					<p>书签</p>
 				</div>
 				<div class="lrc_xtbiao">
-					<img src="../../images/lrc_images/lrc_wjx.png" alt="">
+					<img src="images/lrc_images/lrc_wjx.png" alt="">
 					<p>收藏</p>
 				</div>
 				<div class="lrc_xtbiao">
-					<img src="../../images/lrc_images/lrc_t.png" alt="">
+					<img src="images/lrc_images/lrc_t.png" alt="">
 					<p>设置</p>
 				</div>
 			</div>
 		</div>
 	</div>
 	<!-- 详情页结束 -->
-</body>
-<script src="../../js/rem.js"></script>
-</html>

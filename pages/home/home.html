@@ -5,91 +5,42 @@
         <a href="##" class="mjh_logo"><img src="images/mjh/sy-mjh_05.png" alt="" /></a>
         <a href="##" class="mjh_sousuo"><img src="images/mjh/sy-mjh_08.png" alt="" /></a>
     </div>
+
     <!-- banner -->
-    <div class="mjh_banner swiper-container swiper-container-horizontal">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="images/mjh/sy-mjh_.png" alt="" /></div>
-            <div class="swiper-slide"><img src="images/mjh/sy-mjh_12.png" alt="" /></div>
-        </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
-        
-    </div>
+    <indexbanner></indexbanner>
+
     <!-- banner下小轮播 -->
     <div class="ld_book_box" ng-controller="shujia">
-        <!-- <shujiabook ng-repeat="v in shujiashoucang track by $index"></shujiabook> -->
-        <div class="ld_lunbodi"></div>
+        <indexlunbo></indexlunbo>
     </div>
+
     <!-- 小编强势推 -->
+    <!-- 标题 -->
     <indextitle titleenglish="NEW WORK PUSH" icon="images/mjh/sy-mjh_50.png" title="小编强势推" myhref="#/shujia"></indextitle>
     <div class="ld_book_box" ng-controller="shujia">
         <shujiabook ng-repeat="v in shujiashoucang track by $index"></shujiabook>
     </div>
+
+    <!-- 也许有兴趣 -->
+    <!-- 标题 -->
+    <indextitle titleenglish="NEW WORK PUSH" icon="images/mjh/sy-mjh_50.png" title="也许有兴趣" myhref="#/shujia"></indextitle>
+    <!-- 同类推荐列表 -->
+    <tongleituijian></tongleituijian>
+
     <!-- 书荒大解救 -->
     <!-- 标题 -->
     <indextitle titleenglish="NEW WORK PUSH" icon="images/mjh/sy-mjh_50.png" title="书荒大解救" myhref="#"></indextitle>
-    <div class="mjh-sh-wkw">
-    <div class="mjh-sh-wk">
-        <div class="mjh-sh-qu">
-            <img src="images/mjh/sy-mjh_54.png" alt="" class="mjh-sh-fm" />
-            <p class="mjh-sh-smy">the three musketeers</p>
-            <a href="##" class="mjh-sh-sm">三个火枪手是法国作家...</a>
-            <span class="mjh-sh-wj">[已完结]</span>
-            <div class="mjh-sh-vip">
-                <div class="mjh-sh-v">VIP</div>
-                <span class="mjh-sh-mf">免费</span>
-            </div>
-            <div class="mjh-sh-au">
-                <img src="images/mjh/sy-mjh_58.png" alt="" /><span>AUMAS</span>
-            </div>
-            <div class="mjh-sh-scdz">
-                <a href="##"><img src="images/mjh/sy-mjh_61.png" alt="" /><span>3452</span></a>
-                <a href="##"><img src="images/mjh/sy-mjh_63.png" alt="" /><span>3452</span></a>
-            </div>
+    <div class="mjh-sh-wkw" ng-controller="home">
+        <div class="mjh-sh-wk">
+            <indexjiejiu></indexjiejiu>
         </div>
-        <div class="mjh-sh-qu">
-            <img src="images/mjh/sy-mjh_54.png" alt="" class="mjh-sh-fm" />
-            <p class="mjh-sh-smy">the three musketeers</p>
-            <a href="##" class="mjh-sh-sm">三个火枪手是法国作家...</a>
-            <span class="mjh-sh-wj">[已完结]</span>
-            <div class="mjh-sh-vip">
-                <div class="mjh-sh-v">VIP</div>
-                <span class="mjh-sh-mf">免费</span>
-            </div>
-            <div class="mjh-sh-au">
-                <img src="images/mjh/sy-mjh_58.png" alt="" /><span>AUMAS</span>
-            </div>
-            <div class="mjh-sh-scdz">
-                <a href="##"><img src="images/mjh/sy-mjh_61.png" alt="" /><span>3452</span></a>
-                <a href="##"><img src="images/mjh/sy-mjh_63.png" alt="" /><span>3452</span></a>
-            </div>
-        </div>
-    </div></div>
+    </div>
 
     <!-- 新书速递 -->
     <!-- 标题 -->
     <indextitle titleenglish="NEW WORK PUSH" icon="images/mjh/sy-mjh_69.png" title="新书速递" myhref="#"></indextitle>
     <div class="mjh-xs-wkw">
-    <div class="mjh-xs-wk">
-        <div class="mjh-xs-qu">
-            <img src="images/mjh/sy-mjh_73.png" alt="" />
-            <div class="mjh-xs-quri">
-                <a href="##" class="mjh-xs-sm">我是小普通</a>
-                <p class="mjh-xs-au">味精SMG</p>
-                <p class="mjh-xs-lb">治愈</p>
-                <p class="mjh-xs-ms">你不知道的女生小心思，都储存在这里。</p>
-                <p class="mjh-xs-lz">[连载中...]</p>
-            </div>
+        <div class="mjh-xs-wk">
+            <indexxinshu></indexxinshu>
         </div>
-
-        <div class="mjh-xs-qu">
-            <img src="images/mjh/sy-mjh_73.png" alt="" />
-            <div class="mjh-xs-quri">
-                <a href="##" class="mjh-xs-sm">我是小普通</a>
-                <p class="mjh-xs-au">味精SMG</p>
-                <p class="mjh-xs-lb">治愈</p>
-                <p class="mjh-xs-ms">你不知道的女生小心思，都储存在这里。</p>
-                <p class="mjh-xs-lz">[连载中...]</p>
-            </div>
-        </div>
-    </div></div>
+    </div>

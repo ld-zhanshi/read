@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-30 10:26:56
 * @Last Modified by:   Marte
-* @Last Modified time: 2016-12-31 01:16:34
+* @Last Modified time: 2017-01-03 01:29:50
 */
 
 // 创建ng主模块ng-app入口模块
@@ -20,5 +20,20 @@ app.config(['$routeProvider',function($r){
     }).when('/zhanghu',{
         templateUrl:'pages/zhanghu/zhanghu.html',
         controller:'zhanghu'
+    }).when('/bookcover',{
+        templateUrl:'pages/bookcover/bookcover.html',
+        controller:'bookcover'
+    }).when('/show',{
+        templateUrl:'pages/show/lrc-xqy.html',
+        controller:'show'
+    }).when('/friend',{
+        templateUrl:'pages/friend/friend.html',
+        controller:'friend'
+    }).when('/me',{
+        templateUrl:'pages/me/me.html',
+        controller:'me'
+    }).when('/friendqun',{
+        templateUrl:'pages/friendqun/friendqun.html',
+        controller:'friendqun'
     })
 }])

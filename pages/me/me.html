@@ -1,0 +1,36 @@
+
+<!-- --沈阳个人主页页面开始-- -->
+<!-- 固定 -->
+    <div class="sy_fix">
+    	<div class="sy_fslide"><a href="#/shequ"></a></div>
+    	<div class="sy_fcenter">Park <b>Christ</b></div>
+    	<div class="sy_fslide"></div>
+    </div>
+<!-- banner 个人标签 -->
+    <div class="sy_banner">
+    	<div class="sy_delsan">
+    		<div class="sy_header_imgbox">
+    			<div class="sy_header_img"></div>
+    		</div>
+    	</div>
+    </div>
+    <div class="sy_qmbox">
+    	<p>换个签名，换种心情~</p>
+    	<div class="sy_xian_img"></div>
+    	<div class="sy_five"></div>
+    </div>
+<!-- 好友主页的轮播块 -->
+    <ul class="sy_pluul" ng-controller="sy_plist">
+    	<li class="sy_pluli" ng-repeat="v in me track by $index" >
+    		<div class="sy_pluli_img">
+                <img src="{{v.src}}" alt="">      
+            </div>
+    		<div class="sy_pluli_right">
+    			<div class="sy_pluli_Word">Word<br>Litera<span>ture</span></div>
+    			<p class="sy_pluli_p">{{v.title}}</p>
+    			<span class="sy_san_dian">···</span>
+    		</div>
+    	</li>
+    	
+    </ul>
+<!-- --沈阳个人主页页面结束-- -->

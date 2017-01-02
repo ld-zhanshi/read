@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-29 13:45:24
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-02 15:25:40
+* @Last Modified time: 2017-01-03 00:39:44
 */
 /*社区顶部开始*/
 .ld_sqtopbar{
@@ -21,6 +21,10 @@
     width:.76rem;height:.76rem;
     border-radius:50%;
     overflow:hidden;
+}
+.ld_sq_photo a{
+    display:block;
+    width:100%;height:100%;
 }
 .ld_sq_photo img{
     width:100%;height:auto;
@@ -352,7 +356,8 @@ span.ld_sy_circle2{
     margin-left:.35rem;
 }
 .ld_friend_di{
-    width:100%;height:2.17rem;
+    width:100%;
+    /*height:2.17rem;*/
     position:relative;
     display:flex;
 }
@@ -373,6 +378,10 @@ span.ld_sy_circle2{
     width:.93rem;height:.99rem;
     background:url(../../images/ld_images/ld_friend01.png) center center no-repeat;
     background-size:100%;
+}
+.ld_friend_photo a{
+    display:block;
+    width:100%;height:100%;
 }
 .ld_friend_inner{
     width:.75rem;height:.75rem;

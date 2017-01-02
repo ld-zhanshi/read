@@ -2,16 +2,14 @@
 /* @Author: guanlin
 * @Date:   2016-12-29 11:54:43
 * @Last Modified by:   Marte
-* @Last Modified time: 2016-12-30 11:37:52
+* @Last Modified time: 2017-01-03 00:06:33
 */
-.gl_bg{
-    background: #EAEAEA;
-}
+
 #gl_warp{
-    width:calc(100% - 0.5rem);
-    height:calc(100% - 0.35rem);
+    width:100%;
     margin:0 auto;
     padding: 0.35rem 0.25rem 0 0.25rem;
+    box-sizing: border-box;
 }
 /*内容以上*/
 .gl_top{
@@ -79,7 +77,6 @@
     display:block;
     width:1.18rem;
     height:100%;
-    
     background:url(../../images/gl_images/gl_bl.png)no-repeat;
     background-size: 1.18rem auto;
     float:left;
@@ -111,13 +108,13 @@
     justify-content: space-between;
 }
 .gl_btn{
-    width:1.6rem;
-    height:0.36rem;
-    padding:0.22rem 0.25rem;
+    width:2.17rem;
+    height:.79rem;
+    padding:.2rem .4rem;
+    box-sizing: border-box;
     border-radius: 39px;
     border:2px solid #e1dfdf;
     background:#fff;
-    /*display:flex;*/
 }
 .gl_ii{
     width:0.5rem;
@@ -136,10 +133,9 @@
     background-position: -0.47rem -1.55rem;
 }
 .gl_eng{
-    /*margin-left:0.12rem;*/
     float:right;
     text-align: center;
-    width:1.1rem;
+    width:.8rem;
     height:auto;
     overflow:hidden;
 }
@@ -274,6 +270,10 @@
   height: 1.02rem;
   margin-top: 0.13rem;
   background:#2B75FF; 
+}
+.gl_ljyd a{
+  display:block;
+  width:100%;height:100%;
   color:#fff;
   font-size: .36rem;
   text-align: center;
@@ -311,19 +311,22 @@
      height:auto;
      overflow:hidden;
 }
-.gl_tltjcon li{
-    width:100%;
+.ld_tuijian{
+    width:7.02rem;
     height:1.75rem;
     background:#fff;
     border-radius: .05rem;
-    margin:0.08rem 0 .13rem 0; 
+    padding:.08rem .23rem .08rem .1rem;
+    box-sizing: border-box;
+    margin:0 auto;
+    margin-bottom:.13rem; 
     overflow:hidden;
         text-align: left;
+        background:#fff;
 }
-.gl_tl_nn{
-    width:6.72rem;
-    height:1.59rem;
-    margin:0.08rem auto;
+.ld_tuijiana{
+  display:block;
+  width:100%;height:100%;
 }
 .gl_nnleft{
   border-width: 1px;
@@ -345,8 +348,9 @@
     height:100%;
 }
 .gl_nntop{
-    width:calc(100% - 0.3rem);
-    height:0.7rem;overflow:hidden;
+    width:100%;
+    /*height:0.7rem;*/
+    overflow:hidden;
     border-bottom: 1px dashed #d4d6d5;
 }
 .gl_nntop h1{
@@ -365,17 +369,19 @@
      -webkit-text-fill-color: transparent;
 }
 .gl_nntop img{
-      width: 42px;
-      height: 42px;
+      width: .42rem;
+      height: .42rem;
       border-radius: 50%;
       float:right;
+       margin-right: 0.1rem;
 }
 .gl_nntop h3{
+  height:.42rem;
+  line-height:.42rem;
   display:inline-block;
   font-size: .24rem;
   font-family: "SanFranciscoDisplay";
   color: rgb( 157, 159, 159 );
-  line-height: 1.5;
   -moz-transform: matrix( 1.00000003224249,0,0,1,0,0);
   -webkit-transform: matrix( 1.00000003224249,0,0,1,0,0);
   -ms-transform: matrix( 1.00000003224249,0,0,1,0,0);
@@ -403,13 +409,13 @@
     width:0.4rem;height:.4rem;
     background:url(../../images/gl_images/taoxin.png)no-repeat -.4rem;
     background-size: .76rem .36rem;
-    margin:-.2rem 1.2rem 0 0;
+    margin:-.4rem 1.2rem 0 0;
 }
 .gl_plpl{
     float:right;
     width:0.4rem;height:.4rem;
     background:url(../../images/gl_images/taoxin.png)no-repeat;
     background-size: .76rem .36rem;
-    margin:-.2rem .2rem 0 0;
+    margin:-.4rem .2rem 0 0;
 }
 /*同类推荐结束*/
