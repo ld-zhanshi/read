@@ -15,13 +15,19 @@
         <div class="swiper-pagination"></div>
         
     </div>
-
-    <!-- 书荒大解救 -->
-    <div class="mjh-sy-bt">
-        <p class="mjh-sy-bty">BOOK WILD BIG RESCUE</p>
-        <div><img src="images/mjh/sy-mjh_50.png" alt="" class="mjh-su-btt" /><span class="mjt-sy-bth">书荒大解救</span></div>
-        <a href="##" class="mjh-sy-btgd">更多</a>
+    <!-- banner下小轮播 -->
+    <div class="ld_book_box" ng-controller="shujia">
+        <!-- <shujiabook ng-repeat="v in shujiashoucang track by $index"></shujiabook> -->
+        <div class="ld_lunbodi"></div>
     </div>
+    <!-- 小编强势推 -->
+    <indextitle titleenglish="NEW WORK PUSH" icon="images/mjh/sy-mjh_50.png" title="小编强势推" myhref="#/shujia"></indextitle>
+    <div class="ld_book_box" ng-controller="shujia">
+        <shujiabook ng-repeat="v in shujiashoucang track by $index"></shujiabook>
+    </div>
+    <!-- 书荒大解救 -->
+    <!-- 标题 -->
+    <indextitle titleenglish="NEW WORK PUSH" icon="images/mjh/sy-mjh_50.png" title="书荒大解救" myhref="#"></indextitle>
     <div class="mjh-sh-wkw">
     <div class="mjh-sh-wk">
         <div class="mjh-sh-qu">
@@ -61,11 +67,8 @@
     </div></div>
 
     <!-- 新书速递 -->
-    <div class="mjh-sy-bt">
-        <p class="mjh-sy-bty">NEW WORK PUSH</p>
-        <div><img src="images/mjh/sy-mjh_69.png" alt="" class="mjh-su-btt" /><span class="mjt-sy-bth">新书速递</span></div>
-        <a href="##" class="mjh-sy-btgd">更多</a>
-    </div>
+    <!-- 标题 -->
+    <indextitle titleenglish="NEW WORK PUSH" icon="images/mjh/sy-mjh_69.png" title="新书速递" myhref="#"></indextitle>
     <div class="mjh-xs-wkw">
     <div class="mjh-xs-wk">
         <div class="mjh-xs-qu">

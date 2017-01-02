@@ -1,0 +1,10 @@
+<!-- 社区新增好友 -->
+<div class="ld_shuyou">
+    <div class="ld_sy_photo"><img src="{{v.photo}}" alt="" /></div>
+    <ul class="ld_sy_add">
+        <li class="ld_sy_addtit">{{v.title}}<span></span><span class="ld_sy_circle2"></span></li>
+        <li>{{v.mes}}</li>
+    </ul>
+    <div class="ld_sy_num ld_sy_numactive" ng-show="{{v.flag}}"><a href="{{v.myhref}}">02</a></div>
+    <div class="ld_sy_num" ng-hide="{{v.flag}}"><a href="{{v.myhref}}">&gt;</a></div>
+</div>

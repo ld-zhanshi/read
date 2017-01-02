@@ -34,23 +34,9 @@
                 </div>
             </div>   
                 <!-- 社会书友 -->
-            <div class="ld_shsy_di" ng-show="!topFlag">
-                <div class="ld_shuyou">
-                    <div class="ld_sy_photo"><img src="images/ld_images/ld_photo01.png" alt="" /></div>
-                    <ul class="ld_sy_add">
-                        <li class="ld_sy_addtit">新增好友<span></span><span class="ld_sy_circle2"></span></li>
-                        <li>查看我的新增好友信息</li>
-                    </ul>
-                    <div class="ld_sy_num ld_sy_numactive">02</div>
-                </div>
-                <div class="ld_shuyou">
-                    <div class="ld_sy_photo"><img src="images/ld_images/ld_photo01.png" alt="" /></div>
-                    <ul class="ld_sy_add">
-                        <li class="ld_sy_addtit">新增好友<span></span><span class="ld_sy_circle2"></span></li>
-                        <li>查看我的新增好友信息</li>
-                    </ul>
-                    <div class="ld_sy_num">&gt;</div>
-                </div>
+            <div class="ld_shsy_di" ng-show="topFlag" ng-controller="shequ">
+                <!-- 新增书友 -->
+                <shequadd ng-repeat="v in shequadd track by $index"></shequadd>
                 <div class="ld_sy_search">
                     <form action=""><input type="text"/></form>
                     <div class="ld_sy_btn"></div>
@@ -58,7 +44,7 @@
                 <div class="ld_sy_haoyou"><span>当前好友数量为</span><span class="ld_haoyou_num">235</span></div>
                 <div class="ld_sy_letter"><span>A.</span><span class="ld_sy_ltnum">34</span></div>
                 <div class="ld_friend_di">
-                    <div class="ld_friend">
+                    <!-- <div class="ld_friend">
                         <div class="ld_friend_photo"><div class="ld_friend_inner"><img src="images/ld_images/ld_qz_photo.png" height="97" width="109" alt="" /></div></div>
                         <ul class="ld_friend_con">
                             <li class="ld_friend_tit">Aim·<b>Green</b><div class="ld_star"><span></span><span></span><span></span></div><i class="ld_vip">vip</i></li>
@@ -66,7 +52,9 @@
                             <li class="ld_friend_zs"><i></i><b>TAIYUAN</b>SHANXI</li>
                         </ul>
                         <div class="ld_firend_rig ld_firend_huise"></div>
-                    </div>
+                    </div> -->
+                    <!-- 社区下面好友列表 -->
+                    <shequfriend></shequfriend>
                     <ul class="ld_shuzi">
                         <li class="ld_shuzi_active">a</li>
                         <li>b</li>

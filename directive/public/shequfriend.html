@@ -1,0 +1,10 @@
+<!-- 社区下面好友列表 -->
+<div class="ld_friend" ng-repeat="v in shequfriend track by $index">
+    <div class="ld_friend_photo"><div class="ld_friend_inner"><img src="images/ld_images/ld_qz_photo.png" height="97" width="109" alt="" /></div></div>
+    <ul class="ld_friend_con">
+        <li class="ld_friend_tit">{{v.title}}·<b>{{v.title1}}</b><div class="ld_star"><span></span><span></span><span></span></div><i class="ld_vip">vip</i></li>
+        <li>{{v.mes}}</li>
+        <li class="ld_friend_zs"><i></i><b>{{v.local}}</b>{{v.local1}}</li>
+    </ul>
+    <div class="ld_firend_rig ld_firend_huise"></div>
+</div>

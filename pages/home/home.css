@@ -32,10 +32,22 @@ img{
     right: .3rem;
     width: auto;left:auto;
 }
-
-
-.mjh-sy-bt{
+/*banner下小轮播*/
+.ld_lunbodi{
+    width:100%;height:1.5rem;
+    background:red;
+}
+/*小编强势推*/
+.ld_book_box{
+    width:100%;
     padding:0 .24rem;
+    margin-top:.3rem;    
+    display: flex;
+    justify-content: space-between;
+}
+/*书荒大解救*/
+.mjh-sy-bt{
+    padding:.3rem .24rem;
     width:100%;
     position:relative;
 }
@@ -50,9 +62,9 @@ img{
     line-height: .5rem;
 }
 .mjh-sy-btgd{
-    position:absolute;
-    bottom:0;right:.24rem;
-    display:block;
+    /*position:absolute;*/
+    /*bottom:0;right:.24rem;*/
+    float:right;
     border:1px solid #000;
     border-radius: .2rem;
     height:.4rem;
@@ -60,13 +72,11 @@ img{
     color:#333;
     line-height: .4rem;
 }
-
-
 .mjh-sh-wkw{
     height:5.2rem;width:7.5rem;
     background:#fff;
     margin-top: .1rem;
-    margin-bottom: .3rem;
+    /*margin-bottom: .3rem;*/
     overflow:hidden;
 }
 .mjh-sh-wk{
@@ -204,6 +214,7 @@ img{
     justify-content: space-around;
     position:fixed;
     bottom:0;left:0;
+    z-index:100;
 }
 .mjh-sy-tab a{
     display:block;
