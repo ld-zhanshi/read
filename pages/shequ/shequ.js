@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-29 09:23:48
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-02 15:33:08
+* @Last Modified time: 2017-01-02 16:39:19
 */
 var sheququanzi=[
     {
@@ -75,7 +75,9 @@ var shequfriend=[
         title1:"Green",
         mes:"撸啊撸啊德玛西亚",
         local:"TAIYUAN",
-        local1:"SHANXI"
+        local1:"SHANXI",
+        vipflag:"true",
+        iphone:"true"
     },
     {
         type:"A",
@@ -83,7 +85,43 @@ var shequfriend=[
         title1:"Green",
         mes:"撸啊撸啊德玛西亚",
         local:"TAIYUAN",
-        local1:"SHANXI"
+        local1:"SHANXI",
+        vipflag:"false",
+        iphone:"false"
+    },
+    {
+        type:"A",
+        title:"Aim",
+        title1:"Green",
+        mes:"撸啊撸啊德玛西亚",
+        local:"TAIYUAN",
+        local1:"SHANXI",
+        vipflag:"true",
+        iphone:"true"
+    },
+    {
+        type:"A",
+        title:"Aim",
+        title1:"Green",
+        mes:"撸啊撸啊德玛西亚",
+        local:"TAIYUAN",
+        local1:"SHANXI",
+        vipflag:"false",
+        iphone:"false"
+    }
+]
+var shequletter=[
+    {
+        type:'A',
+        sum:'43'
+    },
+    {
+        type:'B',
+        sum:'43'
+    },
+    {
+        type:'C',
+        sum:'43'
     }
 ]
 // 社区
@@ -92,6 +130,7 @@ shequitem.controller('shequ',function($scope){
     $scope.sheququanzi=sheququanzi;
     $scope.shequadd=shequadd;
     $scope.shequfriend=shequfriend;
+    $scope.shequletter=shequletter;
     // 社区圈子顶部bar
     $scope.topFlag=true;
     $scope.changeQuanzi=function(f){
