@@ -1,5 +1,5 @@
 <!-- 社区下面好友列表 -->
-    <div class="ld_friend" ng-repeat="v in friendqunlis track by $index">
+    <div class="ld_friend" ng-repeat="v in speciallis track by $index">
         <div class="ld_friend_photo">
             <a href="#/friend">
                 <div class="ld_friend_inner"><img src="images/ld_images/ld_qz_photo.png" height="97" width="109" alt="" /></div>
@@ -10,6 +10,5 @@
             <li>{{v.mes}}</li>
             <li class="ld_friend_zs"><i></i><b>{{v.local}}</b>{{v.local1}}</li>
         </ul>
-        <div class="ld_sy_num ld_sy_numactive"><a href="{{v.url}}">{{v.num}}</a></div>
-        <!-- <div ng-class="{true:'ld_firend_rig ld_firend_huise',false:'ld_firend_rig'}[{{v.iphone}}]"></div> -->
+        <input type="radio" class="ld_special"/>
     </div>

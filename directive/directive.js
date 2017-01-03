@@ -2,9 +2,16 @@
 * @Author: Marte
 * @Date:   2016-12-30 16:42:17
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-03 01:13:09
+* @Last Modified time: 2017-01-03 16:18:39
 */
 var dir=angular.module('dir',[]);
+// 首页底部tab栏
+dir.directive('indextab',function(){
+    return {
+        restrict: 'ECMA',
+        templateUrl:'directive/public/indextab.html'
+    }
+}),
 // 首页标题
 dir.directive('indextitle',function(){
     return {
@@ -170,9 +177,25 @@ dir.directive('tongleituijian',function(){
 }),
 
 // 好友群列表
-dir.directive('friendqun',function(){
+dir.directive('friendqunlis',function(){
     return {
         restrict: 'ECMA',
         templateUrl:'directive/public/friendqunlis.html'
+    }
+})
+
+// 新增好友
+dir.directive('addfriendlis',function(){
+    return {
+        restrict: 'ECMA',
+        templateUrl:'directive/public/addfriendlis.html'
+    }
+})
+
+// 特殊关注
+dir.directive('speciallis',function(){
+    return {
+        restrict: 'ECMA',
+        templateUrl:'directive/public/speciallis.html'
     }
 })

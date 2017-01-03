@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-30 10:26:56
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-03 01:29:50
+* @Last Modified time: 2017-01-03 16:04:28
 */
 
 // 创建ng主模块ng-app入口模块
@@ -35,5 +35,11 @@ app.config(['$routeProvider',function($r){
     }).when('/friendqun',{
         templateUrl:'pages/friendqun/friendqun.html',
         controller:'friendqun'
+    }).when('/addfriend',{
+        templateUrl:'pages/addfriend/addfriend.html',
+        controller:'addfriend'
+    }).when('/special',{
+        templateUrl:'pages/special/special.html',
+        controller:'special'
     })
 }])

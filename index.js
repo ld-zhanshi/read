@@ -3,10 +3,10 @@
 * @Author: Marte
 * @Date:   2016-12-30 10:26:56
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-03 01:10:18
+* @Last Modified time: 2017-01-03 16:02:40
 */
 
-var ctrl=angular.module('ctrl',['dir','shequitem','shujiaitem','homeitem','bookcoveritem','showitem','frienditem','meitem','friendqunitem']);
+var ctrl=angular.module('ctrl',['dir','shequitem','shujiaitem','homeitem','bookcoveritem','showitem','frienditem','meitem','friendqunitem','addfrienditem','specialitem']);
 
 // 首页/书库
 // ctrl.controller('home',function($scope){})

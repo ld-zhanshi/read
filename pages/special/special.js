@@ -2,10 +2,10 @@
 * @Author: Marte
 * @Date:   2017-01-03 00:58:35
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-03 11:04:23
+* @Last Modified time: 2017-01-03 11:23:50
 */
 
-var friendqunlis=[
+var speciallis=[
     {
         title:"Aim",
         title1:"Green",
@@ -47,7 +47,7 @@ var friendqunlis=[
         num:'092'
     }
 ]
-var friendqunitem=angular.module("friendqunitem",[]);
-friendqunitem.controller("friendqun",function($scope){
-    $scope.friendqunlis=friendqunlis;
+var specialitem=angular.module("specialitem",[]);
+specialitem.controller("special",function($scope){
+    $scope.speciallis=speciallis;
 })

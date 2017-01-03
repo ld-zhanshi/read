@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-29 09:23:48
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-03 01:30:30
+* @Last Modified time: 2017-01-03 11:20:00
 */
 var sheququanzi=[
     {
@@ -47,7 +47,7 @@ var sheququanzi=[
 ]
 var shequadd=[
     {
-        url:'#/',
+        url:'#/addfriend',
         photo:"images/ld_images/ld_photo01.png",
         title:"新增好友",
         mes:"查看我的新增好友信息",
@@ -63,7 +63,7 @@ var shequadd=[
         flag:"false"
     },
     {
-        url:'#/friend',
+        url:'#/special',
         photo:"images/ld_images/ld_photo01.png",
         title:"特殊关注",
         mes:"您可以选择五位好友作为特殊关注",
