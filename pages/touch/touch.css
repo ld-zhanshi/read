@@ -1,0 +1,351 @@
+
+/*书架-发现*/
+.zlf_container{
+    width:7.02rem;
+    height:auto;
+    margin:0 auto;
+    padding-top:1.2rem;
+}
+.zlf_find{
+    width:100%;
+    /*height:1.1rem;*/
+    /*padding:0.2rem 0;*/
+    text-align: center;
+}
+.zlf_find_title{
+    height:.6rem;
+    line-height: .6rem;
+    color: rgb( 136, 135, 135 );
+}
+.zlf_find_tu{
+    height:.4rem;
+}
+
+
+/*swiper 开始*/
+.zlf_swiper-container{
+    margin-top:.4rem;
+}
+.zlf_item{
+    width:7.02rem;
+    height:auto;
+    background:#fff;
+    position:relative;
+}
+.zlf_cover{
+    height:5rem;
+    width:100%;
+    border-radius: 0.03rem;
+    overflow: hidden;
+    position:relative;
+}
+.zlf_cover .zlf_book1{
+    width:100%;
+}
+.zlf_photo{
+    width:.8rem;
+    height:.8rem;
+    background:#fff;
+    border-radius: 50%;
+    border:2px solid #fff;
+    overflow:hidden;
+    position:absolute;
+    left:.2rem;
+    top:.2rem;
+}
+.zlf_photo img{
+    width:.8rem;
+    height:.8rem;
+}
+.zlf_name {
+    font-size: .36rem;
+    color: rgb( 255, 255, 255 );
+    line-height: 1;
+    position: absolute;
+    left: 1.4rem;
+    top: .25rem;
+}
+.zlf_dian_box{
+   width:3rem;
+   position: absolute;
+   left: 1.4rem;
+   top: .45rem;
+}
+.zlf_dian_box img{
+    width:3rem;
+}
+.zlf_xing_box{
+   height:.2rem;
+   position: absolute;
+   left: 1.4rem;
+   top: .75rem;
+}
+.zlf_xing_box img{
+    height:.2rem;
+}
+.zlf_huo_box{
+   height:.4rem;
+   line-height:.4rem;
+   position: absolute;
+   right: .3rem;
+   top: .6rem;
+}
+.zlf_huo_box img{
+   height:.4rem;
+   vertical-align:top;
+}
+.zlf_huo_box i{
+    font-size: .36rem;
+    color: rgb( 255, 255, 255 );
+}
+
+/*信息*/
+.zlf_msg{
+    width:calc(100% - .5rem);
+    height:auto;
+    padding:.25rem;
+    position:relative;
+}
+.zlf_time_box,.zlf_tuijian_box{
+    height:.4rem;
+    line-height: .4rem;
+}
+.zlf_time_box{
+    margin-top: .1rem;
+}
+.zlf_time_tu{
+    width:.4rem;
+    vertical-align: top;
+    margin-right: .1rem;
+}
+.zlf_tuijian_box{
+    margin-top:.2rem;
+}
+.zlf_span{
+    font-size: .40rem;
+    color: rgb( 80, 79, 79 );
+    font-weight: bold;
+}
+.zlf_span2{
+    font-weight: normal;
+}
+.zlf_tuijian_tu{
+    height:.4rem;
+    vertical-align: top;
+}
+.zlf_line{
+    width:100%;
+    height:.01rem;
+    margin-top: .15rem;
+    border-bottom:.01rem solid #a2a2a2;
+}
+.zlf_dec{
+    line-height: 1.5;
+    color:#807e7e;
+    margin:.2rem 0;
+}
+.zlf_address{
+    color: rgb( 162, 161, 161 );
+}
+.zlf_people{
+    width:.6rem;
+    height:.6rem;
+    position:absolute;
+    bottom:.4rem;
+    border-radius: 50%;
+    overflow:hidden;
+}
+.zlf_people img{
+    width:.6rem;
+    height:.6rem;
+}
+.zlf_people1{
+    left:4rem;
+}
+.zlf_people2{
+    left:4.35rem;
+}
+.zlf_people3{
+    left:4.7rem;
+}
+.zlf_people4{
+    left:5.05rem;
+}
+.zlf_people5{
+    left:5.4rem;
+}
+.zlf_people6{
+    background:#898888;
+    left:5.75rem;
+    text-align: center;
+    line-height: .6rem;
+    color:#fff;
+}
+
+
+/*书架-收藏*/
+.zlf_book_box{
+    width:100%;
+    margin-top:.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.zlf_book_item{
+    display:block;
+    width:2.25rem;
+    height:auto;
+    background:#fff;
+    border-radius: .1rem;
+}
+.zlf_book{
+    width:100%;
+    height:1.8rem;
+    position:relative;
+}
+.zlf_book img{
+    width:2.05rem;
+    position:absolute;
+    top:-0.4rem;
+    left:0.11rem;
+}
+.zlf_yuan{
+    width:.1rem;
+    height:.1rem;
+    border-radius: 50%;
+    background:#eaeaea;
+    z-index: 99;
+}
+.zlf_yuan1{
+    position:absolute;
+    left:-0.05rem;
+    bottom:-0.05rem;
+}
+.zlf_yuan2{
+    position:absolute;
+    right:-0.05rem;
+    bottom:-0.05rem;
+}
+.zlf_book_msg{
+    width:100%;
+    height:auto;
+    padding:.1rem;
+    background:#f4f4f4;
+    line-height:.4rem;
+    border-radius:0  0 .1rem .1rem;
+    box-sizing: border-box;
+}
+.zlf_book_name {
+    height:.4rem;
+    color: rgb( 57, 58, 57 );
+    font-weight: bold;
+}
+.zlf_book_name2 {
+    font-size:.12rem;
+    font-weight: bold;
+    color:#7c7b7b;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow:hidden;
+    text-transform: uppercase;
+}
+.zlf_wjx{
+    height:.4rem;
+    display:flex;
+    justify-content: space-between;
+}
+.zlf_x_box img{
+    width:.18rem;
+}
+.zlf_author {
+  font-size: .2rem;
+  font-family: "San Francisco Display";
+  color: rgb( 96, 96, 96 );
+}
+
+.zlf_bg{
+    height:.48rem;
+    position:relative;
+}
+.zlf_bg>img{
+   width:100%;
+}
+.zlf_sc,.zlf_gz,.zlf_dz{
+    position:absolute;
+}
+.zlf_sc{
+    left:.15rem;
+    top:.01rem;
+}
+.zlf_sc img{
+    width:.3rem;
+    height:.3rem;
+}
+.zlf_gz{
+    left:.7rem;
+    top:.02rem;
+    width:.6rem;
+}
+.zlf_gz>img,.zlf_dz>img{
+    width:.2rem;
+    height:.2rem;
+    vertical-align: middle;
+}
+.zlf_dz{
+    width:.6rem;
+    left:1.4rem;
+    top:.02rem;
+}
+.zlf_bg span{
+    font-size:.18rem;
+    font-family: "San Francisco Display";
+    color: rgb( 156, 154, 155 );
+}
+/*more  GO*/
+.zlf_close_box{
+    display:block;
+    width:3.3rem;
+    height:1.2rem;
+    border-radius:.05rem;
+    background-color: rgb( 255, 255, 255 );
+    box-shadow: 0.5rem 0.866rem 9rem 0rem rgb( 210, 209, 209 );
+    margin:.4rem auto;
+    padding:.2rem;
+    position:relative;
+}
+.zlf_English {
+    font-size: .20rem;
+    font-family: "San Francisco Display";
+    color: rgb( 205, 205, 205 );
+    line-height: 1.2;
+    margin-left:.25rem;
+    margin-top: .1rem;
+}
+.zlf_Chinese {
+    color: rgb( 50, 48, 48 );
+    line-height: 1;
+    margin-left:.25rem;
+}
+.zlf_close_btn{
+    position:absolute;
+    right:0.13rem;top:0.13rem;
+}
+.zlf_close_btn img{
+    width:.24rem;
+    height:.24rem;
+}
+.zlf_go{
+    text-align:center;
+    /*margin-top: .25rem;*/
+}
+.zlf_go img{
+    width:.64rem;
+    height:.31rem;
+}
+
+
+
+
+
+
+
+

@@ -5,6 +5,7 @@
 		margin: 0 auto;
 		background: #E1DEE0;
 	}
+/*支付头部开始*/
 	.yhp_payment_up{
 		width: 7.50rem;
 		height: 0.90rem;
@@ -59,12 +60,16 @@
 		background-size: 0.81rem 0.87rem;
 		float: right;
 	}
+/*支付头部结束*/
+
+/*支付主体开始*/
 	.yhp_payment_inner{
 		width: 7.02rem;
 		height: auto;
 		margin: 0 auto;
 		margin-top:0.20rem;
 	}
+/*支付方式选择开始*/
 	.yhp_payment_ul{
 		width: auto;
 		height: auto;
@@ -153,6 +158,9 @@
 		color: #5c5c5c;
 		font-size: 0.22rem;
 	}
+/*支付方式选择结束*/
+
+/*支付中介选择开始 */
 	.yhp_payment_choose{
 		margin-top: 0.68rem;
 		width: 100%;
@@ -219,6 +227,8 @@
 		height: 2.18rem;
 		background: url(../../../images/yhp_images/yhp_pay_chat.png) no-repeat center;
 	}
+
+/*支付中介选择结束	*/
 	.yhp_choose_sure{
 		width: 6.92rem;
 		height: 1.04rem;

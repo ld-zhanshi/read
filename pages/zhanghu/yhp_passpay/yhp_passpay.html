@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" >
+    <title>爱阅读app—密码支付</title>
+    <link rel="stylesheet" type="text/css" href="../../../css/swiper-3.4.0.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../../css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="../../../css/public.css"/>
+    <link rel="stylesheet" type="text/css" href="yhp_passpay.css" />
+</head>
+<body>
+<!-- 支付外框开始 -->
+	<div class="yhp_passpay_box">
+		<!-- 密码支付头部开始 -->
+			<div class="yhp_passpay_up">
+				<label>
+					<button class="yhp_passpay_back"></button>
+				</label>
+				<div class="yhp_passpay_title">
+					<p class="yhp_passpay_titleup">支付</p>
+					<p class="yhp_passpay_titlebot">PAYMENT</p>
+				</div>
+				<label>
+					<button class="yhp_passpay_search"></button>
+				</label>
+			</div>
+		<!-- 密码支付头部结束 -->
+
+		<!-- 密码支付主体开始 -->
+		<div class="passpay_bottom">
+			<div class="yhp_passpay_inner">
+			<!-- 密码支付银行卡循环开始 -->
+				<div class="swiper-container">
+        			<div class="swiper-wrapper">
+            			<div class="swiper-slide"><img src="../../../images/yhp_images/bankcard1.png" alt=""></div>
+			            <div class="swiper-slide"><img src="../../../images/yhp_images/bankcard2.png" alt=""></div>
+			            <div class="swiper-slide"><img src="../../../images/yhp_images/bankcard3.png" alt=""></div>
+        			</div>
+				</div>
+			<!-- 密码支付银行卡循环结束 -->
+
+			<!-- 密码支付提示语开始 -->
+				<p class="yhp_passpay_tipup">您可以通过输入密码完成支付</p>
+				<span class="yhp_passpay_space"></span>
+				<p class="yhp_passpay_tipbot">YOUCANINPUTPASSWORDTOCOMPLETETHEPAYMENT</p>
+
+				<!-- 总额显示区域开始 -->
+					<div class="yhp_passpay_count">
+						<span class="yhp_passpay_money">128.00</span>
+						<i class="yhp_passpay_unit">.RMB.</i>
+					</div>
+				<!-- 总额显示区域结束 -->
+
+				<!-- 输入密码 -->
+					<label>
+						<input type="text" class="yhp_passpay_text" onkeyup="this.value=this.value.replace(/\D/g,'')"  onafterpaste="this.value=this.value.replace(/\D/g,'')" maxlength="6">
+					</label>
+			<!-- 密码支付提示语结束 -->
+			</div>
+		</div>
+		<!-- 密码支付主体结束 -->
+	</div>
+<!-- 支付外框结束 -->
+</body>
+</html>
+<script src="../../../js/angular.min.js"></script>
+<script src="../../../js/angular-route.min.js"></script>
+<script type="text/javascript" src="../../../js/rem.js"></script>
+<script type="text/javascript"src="../../../js/swiper-3.4.0.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container');
+</script>
+<script type="text/javascript" src="../../../js/zepto.js"></script>
+<script type="text/javascript" src="yhp_passpay.js"></script>

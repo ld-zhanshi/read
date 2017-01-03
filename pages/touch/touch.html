@@ -1,0 +1,35 @@
+    <!-- 书架顶部bar -->
+    <shequtopbar personurl="images/ld_images/ld_qz_photo.png" left="发现" right="收藏"></shequtopbar>
+    <!-- 书架-发现 开始-->
+    <div class="zlf_container">
+        <!-- find 开始-->
+        <div class="zlf_find">
+            <div class="zlf_find_title">
+                开始滑动发现你所喜欢的
+            </div>
+            <img class="zlf_find_tu" src="images/zlf_images/zlf_find.png"  alt="" />
+        </div>
+        <!-- find 结束 -->
+        <!-- swiper 开始 -->
+        <shujiafind></shujiafind>
+        <!-- swiper 结束 -->
+    </div>
+    <!-- 书架-发现 结束-->
+    <!-- 书架-收藏 开始-->
+    <div class="zlf_container">
+        <div class="zlf_book_box" ng-controller="shujia">
+            <shujiabook ng-repeat="v in shujiashoucang track by $index"></shujiabook>
+        </div>
+        <!-- 想看新书了，逛逛看 -->
+        <a href="#/" class="zlf_close_box">
+            <div class="zlf_English">STACK_ROOM</div>
+            <div class="zlf_Chinese">想看新书了，去逛逛看</div>
+            <div class="zlf_close_btn">
+                <img src="images/zlf_images/zlf_close.png" alt="" />
+            </div>
+            <div class="zlf_go">
+                <img src="images/zlf_images/zlf_go.png" alt="" />
+            </div>
+        </a>
+    </div>
+    <!-- 书架-收藏 结束-->

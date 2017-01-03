@@ -1,0 +1,228 @@
+添加银行卡外框开始*/
+	.yhp_bankcard_box{
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		background: #EDEBEC;
+	}
+/*添加银行卡头部开始*/
+	.yhp_bankcard_up{
+		width: 7.50rem;
+		height: 0.90rem;
+		margin: 0 auto;
+		background: #fff;
+		padding-left: 0.24rem;
+		padding-right: 0.11rem;
+		box-sizing:border-box;
+	}
+	.yhp_bankcard_up:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.yhp_bankcard_up button{
+		border: none;
+		outline: none;
+	}
+	.yhp_bankcard_back{
+		width: 0.90rem;
+		height: 0.90rem;
+		background:url(../../../images/yhp_images/yhp_backbtn.png) no-repeat left center;
+		background-size: 0.63rem 0.49rem;
+		float: left;
+	}
+	.yhp_bankcard_title{
+		width: 5.22rem;
+		height: 0.90rem;
+		float: left;
+	}
+	.yhp_bankcard_title p{
+		text-align: center;
+		padding: 0;
+	}
+	.yhp_bankcard_titleup{
+		color: #484747;
+		height: 0.40rem;
+		line-height: 0.40rem;
+		font-size: 0.3634rem;
+		margin-top: 0.10rem;
+	}
+	.yhp_bankcard_titlebot{
+		color: #8d8a8b;
+		font-size: 0.2086rem;
+		height: 0.20rem;
+		line-height: 0.20rem;
+	}
+	.yhp_bankcard_search{
+		width: 0.90rem;
+		height: 0.90rem;
+		background:url(../../../images/mjh/sy-mjh_08.png) no-repeat right center;
+		background-size: 0.81rem 0.87rem;
+		float: right;
+	}
+/*添加银行卡头部结束*/
+
+/*添加银行卡主体开始*/
+	.yhp_bankcard_inner{
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		margin-top:0.78rem;
+	}
+
+/*银行卡图片开始*/
+	.yhp_insertcard_pic{
+		width: 6.51rem;
+		height: 2.38rem;
+		background: #2a98ff;
+		border-radius: 0.06rem;
+		margin: 0 auto;
+		display: flex;
+		padding: 0.12rem 0.44rem 1.53rem 0.57rem;
+		box-sizing:border-box;
+		justify-content:space-between;
+	}
+	.yhp_insert_cardcn{
+		color: #fff;
+		font-size: 0.30rem;
+	}
+	.yhp_insert_carden{
+		color: #fff;
+		font-size: 0.16rem;
+	}
+	.yhp_insertcard_icon{
+		width: 1.44rem;
+		height: 0.73rem;
+	}
+/*银行卡图片结束*/
+
+/*银行卡信息开始*/
+	.yhp_insertcard_text{
+		width: 100%;
+		height: auto;
+		background: #fff;
+		padding-top: 0.54rem;
+		box-sizing:border-box;
+		margin-top: -1.01rem;
+		padding-bottom: 0.50rem;
+	}
+	.yhp_insertcard_text:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.yhp_insertcard_tipcn{
+		color: #555454;
+		font-size: 0.24rem;
+		display: flex;
+		padding-left: 0.36rem;
+		box-sizing:border-box;
+	}
+	.yhp_insertcard_tipcn i{
+		display: block;
+		width: 0.35rem;
+		height: 0.02rem;
+		background: #f81872;
+		margin-top: 0.24rem;
+	}
+	.yhp_insertcard_tipen{
+		color: #aaaaaa;
+		font-size: 0.18rem;
+		padding-left: 0.36rem;
+		box-sizing:border-box;
+		margin-top: 0.02rem;
+	}
+	.yhp_insert_ul{
+		width: 100%;
+		height: auto;
+		padding-left: 0.20rem;
+		box-sizing:border-box;
+		margin-top: 0.34rem;
+		margin-bottom: 0.50rem;
+	}
+	.yhp_insert_li{
+		width: 7.06rem;
+		height: 1.25rem;
+		border: 0.02rem solid #e1dee0;
+		border-radius: 0.06rem;
+		box-shadow: 0 0 0.02rem 0.01rem #d3d3d3;
+		padding-left: 0.15rem;
+		box-sizing:border-box;
+		display: flex;
+		margin-bottom: 0.08rem;
+	}
+	
+	.yhp_insert_li img{
+		width: 0.79rem;
+		height: 0.79rem;
+		border-radius: 50%;
+		background: #181743;
+		margin-top: 0.27rem;
+	}
+	.yhp_insertli_label{
+		width: 5.96rem;
+		height: 1.20rem;
+		display: block;
+		background: #fff;
+		position: relative;
+		z-index: 4;
+	}
+	.yhp_insert_name{
+		width: 5.60rem;
+		height: 0.79rem;
+		margin-left: 0.15rem;
+		background: url(../../../images/yhp_images/yhp_insert_space.png) no-repeat left bottom;
+		background-size: 3.11rem 0.06rem;
+		border: none;
+		padding-left: 0.15rem;
+		padding-top: 0.22rem;
+		box-sizing:border-box;
+		outline: none;
+		margin-top: 0.27rem;
+	}
+	.yhp_insert_label{
+		display: block;
+		width: 5.3rem;
+		height: 0.40rem;
+		display: flex;
+		margin-left: 0.20rem;
+	}
+	.yhp_insert_bg1{
+		width: 0.14rem;
+		height: 1.20rem;
+		background:#F81872;
+		border-radius: 0.04rem;
+		margin-left: -0.06rem;
+	}
+	.yhp_insert_bg2{
+		width: 0.14rem;
+		height: 1.20rem;
+		background:#6E18FC;
+		border-radius: 0.04rem;
+		margin-left: -0.06rem;
+	}
+	.yhp_insert_sure{
+		width: 0.35rem;
+		height: 0.35rem;
+		padding-left: 0.22rem!important;
+		box-sizing:border-box!important;
+		margin-right: 0.20rem;
+		
+	}
+	.yhp_insertcard_surebtn{
+		display: block;
+		width: 6.92rem;
+		height: 1.04rem;
+		background:#2975FF url(../../../images/yhp_images/yhp_pay_btn.png) no-repeat center;
+		background-size: 6.92rem 1.04rem;
+		border: none;
+		outline: none;
+		border-radius: 0.06rem;
+		margin: 0 auto;
+		margin-top: 1.01rem;
+	}
+/*银行卡信息结束*/
+
+
+
+/*添加银行卡主体结束*/

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" >
+    <title>爱阅读app—添加银行卡</title>
+    <link rel="stylesheet" type="text/css" href="../../../css/swiper-3.4.0.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../../css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="../../../css/public.css"/>
+    <link rel="stylesheet" type="text/css" href="yhp_bankcard.css" />
+</head>
+<body>
+<!-- 添加银行卡外框开始 -->
+	<div class="yhp_bankcard_box">
+		<!-- 添加银行卡头部开始 -->
+			<div class="yhp_bankcard_up">
+				<label>
+					<button class="yhp_bankcard_back"></button>
+				</label>
+				<div class="yhp_bankcard_title">
+					<p class="yhp_bankcard_titleup">添加银行卡</p>
+					<p class="yhp_bankcard_titlebot">BANKCARD</p>
+				</div>
+				<label>
+					<button class="yhp_bankcard_search"></button>
+				</label>
+			</div>
+		<!-- 密码支付头部结束 -->
+
+		<!-- 添加银行卡主体开始 -->
+		<div class="yhp_bankcard_bottom">
+			<div class="yhp_bankcard_inner">
+			<!-- 银行卡图片开始 -->
+				<div class="yhp_insertcard_pic">
+					<div class="yhp_insertcard_picleft">
+						<p class="yhp_insert_cardcn">中国工商银行</p>
+						<p class="yhp_insert_carden">CHINA MERCHANTS BANK</p>
+					</div>
+					<img src="../../../images/yhp_images/yhp_insert_icon.png" alt="" class="yhp_insertcard_icon">
+				</div>
+			<!-- 银行卡图片结束 -->
+
+			<!-- 银行卡信息开始 -->
+				<div class="yhp_insertcard_text">
+					<div class="yhp_insertcard_tipcn"><span>请绑定持卡人本人的银行卡</span><i></i></div>
+					<p class="yhp_insertcard_tipen">PLASE  BIND THE CARDHOLDER’S QWN BANK CARD</p>
+					<ul class="yhp_insert_ul">
+						<li class="yhp_insert_li">
+								<img src="../../../images/yhp_images/yhp_insert_name.png" alt="" class="yhp_insert_liicon">
+								<label class="yhp_insertli_label">
+									<input type="text" class="yhp_insert_name" placeholder="请输入您的姓名">
+								</label>
+								<div class="yhp_insert_bg1">
+								</div>
+						</li>
+						<li class="yhp_insert_li">
+							<img src="../../../images/yhp_images/yhp_insert_num.png" alt="" class="yhp_insert_liicon">
+							<label class="yhp_insertli_label">
+								<input type="text" class="yhp_insert_name" placeholder="请输入您的卡号">
+							</label>
+							<div class="yhp_insert_bg2">
+							</div>
+						</li>
+						<li class="yhp_insert_li">
+							<img src="../../../images/yhp_images/yhp_insert_id.png" alt="" class="yhp_insert_liicon">
+							<label class="yhp_insertli_label">
+								<input type="text" class="yhp_insert_name" placeholder="二代身份证号码">
+							</label>
+							<div class="yhp_insert_bg1">
+							</div>
+						</li>
+						<li class="yhp_insert_li">
+							<img src="../../../images/yhp_images/yhp_insert_phone.png" alt="" class="yhp_insert_liicon">
+							<label class="yhp_insertli_label">
+								<input type="text" class="yhp_insert_name" placeholder="请输入您的预留号码">
+							</label>
+							<div class="yhp_insert_bg2">
+							</div>
+						</li>
+					</ul>
+					<label class="yhp_insert_label">
+						<input type="radio" name="sure" class="yhp_insert_sure">
+						<span>同意《银联用户服务协议》</span>
+					</label>
+					<label><button class="yhp_insertcard_surebtn"></button></label>
+				</div>
+			<!-- 银行卡信息结束 -->
+			</div>
+		</div>
+		<!-- 银行卡主添加体结束 -->
+	</div>
+<!-- 添加银行卡外框结束 -->
+</body>
+</html>
+<script src="../../../js/angular.min.js"></script>
+<script src="../../../js/angular-route.min.js"></script>
+<script type="text/javascript" src="../../../js/rem.js"></script>
+<script type="text/javascript"src="../../../js/swiper-3.4.0.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container');
+</script>
+<script type="text/javascript" src="../../../js/zepto.js"></script>
+<script type="text/javascript" src="yhp_bankcard.js"></script>
