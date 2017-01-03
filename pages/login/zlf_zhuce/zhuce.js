@@ -23,7 +23,11 @@
     var yhmk=false;
     $('.mjh-zck-yhm').change(function(){
         var yhmval=$(this).val()
-        if(yzdata('yhm',yhmval)){
+        var re = /^[a-zA-z]\w{3,15}$/;
+        if(!re.test(yhmval)){
+            $('.mjh-zc-ts5').show()
+            $(this).parent().addClass('active')
+        }else if(yzdata('yhm',yhmval)){
             $('.mjh-zc-ts1').show()
             $(this).parent().addClass('active')
         }else{
@@ -32,7 +36,7 @@
         }
     })
     $('.mjh-zck-yhm').focus(function(){
-        $('.mjh-zc-ts1').hide()
+        $('.mjh-zc-ts1,.mjh-zc-ts5').hide()
         $(this).val('')
         $(this).parent().removeClass('active')
     })
@@ -57,6 +61,20 @@
         $(this).val('')
         $(this).parent().removeClass('active')
     })
+    // 验证密码
+    $('.mjh-zck-mm1').change(function(){
+        var sjhval=$(this).val()
+        var re =/^\w{5,15}$/
+        if (!re.test(sjhval)) {
+            $('.mjh-zc-ts6').show()
+            $(this).parent().addClass('active')
+        }
+    })
+    $('.mjh-zck-mm1').focus(function(){
+        $('.mjh-zc-ts3,.mjh-zc-ts6').hide()
+        $(this).val('')
+        $(this).parent().removeClass('active')
+    })
     // 验证两次输入密码
     var mmk=false;
     $('.mjh-zck-mm2').change(function(){
@@ -65,14 +83,16 @@
         // console.log(mm1,mm2)
         if(mm1!=mm2){
             $('.mjh-zc-ts3').show()
+            $(this).parent().addClass('active')
         }else{
             mmk=true;
             zc1ym()
         }
     })
-    $('.mjh-zck-mm2,.mjh-zck-mm1').focus(function(){
+    $('.mjh-zck-mm2').focus(function(){
         $('.mjh-zc-ts3').hide()
         $(this).val('')
+        $(this).parent().removeClass('active')
     })
     // 验证是否填写完整
     var zc1k=false

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app='app'>
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1" >
     <title>爱阅读app</title>
     <link rel="stylesheet" type="text/css" href="../../../css/swiper-3.4.0.min.css" />
@@ -9,8 +9,9 @@
     <link rel="stylesheet" type="text/css" href="../../../css/public.css"/>
     <link rel="stylesheet" type="text/css" href="../../../css/index.css" />
     <link rel="stylesheet" type="text/css" href="login_mjh.css" />
+    <script type="text/javascript" src="../../../js/angular.min.js"></script>
 </head>
-<body>
+<body ng-controller='dlc'>
     <div class="mjh-dl-wk">
         <img src="../../../images/yhp_images/yhp_backbtn.png" alt="" class="mjh-dl-fh" />
         <a href="../zlf_zhuce/zhuce.html" class="mjh-dl-tozc">注册</a>
@@ -26,7 +27,7 @@
             <input type="text" class="mjh-dl-yhm" placeholder='请输入账号'/>
             <input type="password" class="mjh-dl-mm" placeholder='请输入密码'/>
             <div class="mjh-dl-mmc">
-                <input type="checkbox"/>记住密码
+                <input type="checkbox" class="mjh-dl-jzmm" />记住密码
                 <input type="button" value='找回密码'>
             </div>
             <div class="mjh-sl-sub" >  
@@ -54,19 +55,20 @@
                 <a href="##"><img src="../../../images/yhp_images/yhp_chat.png" alt="" /></a>
             </div>
             <!-- 用户选择 -->
-            <div class="mjh-dl-yhxz" hidden>
-                <a href="##">
+            <div class="mjh-dl-yhxz" >
+                <a href="##" ng-repeat='v in bdyh track by $index' ng-click='yhdj(v)'>
+                    <div><img src="../../../images/yhp_images/yhp_loginheader.png" alt="" /></div>
+                    <p>{{v.yhm}}</p>
+                </a>
+                <!-- {{yhf}} -->
+                <!-- <a href="##">
                     <div><img src="../../../images/yhp_images/yhp_loginheader.png" alt="" /></div>
                     <p>afg</p>
                 </a>
                 <a href="##">
                     <div><img src="../../../images/yhp_images/yhp_loginheader.png" alt="" /></div>
                     <p>afg</p>
-                </a>
-                <a href="##">
-                    <div><img src="../../../images/yhp_images/yhp_loginheader.png" alt="" /></div>
-                    <p>afg</p>
-                </a>
+                </a> -->
             </div>
 
         </div>
@@ -78,6 +80,7 @@
 <script type="text/javascript" src="../../../js/touch.js"></script>
 <script type="text/javascript"src="../../../js/swiper-3.4.0.min.js"></script>
 <script type="text/javascript" src="../zlf_zhuce/zhuce.js"></script>
-<script type="text/javascript" src="../../../js/index.js"></script>
+
+<script type="text/javascript" src="../../../index.js"></script>
 
 <script type="text/javascript" src="login_mjh.js"></script>
