@@ -16,6 +16,10 @@ body,html{width:7.5rem;height: 100%;overflow: hidden;}
     width:.63rem;height:.49rem;
     top: .24rem;left: .24rem;
 }
+.mjh-dl-tozc{
+    position:absolute;
+    top: .24rem;right: .24rem;
+}
 .mjh-dl-bg1{
     position:absolute;
     width:4.11rem;height:2.36rem;
@@ -64,6 +68,9 @@ body,html{width:7.5rem;height: 100%;overflow: hidden;}
   font-size: .28rem;
   color:#7d7d7d;
   outline: 0;
+}
+.mjh-dl-yhm.active,.mjh-dl-mm.active{
+    border-color: rgb( 254, 19, 91 );
 }
 .mjh-dl-yhm{top:.98rem;}
 .mjh-dl-mm{top:2.2rem;}
@@ -175,6 +182,7 @@ body,html{width:7.5rem;height: 100%;overflow: hidden;}
   z-index: 777;
   display:flex;
   justify-content: center;
+  display:none;
 }
 .mjh-dl-yhxz a{
     display:block;

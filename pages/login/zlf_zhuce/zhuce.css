@@ -16,6 +16,10 @@ body,html{width:7.5rem;height: 100%;overflow: hidden;}
     width:.63rem;height:.49rem;
     top: .24rem;left: .24rem;
 }
+.mjh-dl-todl{
+  position:absolute;
+  top: .24rem;right: .24rem;
+}
 .zlf_dl_bg1{
     position:absolute;
     width:5.04rem;height:1.85rem;
@@ -75,6 +79,13 @@ body,html{width:7.5rem;height: 100%;overflow: hidden;}
     height:.3rem;
     border-radius: 50%;
     border:3px solid #464545;
+    /*background:url(../../../images/zlf_images/zlf_zc_10.png) center center;*/
+}
+.zlf_quan.active{border-color: transparent;}
+.zlf_quan.active img{
+    width:.54rem;
+    height:.36rem;
+    margin:-.1rem 0 0 -.08rem;
 }
 .zlf_xian{
     width:2.05rem;
