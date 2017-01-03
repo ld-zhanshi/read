@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-30 14:15:19
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-03 19:33:05
+* @Last Modified time: 2017-01-03 22:26:52
 */
 var shujiafind=[
     {
@@ -85,4 +85,9 @@ var shujiaitem=angular.module('shujiaitem',[]);
 shujiaitem.controller('shujia',function($scope){
     $scope.shujiafind=shujiafind;
     $scope.shujiashoucang=shujiashoucang;
+    $scope.topFlag=true;
+    $scope.changeQuanzi=function(f){
+        $scope.topFlag=f;
+        console.log($scope.topFlag)
+    }
 })

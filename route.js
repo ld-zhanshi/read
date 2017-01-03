@@ -2,11 +2,11 @@
 * @Author: Marte
 * @Date:   2016-12-30 10:26:56
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-03 16:04:28
+* @Last Modified time: 2017-01-03 19:49:33
 */
 
 // 创建ng主模块ng-app入口模块
-var app=angular.module('app',['ctrl','ngRoute'])
+var app=angular.module('app',['ngRoute','dir','shequitem','shujiaitem','homeitem','bookcoveritem','showitem','frienditem','meitem','friendqunitem','addfrienditem','specialitem'])
 app.config(['$routeProvider',function($r){
     $r.when('/',{
         templateUrl:'pages/home/home.html',

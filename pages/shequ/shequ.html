@@ -2,7 +2,16 @@
     <div class="index_contain" ng-controller="shequ">
     <!-- 社区圈子开始 -->
         <!-- 圈子顶部栏开始 -->
-        <shequtopbar personurl="images/ld_images/ld_qz_photo.png" left="圈子" right="书友"></shequtopbar>
+        <!-- <shequtopbar personurl="images/ld_images/ld_qz_photo.png" left="圈子" right="书友"></shequtopbar> -->
+        <div class="ld_sqtopbar">
+            <div class="ld_sq_photo"><a href="#/me"><img src="images/ld_images/ld_qz_photo.png" alt="" /></a></div>
+            <ul class="ld_top_cen">
+                <li ng-class="{true:'ld_sq_quanzi ld_top_active',false:'ld_sq_quanzi'}[!topFlag]" ng-click="changeQuanzi(true)"><div class="ld_qz_wenzi">圈子</div><span></span></li>
+                <li ng-class="{true:'ld_sq_shuyou ld_top_active',false:'ld_sq_shuyou'}[topFlag]" ng-click="changeQuanzi(false)"><div class="ld_qz_wenzi">书友</div></li>
+            </ul>
+            <div class="ld_sq_rig"></div>
+        </div>
+
         <!-- 圈子顶部栏结束 -->
         <!-- 社会圈子下面内容开始 -->
         <div class="ld_qz_condi">
@@ -34,7 +43,7 @@
                 </div>
             </div>   
                 <!-- 社会书友 -->
-            <div class="ld_shsy_di" ng-show="topFlag" ng-controller="shequ">
+            <div class="ld_shsy_di" ng-show="!topFlag">
                 <!-- 新增书友 -->
                 <shequadd ng-repeat="v in shequadd track by $index"></shequadd>
                 <div class="ld_sy_search">

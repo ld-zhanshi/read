@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-30 16:42:17
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-03 16:18:39
+* @Last Modified time: 2017-01-03 22:28:57
 */
 var dir=angular.module('dir',[]);
 // 首页底部tab栏
@@ -11,7 +11,7 @@ dir.directive('indextab',function(){
         restrict: 'ECMA',
         templateUrl:'directive/public/indextab.html'
     }
-}),
+})
 // 首页标题
 dir.directive('indextitle',function(){
     return {
@@ -24,7 +24,7 @@ dir.directive('indextitle',function(){
             myhref:"@myhref"
         }
     }
-}),
+})
 // 首页banner
 dir.directive('indexbanner',function(){
     return {
@@ -48,7 +48,7 @@ dir.directive('indexbanner',function(){
             })
         }
     }
-}),
+})
 // 首页banner下轮播
 dir.directive('indexlunbo',function(){
     return {
@@ -71,7 +71,7 @@ dir.directive('indexlunbo',function(){
             });
         }
     }
-}),
+})
 // 首页书荒大解决
 dir.directive('indexjiejiu',function(){
     return {
@@ -89,7 +89,7 @@ dir.directive('indexjiejiu',function(){
             })
         }
     }
-}),
+})
 // 首页新书速递
 dir.directive('indexxinshu',function(){
     return {
@@ -107,7 +107,7 @@ dir.directive('indexxinshu',function(){
             })
         }
     }
-}),
+})
 
 // 书架发现 书
 dir.directive('shujiafind',function(){
@@ -126,47 +126,47 @@ dir.directive('shujiafind',function(){
             })
         }
     }
-}),
+})
 // 书架收藏 书
 dir.directive('shujiabook',function(){
     return {
         restrict: 'ECMA',
         templateUrl:'directive/public/shujiabook.html'
     }
-}),
+})
 // 社区圈子顶部bar
-dir.directive('shequtopbar',function(){
-    return {
-        restrict: 'ECMA',
-        templateUrl:'directive/public/shequtopbar.html',
-        scope: {
-            personurl:"@personurl",
-            left:"@left",
-            right:"@right"
-        }
-    }
-}),
+// dir.directive('shequtopbar',function(){
+//     return {
+//         restrict: 'ECMA',
+//         templateUrl:'directive/public/shequtopbar.html',
+//         scope: {
+//             personurl:"@personurl",
+//             left:"@left",
+//             right:"@right"
+//         }
+//     }
+// })
 // 社区新增书友
 dir.directive('shequadd',function(){
     return {
         restrict: 'ECMA',
         templateUrl:'directive/public/shequadd.html'
     }
-}),
+})
 // 社区英文块
 dir.directive('shequletter',function(){
     return {
         restrict: 'ECMA',
         templateUrl:'directive/public/shequletter.html'
     }
-}),
+})
 // 社区下面好友列表
 dir.directive('shequfriend',function(){
     return {
         restrict: 'ECMA',
         templateUrl:'directive/public/shequfriend.html'
     }
-}),
+})
 
 // 同类推荐列表
 dir.directive('tongleituijian',function(){
@@ -174,7 +174,7 @@ dir.directive('tongleituijian',function(){
         restrict: 'ECMA',
         templateUrl:'directive/public/tongleituijian.html'
     }
-}),
+})
 
 // 好友群列表
 dir.directive('friendqunlis',function(){
