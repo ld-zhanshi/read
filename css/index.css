@@ -4,3 +4,32 @@
 * @Last Modified by:   Marte
 * @Last Modified time: 2017-01-02 19:42:36
 */
+/*闪屏页开始*/
+html,body{
+	width:7.5rem;
+	height:100%;
+	background: #fff;
+}
+.swiper-pagination-bullet{
+	width:.3rem;
+	height:.3rem;
+	border-radius: 50%;
+}
+.swiper-pagination-bullet-active:nth-child(1) {
+    background: #e70e2d;
+    opacity: .8;
+}
+.swiper-pagination-bullet-active:nth-child(2) {
+    background: #f6a300;
+    opacity: .8;
+}
+.swiper-pagination-bullet-active:nth-child(3) {
+    background: #0174cd;
+    opacity: .8;
+}
+.swiper-container,.lrc_spone{
+	width:7.5rem;
+	height:100%;
+}
+
+/*闪屏页结束*/
