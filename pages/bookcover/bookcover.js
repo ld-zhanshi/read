@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2017-01-02 22:17:48
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-02 23:51:57
+* @Last Modified time: 2017-01-03 14:26:11
 */
 
 var tltuijian=[
@@ -51,3 +51,4 @@ bookcoveritem.controller("bookcover",function($scope){
     $scope.tltuijian=tltuijian;
     $scope.bookcon=bookcon;
 })
+
