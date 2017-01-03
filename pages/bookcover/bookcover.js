@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2017-01-02 22:17:48
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-03 15:36:50
+* @Last Modified time: 2017-01-03 18:16:12
 */
 
 var tltuijian=[
@@ -28,7 +28,7 @@ var tltuijian=[
         titleenglish:'Business Common',
         photo:'images/gl_images/tx.png',
         author:'申音',
-        contain:'★为什么美国没有史玉柱，中国没有乔布斯？\n★什么是“对的行业”、“错的行业”？...'
+        contain:'★为什么美国没有史玉柱，中国没有乔布斯？★什么是“对的行业”、“错的行业”？...'
     }
 ]
 var bookcon=[
