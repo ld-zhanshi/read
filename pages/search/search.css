@@ -1,6 +1,18 @@
 /*搜索*/
-    .ld_qz_condi{
-        width: 7.02rem;
+    .ld_search{
+        height:0;
+        margin: 0 auto;
+        padding:.24rem 0;
+        transition: all .3s;
+        overflow: hidden;
+        transform:scale(0);
+    }
+    .ld_searchactive{
+        transform:scale(1, 1);
+        height:2.35rem;
+    }
+    .sy_qz_condi{
+        width: 7.02rem;height:auto;
         margin: 0 auto;
     }
     .ld_sy_search{
@@ -9,7 +21,7 @@
         background-size:100%;
         display:flex;
         align-items: center;
-        margin-top:.3rem;
+        margin-top:0;
     }
     .ld_sy_search input{
         width:5.29rem;height:80%;
@@ -38,6 +50,8 @@
         justify-content:space-around;
         padding: 0 0.5rem;
         box-sizing:border-box;
+        transition:all .35s;
+        overflow:hidden;
     }
     .sy_filterlis{
         width: 1.12rem;height: 100%;
@@ -66,7 +80,6 @@
         height: 0.55rem;
         float: left;
         margin: 0.13rem 0;
-        /*background: red;*/
     }
     .sy_fcon p{
         font-style: 0.34rem;

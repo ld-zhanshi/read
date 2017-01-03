@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-29 09:23:48
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-03 11:20:00
+* @Last Modified time: 2017-01-04 01:25:25
 */
 var sheququanzi=[
     {
@@ -140,6 +140,9 @@ shequitem.controller('shequ',function($scope){
     $scope.topFlag=true;
     $scope.changeQuanzi=function(f){
         $scope.topFlag=f;
-        console.log($scope.topFlag)
+    }
+    $scope.searchFlag=false;
+    $scope.indexsearch=function(){
+        $scope.searchFlag=!$scope.searchFlag;
     }
 })

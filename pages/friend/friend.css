@@ -151,7 +151,7 @@
     .ld_dizhi_rig span{
         float:right;
         display: block;
-        width:.37rem;height:100%;
+        width:.37rem;height:.37rem;
         margin-right:.08rem;
     }
     .ld_dizhi_icon1{
