@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-29 13:45:24
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-03 00:39:44
+* @Last Modified time: 2017-01-03 22:57:17
 */
 /*社区顶部开始*/
 .ld_sqtopbar{
@@ -454,6 +454,9 @@ span.ld_sy_circle2{
 .ld_firend_huise{
     background:url(../../images/ld_images/ld_iphone1.png) center center no-repeat;
     background-size: 100%;
+}
+.ld_friend_left{
+    width:6.63rem;
 }
 .ld_shuzi{
     width:.4rem;height:4.8rem;
