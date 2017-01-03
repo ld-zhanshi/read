@@ -25,15 +25,13 @@
 					<label>
 						<button class="yhp_regsucsure">确定</button>
 					</label>
-					<label>
-						<button class="yhp_regsuccancel">取消</button>
-					</label>
 				</div>
 			</div>
 		<!-- 注册成功內宽结束 -->
 	</div>
 <!-- 登录界面失败结束 -->
 </body>
+
 </html>
 <script src="../../../js/angular.min.js"></script>
 <script src="../../../js/angular-route.min.js"></script>
@@ -41,3 +39,8 @@
 <script type="text/javascript"src="../../../js/swiper-3.4.0.min.js"></script>
 <script type="text/javascript" src="../../../js/zepto.js"></script>
 <script type="text/javascript" src="yhp_regsuccess.js"></script>
+<script type="text/javascript">
+    $('.yhp_regsucsure').click(function(){
+        location.replace('../login-mjh/login_mjh.html')
+    })
+</script>
