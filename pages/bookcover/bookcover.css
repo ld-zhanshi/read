@@ -2,7 +2,7 @@
 /* @Author: guanlin
 * @Date:   2016-12-29 11:54:43
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-03 00:06:33
+* @Last Modified time: 2017-01-03 15:44:34
 */
 
 #gl_warp{
@@ -340,7 +340,7 @@
 }
 .gl_nnleft img{
   height:100%;
-  width:auto;
+  width:100%;
 }
 .gl_nnright{
     float:right;
@@ -354,19 +354,27 @@
     border-bottom: 1px dashed #d4d6d5;
 }
 .gl_nntop h1{
+  width:1.4rem;
   font-size: .34rem;
   font-weight: normal;
   color: rgb( 39, 40, 40 );
   line-height: 1.059;
   display:inline-block;
+  white-space: nowrap;
+  overflow:hidden;
+  text-overflow: ellipsis;
 }
 .gl_nntop h2{
-    display: inline-block;
+     width: 1.22rem;
+     display: inline-block;
      color: green;
-     font-size: 0.3rem; 
+     font-size: 0.24rem; 
      background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(170, 247, 103, 1)), to(rgba(126, 254, 218, 1)));
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
+     white-space: nowrap;
+     overflow:hidden;
+     text-overflow: ellipsis;
 }
 .gl_nntop img{
       width: .42rem;
@@ -376,6 +384,7 @@
        margin-right: 0.1rem;
 }
 .gl_nntop h3{
+  width:1.5rem;
   height:.42rem;
   line-height:.42rem;
   display:inline-block;
@@ -386,7 +395,9 @@
   -webkit-transform: matrix( 1.00000003224249,0,0,1,0,0);
   -ms-transform: matrix( 1.00000003224249,0,0,1,0,0);
   float:right;
-  margin-right: 0.2rem;
+  white-space: nowrap;
+  overflow:hidden;
+  text-overflow: ellipsis;
 }
 .gl_star{
     clear:both;

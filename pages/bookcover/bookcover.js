@@ -2,33 +2,33 @@
 * @Author: Marte
 * @Date:   2017-01-02 22:17:48
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-03 14:26:11
+* @Last Modified time: 2017-01-03 15:36:50
 */
 
 var tltuijian=[
     {
-        bookcover:'images/gl_images/1.jpg',
-        title:'轻触',
-        titleenglish:'Tickle',
+        bookcover:'https://img3.doubanio.com/mpic/s1001902.jpg',
+        title:'小王子',
+        titleenglish:'Princekin',
         photo:'images/gl_images/tx.png',
-        author:'詹姆斯·李瑞淳',
-        contain:'轻轻触碰，是指尖温度的传递，是两个灵魂的颤栗，是岁月的倾述...'
+        author:'圣埃克苏佩里 ',
+        contain:'小王子驾到！大家好，我是小王子，生活在B612星球，别看我是王子出生，我要做的事...'
     },
     {
-        bookcover:'images/gl_images/1.jpg',
-        title:'轻触',
-        titleenglish:'Tickle',
+        bookcover:'https://img1.doubanio.com/mpic/s3901817.jpg',
+        title:'可爱的Python',
+        titleenglish:'Cute Python',
         photo:'images/gl_images/tx.png',
-        author:'詹姆斯·李瑞淳',
-        contain:'轻轻触碰，是指尖温度的传递，是两个灵魂的颤栗，是岁月的倾述...'
+        author:'哲思社区',
+        contain:'本书的内容主要来自CPyUG社区的邮件列表，由Python的行者根据自身经验组织而成，是为从...'
     },
     {
-        bookcover:'images/gl_images/1.jpg',
-        title:'轻触',
-        titleenglish:'Tickle',
+        bookcover:'https://img1.doubanio.com/mpic/s6569607.jpg',
+        title:'商业的常识',
+        titleenglish:'Business Common',
         photo:'images/gl_images/tx.png',
-        author:'詹姆斯·李瑞淳',
-        contain:'轻轻触碰，是指尖温度的传递，是两个灵魂的颤栗，是岁月的倾述...'
+        author:'申音',
+        contain:'★为什么美国没有史玉柱，中国没有乔布斯？\n★什么是“对的行业”、“错的行业”？...'
     }
 ]
 var bookcon=[
