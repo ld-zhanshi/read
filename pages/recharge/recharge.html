@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" >
+    <title>爱阅读app</title>
+    <link rel="stylesheet" type="text/css" href="../../css/swiper-3.4.0.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/public.css"/>
+    <link rel="stylesheet" type="text/css" href="../../css/index.css" />
+    <link rel="stylesheet" type="text/css" href="recharge.css" />
+</head>
+<body>
+    <!-- <div ng-view class="index_contain"></div> -->
+<!-- --沈阳页面开始-- -->
+<!-- 固定 -->
+    <div class="sy_fix">
+    	<div class="sy_fslide"></div>
+    	<div class="sy_fcenter">Park <b>Christ</b></div>
+    	<div class="sy_fslide"></div>
+    </div>
+<!-- 留白块 -->
+    <div class="sy_empty"></div>
+<!-- 剩余金额 -->
+    <div class="sy_surplus">
+        <div class="sy_surcenter">
+            <div class="sy_smoney">
+                <span>0</span>
+                <div class="sy_snew"></div>
+            </div>
+            <div class="sy_stitle">
+                <p>当前余额</p>
+                <span>the curren balance</span>    
+            </div>
+            
+        </div>
+        <div class="sy_surborder"></div>
+    </div>
+<!-- 请选择充值金额 -->
+    <div class="sy_rselect">
+        <div class="sy_rstitle">
+            <div class="sy_rettop">
+                <p>请选择充值金额</p>
+                <div class="sy_retminp"></div>
+            </div>
+            <div class="sy_retbottom">
+                <span>please select a top-up amount</span>
+                <div class="sy_retmins"></div>
+            </div>
+            
+        </div>
+        <ul class="sy_rsul">
+            <li class="sy_rsli"></li>
+            <li class="sy_rsli"></li>
+            <li class="sy_rsli"></li>
+        </ul>
+    </div>
+<!-- 温馨提示 -->
+    <ul class="sy_rwalert">
+        <li class="sy_rwalertlis">温馨提示</li>
+        <li class="sy_rwalertlis">
+            <p>&nbsp;1.在IOS上充值的金币和代金券不能在非IOS设备上使用</p>
+            <p>&nbsp;2.金币兑换比例为一元兑换一百金币</p>
+            <p>&nbsp;3.充值成功后请刷新余额</p>
+        </li>
+    </ul>
+<!-- 立刻购买 -->
+    <div class="sy_quit">
+        <div class="sy_hquit">
+            <p>立刻购买</p>
+            <div class="sy_qborder"></div>
+            <span>to buy immediately</span>
+        </div>
+    </div>
+<!-- 底 -->
+    <div class="sy_bbottom"></div>
+
+<!-- --沈阳个人主页页面结束-- -->
+</body>
+</html>
+<script src="../../js/angular.min.js"></script>
+<script src="../../js/angular-route.min.js"></script>
+<script type="text/javascript" src="../../js/rem.js"></script>
+<script type="text/javascript" src="../../js/swiper-3.4.0.min.js"></script>
+<script type="text/javascript" src="../../js/zepto.js"></script>
+<script src="../../index.js"></script>
+<script src="recharge.js"></script>
