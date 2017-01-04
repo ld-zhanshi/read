@@ -2,11 +2,11 @@
 * @Author: Marte
 * @Date:   2016-12-30 10:26:56
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-04 15:44:34
+* @Last Modified time: 2017-01-04 16:41:39
 */
 
 // 创建ng主模块ng-app入口模块
-var app=angular.module('app',['ngRoute','dir','shequitem','shujiaitem','homeitem','zhanghuitem','bookcoveritem','showitem','frienditem','meitem','friendqunitem','addfrienditem','specialitem','fil','searchitem'])
+var app=angular.module('app',['ngRoute','dir','shequitem','shujiaitem','homeitem','zhanghuitem','bookcoveritem','showitem','frienditem','meitem','friendqunitem','addfrienditem','specialitem','fil','searchitem','commentitem'])
 app.config(['$routeProvider',function($r){
     $r.when('/',{
         templateUrl:'pages/home/home.html',
@@ -44,5 +44,8 @@ app.config(['$routeProvider',function($r){
     }).when('/search',{
         templateUrl:'pages/search/search.html',
         controller:'search'
+    }).when('/comment',{
+        templateUrl:'pages/comment/comment.html',
+        controller:'comment'
     })
 }])

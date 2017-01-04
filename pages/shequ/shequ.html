@@ -59,7 +59,7 @@
         <div class="ld_qz_condi">
                 <!-- 社会圈子 -->
             <div class="ld_shqz_di" ng-show="topFlag">
-                <div class="ld_qz_con" ng-repeat="v in sheququanzi track by $index">
+                <!-- <div class="ld_qz_con" ng-repeat="v in sheququanzi track by $index">
                     <div class="ld_qz_contop">
                         <img src="{{v.bgurl}}" alt="" />
                         <div class="ld_qz_label">
@@ -78,11 +78,12 @@
                             </div>
                             <ul class="ld_dizhi_rig">
                                 <li><div class="ld_dizhi_num">{{v.zannum}}</div><span class="ld_dizhi_icon1"></span></li>
-                                <li><div class="ld_dizhi_num">{{v.commentnum}}</div><span class="ld_dizhi_icon2"></span></li>
+                                <li><a href="#/comment"><div class="ld_dizhi_num">{{v.commentnum}}</div><span class="ld_dizhi_icon2"></span></a></li>
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> -->
+                <sheququanzi ng-repeat="v in sheququanzi track by $index"></sheququanzi>
             </div>   
                 <!-- 社会书友 -->
             <div class="ld_shsy_di" ng-show="!topFlag">

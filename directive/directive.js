@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-30 16:42:17
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-04 12:50:50
+* @Last Modified time: 2017-01-04 17:15:28
 */
 var dir=angular.module('dir',[]);
 // 首页底部tab栏
@@ -154,6 +154,21 @@ dir.directive('shujiabook',function(){
 //         }
 //     }
 // })
+// 社区圈子列表
+dir.directive('sheququanzi',function(){
+    return {
+        restrict: 'ECMA',
+        templateUrl:'directive/public/sheququanzi.html'
+    }
+})
+// 评论页列表
+dir.directive('commentlis',function(){
+    return {
+        restrict: 'ECMA',
+        templateUrl:'directive/public/commentlis.html'
+    }
+})
+
 // 社区新增书友
 dir.directive('shequadd',function(){
     return {
