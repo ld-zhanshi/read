@@ -5,6 +5,8 @@
     height:auto;
     margin:0 auto;
     padding-top:1.2rem;
+    overflow:hidden;
+
 }
 .zlf_find{
     width:100%;
@@ -25,12 +27,18 @@
 /*swiper 开始*/
 .zlf_swiper-container{
     margin-top:.4rem;
+    overflow:hidden;
+}
+.zlf_wrap{
+    width:30rem;
 }
 .zlf_item{
     width:7.02rem;
     height:auto;
+    float:left;
     background:#fff;
     position:relative;
+    margin-right: .24rem;
 }
 .zlf_cover{
     height:5rem;

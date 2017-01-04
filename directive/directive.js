@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-30 16:42:17
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-04 00:54:02
+* @Last Modified time: 2017-01-04 12:50:50
 */
 var dir=angular.module('dir',[]);
 // 首页底部tab栏
@@ -123,14 +123,14 @@ dir.directive('shujiafind',function(){
         restrict: 'ECMA',
         templateUrl:'directive/public/shujiafind.html',
         link:function(){
-            var swiper = new Swiper('.zlf_swiper-container', {
-                pagination: '.swiper-pagination',
-                loop : true,
-                paginationClickable: true,
-                spaceBetween: 0,
-                centeredSlides: true,
-                autoplay: 2500,
-                autoplayDisableOnInteraction: false
+            touch.on('.zlf_wrap', 'drag', function(e){
+                var mx=parseInt($('.zlf_wrap').css('marginLeft')) 
+                if(!mx){mx=0}
+                var wx=$(".zlf_wrap").width()-$(".zlf_item").width();
+                var mx=mx+e.distanceX
+                if(0>mx&&mx>-wx){
+                    $('.zlf_wrap').css({marginLeft:mx})
+                }
             })
         }
     }

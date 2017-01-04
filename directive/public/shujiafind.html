@@ -1,7 +1,7 @@
 <!-- 书架收藏 书 -->
-<div class="zlf_swiper-container swiper-container swiper-container-horizontal">
-    <div class="swiper-wrapper">
-        <div class="swiper-slide zlf_item" ng-repeat="v in shujiafind track by $index">
+<div class="zlf_swiper-container">
+    <div class="zlf_wrap">
+        <div class="zlf_item" ng-repeat="v in shujiafind track by $index">
             <div class="zlf_cover">
                 <img class="zlf_book1" src="{{v.bg}}" alt="" />
                 头像
@@ -64,6 +64,4 @@
             </div>
         </div>
     </div>
-    <!-- Add Pagination -->
-    <div class="swiper-pagination"></div>
 </div>
