@@ -60,9 +60,13 @@ var bookcon=[
         comment:'842'
     }
 ]
+app.run(function($rootScope){
+    $rootScope.tltuijian=tltuijian;
+    $rootScope.bookcon=bookcon;
+})
 var bookcoveritem=angular.module("bookcoveritem",[])
 bookcoveritem.controller("bookcover",function($scope){
-    $scope.tltuijian=tltuijian;
-    $scope.bookcon=bookcon;
+    // $scope.tltuijian=tltuijian;
+    // $scope.bookcon=bookcon;
 })
 

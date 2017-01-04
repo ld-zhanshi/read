@@ -65,12 +65,19 @@ var indexxinshu=[
         done:'[连载中...]'
     }
 ]
+
+app.run(function($rootScope){
+    $rootScope.tltuijian=tltuijian;
+    $rootScope.indexjiejiu=indexjiejiu;
+    $rootScope.indexxinshu=indexxinshu;
+})
+
 // 首页
 var homeitem=angular.module('homeitem',[])
 homeitem.controller('home',function($scope){
-    $scope.tltuijian=tltuijian;
-    $scope.indexjiejiu=indexjiejiu;
-    $scope.indexxinshu=indexxinshu;
+    // $scope.tltuijian=tltuijian;
+    // $scope.indexjiejiu=indexjiejiu;
+    // $scope.indexxinshu=indexxinshu;
 })
 
 
