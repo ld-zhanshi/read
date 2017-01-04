@@ -1,3 +1,4 @@
+/*目录*/
 .zlf_ml_box{
     width:6.84rem;
     height:auto;
@@ -20,4 +21,41 @@
 }
 .zlf_ml_item1{
     border-bottom: none;
+}
+
+/*书签*/
+.zlf_sq_box{
+    width:6.84rem;
+    height:auto;
+    margin:0 auto;
+    padding:.1rem .08rem;
+    background:#fff;
+    border-radius: .1rem;
+    position: relative;
+    overflow: hidden;
+}
+.zlf_sq{
+    font-size: .3rem;
+    color: rgb( 87, 86, 86 );
+    line-height: 1.467;
+}
+.zlf_sq_zs1{
+    width:.37rem;
+    height:.47rem;
+    position: absolute;
+    top:0;
+    right:.55rem;
+}
+.zlf_sq_zs2>img{
+    width:.53rem;
+    height:.13rem;
+}
+.zlf_sq_con {
+  color: rgb( 146, 144, 144 );
+  text-align: justify;
+}
+.zlf_sq_time{
+    display: block;
+    float:right;
+    color: rgb( 87, 86, 86 );
 }
