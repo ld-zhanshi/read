@@ -75,7 +75,7 @@
             <div class="sy_su-div"><img src="images/sy_images/sy_xiaoren.png" alt="" class="sy_su-btt" /><span class="sy_sy-bth">搜索结果</span></div>
         </div>   
     </div>
-    <ul class="sy_line_ul">
+   <!--  <ul class="sy_line_ul">
         <li class="sy_line_li">
             <div class="sy_lines_left">
                 <div class="sy_line_lt"></div>
@@ -125,7 +125,33 @@
             <div class="sy_line_border"></div>
         </li>
         
-    </ul>
+    </ul> -->
+    <!-- 同类推荐列表 -->
+<li class="ld_tuijian gl_clearfix" ng-repeat="v in tltuijian track by $index">
+    <div class="gl_nnleft">
+        <a href="#/show" class="ld_tuijiana"><img src="{{v.bookcover}}"alt="" /></a>
+    </div>
+    <div class="gl_nnright">
+        <div class="gl_nntop">
+            <a href="#/show" class="ld_tuijiana">
+                <h1>{{v.title}}</h1>
+                <h2>{{v.titleenglish}}</h2>
+                <h3>{{v.author}}</h3>
+                <img src="{{v.photo}}" alt="" />
+            </a>
+            <div class="gl_star">
+                <div class="gl_star1"></div>
+                <div class="gl_star1"></div>
+                <div class="gl_star1"></div>
+                <div class="gl_star1"></div>
+                <div class="gl_star1"></div>
+            </div>
+        </div>
+        <div class="gl_nnbottom">
+            <p>{{v.contain}} </p>
+        </div>
+    </div>
+</li>
 <!-- 支付金额 -->
     <br>
     <br>
