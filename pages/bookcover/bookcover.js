@@ -5,8 +5,18 @@ var tltuijian=[
         title:'小王子',
         titleenglish:'Princekin',
         photo:'images/gl_images/tx.png',
-        author:'圣埃克苏佩里 ',
-        contain:'小王子驾到！大家好，我是小王子，生活在B612星球，别看我是王子出生...'
+        author:'圣埃克苏佩里',
+        contain:'小王子驾到！大家好，我是小王子，生活在B612星球，别看我是王子出生...',
+        tags:[
+        {name:"小王子"},
+        {name:"童话"},
+        {name:"圣埃克苏佩里"},
+        {name:"法国"},
+        {name:"经典"},
+        {name:"外国文学"},
+        {name:"感动"},
+        {name:"寓言"}
+        ]
     },
     {
         bookcover:'https://img1.doubanio.com/mpic/s3901817.jpg',
@@ -14,7 +24,17 @@ var tltuijian=[
         titleenglish:'Cute Python',
         photo:'images/gl_images/tx.png',
         author:'哲思社区',
-        contain:'本书的内容主要来自CPyUG社区的邮件列表，由Python的行者根据自身经验...'
+        contain:'本书的内容主要来自CPyUG社区的邮件列表，由Python的行者根据自身经验...',
+        tags:[
+        {name:"Python"},
+        {name:"编程"},
+        {name:"Programming"},
+        {name:"计算机"},
+        {name:"经典"},
+        {name:"哲思"},
+        {name:"程序设计"},
+        {name:"可爱,Python"}
+        ]
     },
     {
         bookcover:'https://img1.doubanio.com/mpic/s6569607.jpg',
