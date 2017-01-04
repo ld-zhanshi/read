@@ -1,7 +1,4 @@
-body{
-    color:#333;
-    background:#eaeaea;
-}
+
 *{box-sizing: border-box;}
 img{
     vertical-align: middle;
@@ -33,14 +30,21 @@ img{
     width: auto;left:auto;
 }
 /*banner下小轮播*/
-.ld_lunbodi{
+/*.ld_lunbodi{
     width:100%;height:1.5rem;
+}*/
+.ld_book_lunbodi{
+    width:100%;
+    padding:0 .24rem;
+    margin-top:.7rem;    
+    display: flex;
+    justify-content: space-between;
 }
 /*小编强势推*/
 .ld_book_box{
     width:100%;
     padding:0 .24rem;
-    margin-top:.7rem;    
+    margin-top:-0.2rem;
     display: flex;
     justify-content: space-between;
 }
