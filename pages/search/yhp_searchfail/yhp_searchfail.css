@@ -1,0 +1,272 @@
+/*搜索失败外框开始*/
+	.yhp_searchfail_box{
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		background: #EAEAEA;
+	}
+/*搜索失败头部开始*/
+	.yhp_searchfail_up{
+		width: 7.50rem;
+		height: 0.90rem;
+		margin: 0 auto;
+		background: #fff;
+		padding-left: 0.24rem;
+		padding-right: 0.11rem;
+		box-sizing:border-box;
+	}
+	.yhp_searchfail_up:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.yhp_searchfail_up button{
+		border: none;
+		outline: none;
+	}
+	.yhp_searchfail_back{
+		width: 0.90rem;
+		height: 0.90rem;
+		background:url(../../../images/yhp_images/yhp_backbtn.png) no-repeat left center;
+		background-size: 0.63rem 0.49rem;
+		float: left;
+	}
+	.yhp_searchfail_title{
+		width: 5.22rem;
+		height: 0.90rem;
+		float: left;
+	}
+	.yhp_searchfail_title p{
+		text-align: center;
+		padding: 0;
+	}
+	.yhp_searchfail_titleup{
+		color: #484747;
+		height: 0.40rem;
+		line-height: 0.40rem;
+		font-size: 0.3634rem;
+		margin-top: 0.10rem;
+	}
+	.yhp_searchfail_titlebot{
+		color: #8d8a8b;
+		font-size: 0.2086rem;
+		height: 0.20rem;
+		line-height: 0.20rem;
+	}
+	.yhp_searchfail_search{
+		width: 0.90rem;
+		height: 0.90rem;
+		background:url(../../../images/mjh/sy-mjh_08.png) no-repeat right center;
+		background-size: 0.81rem 0.87rem;
+		float: right;
+	}
+/*搜索失败头部结束*/
+
+/*搜索失败主体开始*/
+	.yhp_searchfail_inner{
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		margin-top:0.36rem;
+		display: flex;
+		flex-direction:column;
+	}
+/*搜索框开始*/
+	.yhp_searchfail_label{
+		width: 7.02rem;
+		height: 0.98rem;
+		display: flex;
+		margin: 0 auto;
+	}
+	.yhp_searchfail_point1{
+		display: block;
+		width: 0.12rem;
+		height: 0.12rem;
+		border-radius: 50%;
+		background: #fff;
+		margin-top: 0.46rem;
+		margin-left: 0.34rem;
+		position: relative;
+		z-index: 4
+	}
+	.yhp_searchfail_point2{
+		display: block;
+		width: 0.12rem;
+		height: 0.12rem;
+		border-radius: 50%;
+		background: #fff;
+		margin-top: 0.46rem;
+		margin-left: 0.06rem;
+		position: relative;
+		z-index: 4
+	}
+	.yhp_searchfail_input{
+		display: block;
+		width: 6.18rem;
+		height: 0.92rem;
+		border-radius: 0.80rem;
+		border:0.03rem solid #2493FF;
+		background: #1D7EDD;
+		color: #fff;
+		outline: none;
+		padding-left: 0.78rem;
+		margin-left: -0.64rem;
+	}
+	.yhp_searcs_btn{
+		display: block;
+		width: 1.51rem;
+		height: 0.73rem;
+		border-radius: 0.60rem;
+		background: #FA415F url(../../../images/yhp_images/yhp_searchbtn.png) no-repeat center;
+		background-size: 1.05rem 0.51rem;
+		border: 0.03rem solid #fff;
+		margin-left: -1.64rem;
+		position: relative;
+		z-index: 4;
+		margin-top: 0.12rem;
+		outline: none;
+	}
+/*搜索框结束*/
+
+/*搜索失败弹框开始*/
+	.yhp_searchfail_window{
+		width: 3.00rem;
+		height: 2.88rem;
+		margin: 0 auto;
+		margin-top: 0.43rem;
+		background: #fff url(../../../images/yhp_images/yhp_loginfailpic.png)no-repeat 0.30rem center;
+		border: 0.01rem solid #fff;
+		background-size: 2.60rem 1.90rem;
+		padding-left: 2.93rem;
+		padding-top: 0.86rem;
+	}
+	.yhp_searchfail_window:before{
+		content: "";
+		display: block;
+		width: 0.19rem;
+		height: 0.19rem;
+		background: #fff;
+		margin-left: 0.30rem;
+		margin-top: -0.095rem;
+		border-radius: 50%;
+	}
+	.yhp_searchfail_sorry{
+		font-size: 0.40rem;
+		letter-spacing: 0.20rem;
+		background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(44, 169, 252, 1)),to(rgba(253, 92, 30, 1)));
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+	}
+	.yhp_searchfail_cn{
+		color: #000;
+		font-size: 0.40rem;
+		font-weight: bold;
+	}
+	.yhp_searchfail_en{
+		margin-top: 0.03rem;
+		color: #717171;
+		font-size: 0.36rem;
+	}
+	.yhp_searchfail_bott{
+		margin-top: 0.03rem;
+		color: #302f2f;
+		font-size: 0.24rem;
+	}
+/*搜索失败弹框结束*/
+
+
+/*推荐词开始*/
+	.yhp_searchfail_titletjc{
+		width: 7.02rem;
+		height: 5.82rem;
+		margin: 0 auto;
+		margin-top: 0.53rem;
+		padding-bottom: 0.50rem;
+	}
+	.yhp_searchfail_tjcen{
+		color: #4b4c4c;
+		font-size:0.24rem ;
+	}
+	.yhp_searchfail_tjccn{
+		background:url(../../../images/gl_images/dan.png) no-repeat left center;
+		color: #302f2f;
+		font-size: 0.34rem;
+		font-weight: bold;
+		background-size: 0.55rem 0.47rem;
+		padding-left: 0.69rem;
+	}
+	.yhp_searchfail_tjc{
+		width: 6.89rem;
+		height: 3.86rem;
+		background:#fff;
+		margin: 0 auto;
+		margin-top: 0.06rem;
+		box-shadow: 0 0 0.02rem 0.01rem #d4d3d3;
+	}
+	..yhp_searchfail_tjc:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.yhp_searchfail_tjclabel{
+		display: block;
+		width: 20%;
+		float: left;
+		height: 0.32rem;
+		display: flex;
+		margin: 0.20rem 0.44rem;
+	}
+	.yhp_searchfail_tjcinput{
+		width: 0.15rem;
+		height: 0.15rem;
+		display: block;
+		margin-top: 0.08rem;
+		margin-right: 0.18rem;
+	}
+/*推荐词结束*/
+
+/*搜索失败主体结束*/
+
+
+
+/*搜索失败脚步信息开始*/
+	.yhp_searchfail_footer{
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 1.00rem;
+		background: #fff;
+		display: flex;
+		justify-content:space_around;
+	}
+	.yhp_searchfail_list{
+		width: 25%;
+		height:100%;
+		text-align: center;
+	}
+	.yhp_searchfail_list a{
+		display: block;
+		width: 100%;
+		height: 100%;
+		color: #929292;
+		font-size: 0.22rem;
+		line-height: 1.50rem;
+	}
+	a.yhp_searchfail_sj{
+		background: url(../../../images/mjh/sy-mjh_83.png)no-repeat center 0.10rem;
+		background-size: 0.54rem 0.51rem;
+	}
+	a.yhp_searchfail_sk{
+		background: url(../../../images/mjh/sy-mjh_86.png)no-repeat center 0.10rem;
+		background-size: 0.54rem 0.51rem;
+	}
+	a.yhp_searchfail_sq{
+		background: url(../../../images/mjh/sy-mjh_77.png)no-repeat center 0.10rem;
+		background-size: 0.54rem 0.51rem;
+	}
+	a.yhp_searchfail_zh{
+		background: url(../../../images/mjh/sy-mjh_80.png)no-repeat center 0.10rem;
+		background-size: 0.54rem 0.51rem;
+	}
+/*搜索失败脚步信息结束
