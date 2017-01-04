@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-30 14:15:19
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-04 14:57:43
+* @Last Modified time: 2017-01-04 17:52:40
 */
 var shujiafind=[
     {   
@@ -121,11 +121,12 @@ var shujiashoucang=[
     {
         id:'5',
         url:"#/bookcover",
-        fengmian:"images/zlf_images/zlf_hc.jpg",
-        name:"幻城",
+        fengmian:"images/zlf_images/zlf_nr.jpg",
+        name:"女人的抉择",
         nameenglish:"ICE FANTASY",
-        author:"郭敬明",
-        done:'[已完结...]',
+        author:"寸草溪",
+        contain:"一个已婚工作狂，却在经历婚姻失败之后，艰难辗转于职业和生活之间。",
+        done:'[连载中...]',
         look:"32",
         fire:"98"
     },
