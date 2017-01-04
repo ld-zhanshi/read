@@ -1,0 +1,23 @@
+.zlf_ml_box{
+    width:6.84rem;
+    height:auto;
+    margin:0 auto;
+    padding:.1rem .08rem;
+    background:#fff;
+    border-radius: .1rem;
+}
+.zlf_ml_item{
+    height:.55rem;
+    line-height: .55rem;;
+    border-bottom:.01rem solid #eaeaea;
+}
+.zlf_ml_item>img{
+    width:.36rem;
+    height:.36rem;
+    margin-top:.08rem;
+    margin-right:.15rem;
+    float:right;
+}
+.zlf_ml_item1{
+    border-bottom: none;
+}
