@@ -17,7 +17,6 @@ html,body{
 }
 .lrc_fh{
 	float: left;
-	padding:.15rem .3rem;
 }
 .lrc_xqzs{
 	height:50%;
@@ -31,7 +30,7 @@ html,body{
 }
 .lrc_xqzs:after{
 	position: absolute;
-	right:20%;top:35%;
+	right:27%;top:50%;
 	content: "";
 	display: block;
 	width:.6rem;
@@ -40,7 +39,7 @@ html,body{
 }
 .lrc_xqzs:before{
 	position: absolute;
-	left:32%;top:35%;
+	left:32%;top:50%;
 	content: "";
 	display: block;
 	width:.6rem;
@@ -54,6 +53,7 @@ html,body{
 }
 .lrc_zftop{
 	position: relative;
+		padding:.15rem .3rem;
 }
 .lrc_zfbottom{
 	text-transform: uppercase;
@@ -64,44 +64,35 @@ html,body{
 .lrc_dw{
 	margin-top:.2rem;
 	width:100%;
-	height:4.45rem;
+	height:auto;
 	border-top:.01rem dotted #ddd;
 }
 .lrc_dww{
-	width:100%;
-	height:5rem;
-	margin-top:-.8rem;
-	position: relative;
+	width:7rem;
+	height:auto;
+	margin :0 auto;
+	margin-top:-2rem;
 }
 .lrc_yikuai{
-	/*box-shadow: 0 0 .2rem #999;*/
 	border-top:.05rem dotted #ddd;
 	width:7rem;
 	height:2.2rem;
-	position: absolute;
-	bottom:0;left:3.5%;
 	background: #fff;
-	border-radius:  0 0.15rem .15rem;
+	border-radius:.15rem;
 }
-.lrc_erkuai{
-	/*box-shadow: 0 0 .2rem #999;*/
+/*.lrc_erkuai{
 	border-top:.05rem dotted #ddd;
 	width:7rem;
 	height:2.1rem;
-	position: absolute;
-	bottom:2.2rem;left:3.5%;
 	background: #fff;
 }
 .lrc_sankuai{
-	/*box-shadow: 0 0 .2rem #999;*/
 	border-top:.05rem dotted #ddd;
 	width:7rem;
 	height:2.1rem;
-	position: absolute;
-	bottom:4.3rem;left:3.5%;
 	background: #fff;
 	border-radius: .15rem .15rem 0 0;
-}
+}*/
 .lrc_yizi1{
 	width:20%;
 	height:100%;
