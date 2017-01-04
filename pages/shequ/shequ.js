@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-29 09:23:48
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-04 01:25:25
+* @Last Modified time: 2017-01-04 11:36:00
 */
 var sheququanzi=[
     {
@@ -12,7 +12,7 @@ var sheququanzi=[
         "love":"89",
         "title":"冬雪",
         "titleenglish":"the first snow",
-        "comment":"秋雨不宜相见，冬雪不能饮醉，从春到冬，一直...",
+        "comment":"秋雨不宜相见，冬雪不能饮醉，从春到夏，一直...",
         "city":"太原·小店区",
         "cityenglish":"taiyuan knick-knacks",
         "zannum":"234",
@@ -130,8 +130,10 @@ var shequletter=[
 var letter=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
 // 社区
 var shequitem=angular.module('shequitem',[]);
-shequitem.controller('shequ',function($scope){
-    $scope.sheququanzi=sheququanzi;
+
+app.run(function($rootScope){$rootScope.sheququanzi=sheququanzi;})
+shequitem.controller('shequ',function($scope,$filter){
+    // $scope.sheququanzi=sheququanzi;
     $scope.shequadd=shequadd;
     $scope.shequfriend=shequfriend;
     $scope.shequletter=shequletter;
