@@ -1,9 +1,243 @@
-/* 
-* @Author: Marte
-* @Date:   2016-12-30 14:42:42
-* @Last Modified by:   Marte
-* @Last Modified time: 2016-12-30 14:47:05
-*/
-h2{
-    font-size:.4rem;
-}
+/*支付外框开始*/
+	.yhp_payment_box{
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		background: #E1DEE0;
+	}
+/*支付头部开始*/
+	.yhp_payment_up{
+		width: 7.50rem;
+		height: 0.90rem;
+		margin: 0 auto;
+		background: #fff;
+		padding-left: 0.24rem;
+		padding-right: 0.11rem;
+		box-sizing:border-box;
+	}
+	.yhp_payment_up:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.yhp_payment_up button{
+		border: none;
+		outline: none;
+	}
+	.yhp_payment_back{
+		width: 0.90rem;
+		height: 0.90rem;
+		background:url(../../images/yhp_images/yhp_backbtn.png) no-repeat left center;
+		background-size: 0.63rem 0.49rem;
+		float: left;
+	}
+	.yhp_payment_title{
+		width: 5.22rem;
+		height: 0.90rem;
+		float: left;
+	}
+	.yhp_payment_title p{
+		text-align: center;
+		padding: 0;
+	}
+	.yhp_payment_titleup{
+		color: #484747;
+		height: 0.40rem;
+		line-height: 0.40rem;
+		font-size: 0.3634rem;
+		margin-top: 0.10rem;
+	}
+	.yhp_payment_titlebot{
+		color: #8d8a8b;
+		font-size: 0.2086rem;
+		height: 0.20rem;
+		line-height: 0.20rem;
+	}
+	.yhp_payment_search{
+		width: 0.90rem;
+		height: 0.90rem;
+		background:url(../../images/mjh/sy-mjh_08.png) no-repeat right center;
+		background-size: 0.81rem 0.87rem;
+		float: right;
+	}
+/*支付头部结束*/
+
+/*支付主体开始*/
+	.yhp_payment_inner{
+		width: 7.02rem;
+		height: auto;
+		margin: 0 auto;
+		margin-top:0.20rem;
+	}
+/*支付方式选择开始*/
+	.yhp_payment_ul{
+		width: auto;
+		height: auto;
+	}
+	.yhp_payment_li{
+		width: auto;
+		height: 1.54rem;
+		background: #fff;
+		border-radius: 0.06rem;
+		box-shadow: 0 0 0.06rem 0.02rem #cdcdcd;
+		padding-top: 0.235rem;
+		padding-left: 0.20rem;
+		margin-bottom: 0.11rem;
+		box-sizing:border-box;
+	}
+	.yhp_payment_li a{
+		display: block;
+		width: auto;
+		height: 1.24rem;
+	}
+	.yhp_payment_li:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.yhp_payment_lileft{
+		width: 1.07rem;
+		height: 1.07rem;
+		background: #181743;
+		border-radius: 50%;
+		float: left;
+		margin-right: 0.27rem;
+	}
+	.yhp_payment_lileft img{
+		width: 1.07rem;
+		height: 1.07rem;
+	}
+	.yhp_payment_right{
+		float: left;
+		width: 60%;
+		height:auto;
+		margin-top: 0.22rem;
+	}
+	.yhp_paymeth_up{
+		display: flex;
+	}
+	.yhp_paymeth_tab{
+		color: #2a2a2a;
+		font-size: 0.28rem;
+		display: block;
+	}
+	.yhp_paymeth_icon{
+		display: block;
+		width: 0.64rem;
+		height: 0.31rem;
+		background: #FE7C1C;
+		border-radius: 0.20rem;
+		margin-left: 0.07rem;
+		color: #fff;
+		margin-top: 0.04rem;
+		text-align: center;
+		font-size: 0.20rem;
+		line-height: 0.31rem;
+	}
+	.yhp_paymeth_icon1{
+		display: block;
+		width: 0.64rem;
+		height: 0.31rem;
+		background: #FE1C4C;
+		border-radius: 0.20rem;
+		margin-left: 0.07rem;
+		color: #fff;
+		font-size: 0.16rem;
+		margin-top: 0.04rem;
+		text-align: center;
+		line-height: 0.31rem;
+	}
+	.yhp_pay_space{
+		width: 1.36rem;
+		height: 0;
+		border-top: 0.01rem dotted #bcbcbc;
+		margin-top: 0.08rem;
+		margin-bottom: 0.04rem;
+	}
+	.yhp_paymeth_text{
+		color: #5c5c5c;
+		font-size: 0.22rem;
+	}
+/*支付方式选择结束*/
+
+/*支付中介选择开始 */
+	.yhp_payment_choose{
+		margin-top: 0.68rem;
+		width: 100%;
+		height: auto;
+	}
+	.yhp_chooseup{
+		width: 100%;
+		height: 0.64rem;
+		display: flex;
+	}
+	.yhp_chooseup_icon{
+		display: block;
+		width: 0.73rem;
+		height: 0.70rem;
+		background: url(../../images/yhp_images/yhp_pay_meth.png) no-repeat center;
+		background-size: 0.73rem 0.70rem;
+		margin-right: 0.11rem;
+	}
+	.yhp_chooseup_text{
+		width: auto;
+		height: 0.70rem;
+		margin-right: 0.20rem;
+	}
+	.yhp_chooseup_textup{
+		color: #2a2a2a;
+		font-size: 0.28rem;
+	}
+	.yhp_chooseup_textbot{
+		color: #a09f9f;
+		font-size: 0.16rem;
+	}
+	.yhp_chooseup_space{
+		width: 4.11rem;
+		height: 0.60rem;
+		background: url(../../images/yhp_images/yhp_choose_space.png) no-repeat center bottom;
+		background-size: 4.11rem 0.06rem;
+	}
+	.yhp_choose_ul{
+		width: 100%;
+		height: auto;
+		display: flex;
+		justify-content:space-between;
+		margin-bottom: 0.98rem;
+	}
+	.yhp_choose_li{
+		width: 3.42rem;
+		height: 2.18rem;
+
+	}
+	.yhp_choose_li a{
+		width: 3.42rem;
+		height: 2.18rem;
+		display: block;
+	}
+	.yhp_choose_zhi{
+		width: 3.42rem;
+		height: 2.18rem;
+		border-radius: 0;
+		cursor: pointer;
+		background: url(../../images/yhp_images/yhp_pay_zhi.png) no-repeat center;
+		background-size:100%;
+	}
+	.yhp_choose_chat{
+		width: 3.42rem;
+		height: 2.18rem;
+		background: url(../../images/yhp_images/yhp_pay_chat.png) no-repeat center;
+		background-size:100%;
+	}
+
+/*支付中介选择结束	*/
+	.yhp_choose_sure{
+		width: 6.92rem;
+		height: 1.04rem;
+		background:#2975FF url(../../images/yhp_images/yhp_pay_btn.png) no-repeat center;
+		background-size: 6.92rem 1.04rem;
+		margin: 0 auto;
+		border-radius: 0.04rem;
+		border: none;
+		margin-bottom:1.24rem;
+	}

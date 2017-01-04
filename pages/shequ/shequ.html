@@ -1,15 +1,57 @@
-
-    <div class="index_contain" ng-controller="shequ">
     <!-- 社区圈子开始 -->
+    <div class="ld_sqtopbar_di"></div>
+    <div class="index_contain" ng-controller="shequ">
+            <!-- <indexsearch></indexsearch> -->
+        <!-- 搜索 -->
+        <div ng-class="{true:'ld_search ld_searchactive',false:'ld_search'}[searchFlag]">
+             <div class="sy_qz_condi">
+                <div class="ld_sy_search">
+                    <form action=""><input type="text" placeholder="锦绣未央"/></form>
+                    <div class="ld_sy_btn"></div>
+                </div>
+            </div>
+            <ul class="sy_filterul">
+                <li class="sy_filterlis">
+                    <div class="sy_fcircle_box">
+                        <div class="sy_fcircle active"></div>
+                    </div>
+                    <div class="sy_fcon">
+                        <p>全部</p>
+                        <span>entire</span>
+                    </div>
+                </li>
+                <li class="sy_filterlis">
+                    <div class="sy_fcircle_box">
+                        <div class="sy_fcircle"></div>
+                    </div>
+                    <div class="sy_fcon">
+                        <p>作品</p>
+                        <span>article</span>
+                    </div>
+                </li>
+                <li class="sy_filterlis">
+                    <div class="sy_fcircle_box">
+                        <div class="sy_fcircle"></div>
+                    </div>
+                    <div class="sy_fcon">
+                        <p>作者</p>
+                        <span>writer</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+           
         <!-- 圈子顶部栏开始 -->
         <!-- <shequtopbar personurl="images/ld_images/ld_qz_photo.png" left="圈子" right="书友"></shequtopbar> -->
+        
         <div class="ld_sqtopbar">
+            <i class="ld_sq_dian"></i>
             <div class="ld_sq_photo"><a href="#/me"><img src="images/ld_images/ld_qz_photo.png" alt="" /></a></div>
             <ul class="ld_top_cen">
                 <li ng-class="{true:'ld_sq_quanzi ld_top_active',false:'ld_sq_quanzi'}[!topFlag]" ng-click="changeQuanzi(true)"><div class="ld_qz_wenzi">圈子</div><span></span></li>
                 <li ng-class="{true:'ld_sq_shuyou ld_top_active',false:'ld_sq_shuyou'}[topFlag]" ng-click="changeQuanzi(false)"><div class="ld_qz_wenzi">书友</div></li>
             </ul>
-            <div class="ld_sq_rig"></div>
+            <div class="ld_sq_rig" ng-click="indexsearch()"></div>
         </div>
 
         <!-- 圈子顶部栏结束 -->

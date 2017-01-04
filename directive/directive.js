@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-30 16:42:17
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-03 22:28:57
+* @Last Modified time: 2017-01-04 00:54:02
 */
 var dir=angular.module('dir',[]);
 // 首页底部tab栏
@@ -108,6 +108,14 @@ dir.directive('indexxinshu',function(){
         }
     }
 })
+// 首页搜索
+dir.directive('indexsearch',function(){
+    return {
+        restrict: 'ECMA',
+        templateUrl:'directive/public/indexsearch.html'
+    }
+})
+
 
 // 书架发现 书
 dir.directive('shujiafind',function(){
