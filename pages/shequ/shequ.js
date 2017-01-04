@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-29 09:23:48
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-04 11:36:00
+* @Last Modified time: 2017-01-04 14:52:25
 */
 var sheququanzi=[
     {
@@ -131,13 +131,19 @@ var letter=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q",
 // 社区
 var shequitem=angular.module('shequitem',[]);
 
-app.run(function($rootScope){$rootScope.sheququanzi=sheququanzi;})
+app.run(function($rootScope){
+    $rootScope.sheququanzi=sheququanzi;
+    $rootScope.shequadd=shequadd;
+    $rootScope.shequfriend=shequfriend;
+    $rootScope.shequletter=shequletter;
+    $rootScope.letter=letter;
+})
 shequitem.controller('shequ',function($scope,$filter){
     // $scope.sheququanzi=sheququanzi;
-    $scope.shequadd=shequadd;
-    $scope.shequfriend=shequfriend;
-    $scope.shequletter=shequletter;
-    $scope.letter=letter;
+    // $scope.shequadd=shequadd;
+    // $scope.shequfriend=shequfriend;
+    // $scope.shequletter=shequletter;
+    // $scope.letter=letter;
     // 社区圈子顶部bar
     $scope.topFlag=true;
     $scope.changeQuanzi=function(f){

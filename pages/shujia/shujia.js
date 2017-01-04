@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-30 14:15:19
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-04 12:44:35
+* @Last Modified time: 2017-01-04 14:57:43
 */
 var shujiafind=[
     {   
@@ -180,13 +180,20 @@ var homeshujia=[
 ]
 // 书架
 var shujiaitem=angular.module('shujiaitem',[]);
+
+app.run(function($rootScope){
+    $rootScope.shujiafind=shujiafind;
+    $rootScope.shujiashoucang=shujiashoucang;
+    $rootScope.homeshujia=homeshujia;
+})
+
 shujiaitem.controller('shujia',function($scope){
-    $scope.shujiafind=shujiafind;
-    $scope.shujiashoucang=shujiashoucang;
-    $scope.homeshujia=homeshujia;
+    // $scope.shujiafind=shujiafind;
+    // $scope.shujiashoucang=shujiashoucang;
+    // $scope.homeshujia=homeshujia;
     $scope.topFlag=true;
     $scope.changeQuanzi=function(f){
         $scope.topFlag=f;
-        console.log($scope.topFlag)
+        // console.log($scope.topFlag)
     }
 })

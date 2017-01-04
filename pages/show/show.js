@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2017-01-02 23:05:54
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-03 16:07:44
+* @Last Modified time: 2017-01-04 14:55:33
 */
 
 
@@ -29,6 +29,11 @@ var neirong=[
 
 
 var showitem=angular.module("showitem",[])
+
+app.run(function($rootScope){
+    $rootScope.neirong=neirong;
+})
+
 showitem.controller("show",function($scope){
-    $scope.neirong=neirong;
+    // $scope.neirong=neirong;
 })

@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-30 14:15:19
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-02 23:58:31
+* @Last Modified time: 2017-01-04 15:01:54
 */
 var shujiafind=[
     {
@@ -82,7 +82,13 @@ var shujiashoucang=[
 ]
 // 书架
 var shujiaitem=angular.module('shujiaitem',[]);
+
+app.run(function($rootScope){
+    $rootScope.shujiafind=shujiafind;
+    $rootScope.shujiashoucang=shujiashoucang;
+})
+
 shujiaitem.controller('shujia',function($scope){
-    $scope.shujiafind=shujiafind;
-    $scope.shujiashoucang=shujiashoucang;
+    // $scope.shujiafind=shujiafind;
+    // $scope.shujiashoucang=shujiashoucang;
 })

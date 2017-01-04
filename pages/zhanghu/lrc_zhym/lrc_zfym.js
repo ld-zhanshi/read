@@ -19,8 +19,13 @@ var lrc_dingdan=[
 		"number":"01"
 	}
 ]
-var app=angular.module('app',[])
+var app=angular.module('app',[]);
+
+app.run(function($rootScope){
+    $rootScope.lrc_dingdan1=lrc_dingdan;
+})
+
 app.controller('lrc_dingdan1',function($scope){
     $scope.lrc_dingdan1=lrc_dingdan;
-    console.log($scope.lrc_dingdan1)
+    // console.log($scope.lrc_dingdan1)
 })
