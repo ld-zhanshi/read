@@ -1,0 +1,289 @@
+body{
+    background: #eaeaea;
+}
+/*固定*/
+    .sy_fix{
+        width: 100%;height: 0.88rem;
+        position: fixed;
+        left: 0;top: 0;
+        background: rgba(0,0,0,0.5);
+        display: flex;
+        justify-content:space-between;
+        z-index: 100000;
+    }
+    .sy_fslide{
+        width: 1.1rem;height: 100%;
+    }
+    .sy_fslide:nth-child(1){
+        background: url(../../images/sy_images/sy_backbtn.gif) no-repeat center;
+    }
+    .sy_fslide:nth-last-child(1){
+        background: url(../../images/sy_images/sy_navbtn.png) no-repeat center;
+    }
+    .sy_fcenter{
+        height: 100%;flex-grow:1;
+        font-size: 0.36rem;
+        color: #fff;
+        line-height: 0.88rem;
+        text-align: center;
+    }
+    .sy_fcenter b{
+        font-size: 0.36rem;
+        color: #fff;
+    }
+/*banner*/
+    .sy_banner{
+        width: 100%;height: 3.8rem;
+        background: url(../../images/sy_images/sy_person_bg.png) no-repeat center/cover;
+        position: relative;
+        margin-bottom: 0.4rem;
+    }
+    .sy_delsan{
+        width:0;            
+        height:0; 
+        border-top-width:0.75rem;
+        border-right-width:3.75rem;
+        border-bottom-width:0.75rem;
+        border-left-width:3.75rem;
+        border-style:solid;            
+        border-color: transparent #eaeaea #eaeaea transparent;
+        position: absolute;
+        right: 0;bottom: -0.01rem;
+    }
+    .sy_header_imgbox{
+        width: 2.3rem;height: 2.1rem;
+        background: url(../../images/sy_images/sy_person.png) no-repeat center/cover;
+        position: absolute;
+        left: -1.15rem;bottom: -1.05rem;
+    }
+    .sy_header_img{
+        width: 1.6rem;height: 1.6rem;
+        background: url(../../images/sy_images/sy_ld.jpg) no-repeat center/cover;
+        position: absolute;
+        left: 0.05rem;bottom: 0.06rem;top: 0;right: 0;
+        margin: auto;
+        border:2px solid #fff;
+        border-radius: 50%;
+    }
+  
+/*换个签名吧*/
+    .sy_addbutton{
+        width: 3rem;height: 0.7rem;
+        margin: 0 auto;
+        line-height: 0.7rem;
+    }
+    .sy_addbutton span{
+        color: #999;
+        font-size: 0.34rem;
+    }
+    .sy_addicon{
+        width: 0.6rem;height: 0.6rem;
+        overflow: hidden;
+        margin: 0.05rem 0.2rem;
+        border-radius: 50%;
+        background: #fff;
+        line-height: 0.5rem;
+        text-align: center;
+        box-shadow: 0 0 0.1rem rgba(0,0,0,0.5);
+        float: left;
+    }
+    .sy_addicon b{
+        color: #333;
+        font-size: 0.48rem;
+    }
+/*轮播*/
+    .device {
+        width: 7.5rem;height: 3.6rem;
+        position: relative;
+        margin: 0.1rem auto;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 3rem;
+        color: #fff;
+        text-align: center;
+    }
+    .swiper-slide{
+        width: 4.8rem;
+        height: 3rem;
+        opacity: 0.4;
+        -webkit-transition: 300ms;
+        -moz-transition: 300ms;
+        -ms-transition: 300ms;
+        -o-transition: 300ms;
+        transition: 300ms;
+        -webkit-transform: scale(0);
+        -moz-transform: scale(0);
+        -ms-transform: scale(0);
+        -o-transform: scale(0);
+        transform: scale(0);
+    }
+    .swiper-slide-visible {
+        opacity: 0.5;
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        -o-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+    .swiper-slide-active {
+        top: 0;
+        opacity: 1;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+    .red-slide {
+        background: #ca4040;
+    }
+    .blue-slide {
+        background: #4390ee;
+    }
+    .orange-slide {
+        background: #ff8604;
+    }
+    .green-slide {
+        background: #49a430;
+    }
+    .pink-slide {
+        background: #973e76;
+    }
+    .pagination {
+        position: absolute;
+        z-index: 20;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        bottom: 0.05rem;
+    }
+    .swiper-pagination-switch {
+        display: inline-block;
+        width: 0.1rem;
+        height: 0.1rem;
+        border-radius: 0.08rem;
+        background: #aaa;
+        margin-right: 0.08rem;
+        cursor: pointer;
+        -webkit-transition: 300ms;
+        -moz-transition: 300ms;
+        -ms-transition: 300ms;
+        -o-transition: 300ms;
+        transition: 300ms;
+        opacity: 0;
+        position: relative;
+        top: -0.5rem;
+    }
+    .swiper-visible-switch {
+        opacity: 1;
+        top: 0;
+        background: #B5B5B5;
+    }
+    .swiper-active-switch {
+        background: #01A8EF;
+    }
+/*银行卡信息*/
+    .sy_information{
+        width: 7.02rem;height: auto;
+        margin: 0.15rem auto;
+    }
+    .sy_inlist{
+        width: 100%;height: 1rem;
+        background: #fff;
+        margin: 0.1rem 0;
+        box-shadow: 0 0.01rem 0.05rem rgba(0,0,0,0.3);
+        border-radius: 0.1rem;
+        padding: 0.2rem 0.1rem;
+        box-sizing:border-box;
+    }
+    .sy_inbox{
+        width: 5.8rem;height: 100%;
+        box-sizing:border-box;
+        border-bottom:0.01rem dashed #999;
+        /*display: flex;
+        justify-content:space-between;*/
+    }
+    .sy_incircle{
+        width: 0.12rem;height: 0.12rem;
+        border-radius: 50%;
+        margin-top: 0.23rem;
+        float: left;
+    }
+    .sy_inlist:nth-child(1) .sy_incircle{
+        background: #01A7F1;
+    }
+    .sy_inlist:nth-child(2) .sy_incircle{
+        background: #F0AA00;
+    }
+    .sy_inlist:nth-child(3) .sy_incircle{
+        background: #00E8EF;
+    }
+    .sy_incon{
+        float: left;
+        margin: 0 0.2rem;
+        overflow: hidden;
+    }
+    .sy_incon p{
+        color: #333;
+        font-size: 0.28rem;
+        display: block;
+        margin-top: -0.04rem;
+    }
+    .sy_incon span{
+        color: #999;
+        font-size: 0.22rem;
+        display: block;
+        margin-top: -0.05rem;
+    }
+    .sy_innum{
+        height: 100%;
+        line-height: 0.5rem;
+        float: left;
+        font-size: 0.28rem;
+        margin-left: 0.2rem;
+        color: #666;
+    }
+
+/*使用银行卡*/
+    .sy_quit{
+        width: 6.8rem;height: 1rem;
+        margin: 0.6rem auto;
+        background: #2975FF;
+        text-align: left;
+        overflow: hidden;
+        border-radius: 0.05rem;
+    }
+    .sy_usebox{
+        width: auto;height: 100%;
+        margin-left: 2rem;
+    }
+    .sy_hquit{
+        width: auto;height: 100%;
+        margin: 0.09rem 0;
+        float: left;
+    }
+    .sy_hquit p{
+        font-size: 0.34rem;
+        color: #fff;
+        font-weight: normal;
+    }
+    .sy_hquit span{
+        font-size: 0.24rem;
+        color: #fff;
+        text-transform: uppercase;
+        margin-top: -0.02rem;
+        display: block;
+    }
+    .sy_useicon{
+        width: 0.54rem;height: 0.74rem;
+        background: red;
+        float: left;
+        margin-right: 0.1rem;
+        margin-top: 0.13rem;
+    }
+/*底留白*/
+    .sy_bbottom{
+        width: 100%;height: 1rem;
+        /*background: yellow;*/
+    }

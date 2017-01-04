@@ -1,0 +1,203 @@
+body{
+    background: #eaeaea;
+}
+/*固定*/
+    .sy_fix{
+    	width: 100%;height: 0.88rem;
+    	position: fixed;
+    	left: 0;top: 0;
+    	background: #2975FF;
+    	display: flex;
+    	justify-content:space-between;
+    	z-index: 100000;
+    }
+    .sy_fslide{
+    	width: 1.1rem;height: 100%;
+    }
+    .sy_fslide:nth-child(1){
+        background: url(../../images/sy_images/sy_backbtn.gif) no-repeat center;
+    }
+    .sy_fslide:nth-last-child(1){
+        background: url(../../images/sy_images/sy_navbtn.png) no-repeat center;
+    }
+    .sy_fcenter{
+    	height: 100%;flex-grow:1;
+    	font-size: 0.36rem;
+    	color: #fff;
+    	line-height: 0.88rem;
+    	text-align: center;
+    }
+    .sy_fcenter b{
+    	font-size: 0.36rem;
+    	color: #fff;
+    }
+/*留白块*/
+    .sy_empty{
+        width: 100%;height: 0.9rem;
+        background: #2975FF;
+    }
+/*卡统计*/
+    .sy_card_count{
+        width: 100%;height: 1.35rem;
+        background: #2975FF;
+        padding: 0.3rem;
+        box-sizing:border-box;
+    }
+    .sy_card_count_left{
+        float: left;
+        width: auto;height: 100%;
+    }
+    .sy_card_count_right{
+        float: right;
+        width: 0.9rem;height: 0.5rem;
+        background: #F7DD26;
+        border-radius: 0.5rem;
+        line-height: 0.5rem;
+        color: #fff;
+        text-align: center;
+        font-size: 0.3rem;
+        margin-top: 0.25rem;
+    }
+    .sy_count_circless{
+        width: 0.4rem;height: 0.12rem;
+        display: inline-block;
+    }
+    .sy_count_circle{
+        width: 0.12rem;height: 0.12rem;
+        border-radius: 50%;
+        margin: 0 0.04rem;
+        display: flex;
+    }
+    .sy_count_circle:nth-child(1){
+        background: #F82747;
+        float: left;
+    }
+    .sy_count_circle:nth-child(2){
+        background: #F7DD26;
+        float: right;
+    }
+    .sy_card_count_z span{
+        color: #fff;
+        font-size: 0.34rem;
+    }
+    .sy_card_count_left p{
+        text-transform: uppercase;
+        color: #666;
+        font-size: 0.2rem;
+    }
+/*卡部分*/
+    .sy_cards_ul{
+        width: 100%;height: auto;
+        margin-top: 0.8rem;
+    }
+    .sy_cards_li{
+        width: 100%;height: 2.2rem;
+        background: #fff;
+        padding: 0.1rem 0;
+        box-sizing:border-box;
+        position: relative;
+    }
+    .sy_cards_li:nth-child(1){
+        background: transparent;
+    }
+    .sy_cardbox{
+        width: 7.02rem;height: 100%;
+        margin: 0 auto;
+        border-radius: 0.1rem;
+        box-shadow: 0 0 0.1rem rgba(0,0,0,0.2);
+        padding: 0.3rem;
+        box-sizing:border-box;
+    }
+    .sy_cards_li:nth-child(1) .sy_cardbox{
+        background: #2975FF;
+    }
+    .sy_cards_li:nth-child(2) .sy_cardbox{
+        background: #F91C3B;
+    }
+    .sy_cards_li:nth-child(3) .sy_cardbox{
+        background: #FFCB2F;
+    }
+    .sy_card_logo{
+        width: 1rem;height: 0.66rem;
+        background: red;
+        border-radius: 0.66rem;
+        float: left;
+    }
+    .sy_card_cons{
+        width: 5rem;
+        float: left;
+        padding-top: 0.25rem;
+        box-sizing:bi;
+        margin-left: 0.25rem;
+    }
+    .sy_card_cons p,.sy_card_cons p b{
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 0.26rem;
+    }
+    .sy_card_con_border{
+        width: 100%;height: 0.02rem;
+        background: rgba(165,165,165,0.5);
+        margin: 0.1rem 0;
+    }
+    .sy_card_cons span{
+        font-size: 0.34rem;
+        color: #fff;
+    }
+
+
+
+    .sy_card_mask{
+        width: 100%;height: 0.2rem;
+        position: absolute;
+        bottom: 0;
+        background: #fff;
+        box-shadow: 0 -0.01rem 0.1rem rgba(0,0,0,0.2)
+    }
+    .sy_card_border{
+        width: 7.02rem;height: 0;
+        margin: 0.1rem auto;
+        border-top:0.02rem dashed #999;
+        padding: 0 0.05rem;
+        box-sizing:border-box;
+    }
+    .sy_card_border:before{
+        content: "";
+        width: 0.04rem;height: 0.04rem;
+        display: block;
+        margin-top: -0.02rem;
+        margin-left: -0.05rem;
+        background: #000;
+        float: left;
+        border-radius: 50%;
+    }
+    .sy_card_border:after{
+        content: "";
+        width: 0.04rem;height: 0.04rem;
+        display: block;
+        margin-top: -0.02rem;
+        margin-right: -0.05rem;
+        background: #000;
+        float: right;
+        border-radius: 50%;
+    }
+    .sy_cards_bottom{
+        width: 100%;height: 2rem;
+        background: #fff;
+        box-shadow: 0 0.01rem 0.1rem rgba(0,0,0,0.2);
+        position: relative;
+        padding-top: 0.1rem;
+    }
+    .sy_cards_bottom:before{
+        content: "";
+        display: block;
+        width: 100%;height: 0.2rem;
+        position: absolute;
+        top: -0.05rem;
+        background: #fff;
+    }
+/*底留白*/
+    .sy_bbottom{
+        width: 100%;height: 1rem;
+        /*background: yellow;*/
+    }
