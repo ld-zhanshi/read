@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2017-01-03 00:58:35
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-03 11:04:23
+* @Last Modified time: 2017-01-04 14:59:56
 */
 
 var friendqunlis=[
@@ -47,7 +47,11 @@ var friendqunlis=[
         num:'092'
     }
 ]
+
+app.run(function($rootScope){
+    $rootScope.friendqunlis=friendqunlis;
+})
 var friendqunitem=angular.module("friendqunitem",[]);
 friendqunitem.controller("friendqun",function($scope){
-    $scope.friendqunlis=friendqunlis;
+    // $scope.friendqunlis=friendqunlis;
 })

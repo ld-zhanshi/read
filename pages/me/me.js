@@ -49,7 +49,10 @@ var sy_lists=[
      	title:"消息通知"
      },
 ]
+app.run(function($rootScope,$filter){
+    $rootScope.sy_lists=sy_lists
+})
 var meitem=angular.module("meitem",[])
 meitem.controller("me",function($scope){
-    $scope.sy_lists=sy_lists
+    // $scope.sy_lists=sy_lists
 })

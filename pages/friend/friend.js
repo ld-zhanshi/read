@@ -2,10 +2,12 @@
 * @Author: Marte
 * @Date:   2017-01-03 00:19:07
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-03 00:24:14
+* @Last Modified time: 2017-01-04 14:59:12
 */
-
+app.run(function($rootScope){
+    $rootScope.neirong=neirong;
+})
 var frienditem=angular.module("frienditem",[])
 frienditem.controller("friend",function($scope){
-    $scope.neirong=neirong;
+    // $scope.neirong=neirong;
 })
