@@ -38,7 +38,7 @@ body{
     }
 /*banner*/
     .sy_banner{
-        width: 100%;height: 3.8rem;
+        width: 100%;height: 5.6rem;
         background: url(../../images/sy_images/sy_person_bg.png) no-repeat center/cover;
         position: relative;
         margin-bottom: 0.4rem;
@@ -116,13 +116,251 @@ body{
     .sy_dist{
         display: inline-block;
         width: 0.5rem;height: 0.5rem;
-        background: red;
         vertical-align: middle;
         margin-top: -0.08rem;
+        position: relative;
+    }
+    .sy_dist img{
+        position: absolute;
+        left: 0;top: 0;bottom: 0;right: 0;
+        margin: auto;
     }
     .sy_xian_img{
         width: 100%;height: 0.03rem;
         margin: 0.12rem 0;
+        background: url(../../images/sy_images/sy_dian.png) no-repeat center;
+    }
+    .sy_five{
+        width: 100%;height: 0.4rem;
+        background: url(../../images/sy_images/sy_stars.png) no-repeat center;
+    }
+/*友情链接*/
+    .sy_help_box{
+        width: 7.02rem;height: 1.4rem;
+        margin: 0.2rem auto;
+        display: flex;
+        justify-content:space-between;
+        background: url(../../images/sy_images/sy_help_bg.png) no-repeat center/cover; 
+        padding: 0.2rem;
+        box-sizing:border-box;
+        border-radius: 0.1rem;
+    }
+    .sy_help_lis{
+        text-align: center;
+        width: auto;
+    }
+    .sy_htop{
+        height: 0.45rem;
+        position: relative;
+    }
+    .sy_htop img{
+        position: absolute;
+        left: 0;top: 0;right: 0;bottom: 0;
+        margin: auto;
+    }
+    .sy_hbottom{
+        height: 0.55rem;
+        overflow: hidden;
+        padding: 0 0.05rem;
+        box-sizing:border-box;
+    }
+    .sy_hbottom p{
+        font-size: 0.24rem;
+        color: #333;
+    }
+    .sy_hbottom span{
+        height: auto;
+        font-size: 0.21rem;
+        color: #666;
+        display: block;
+        margin-top: -0.03rem;
+        text-transform: uppercase;
+    }
+    .sy_hborder{
+        width: 100%;height: 0.01rem;
+        background: #1F82F7;
+        padding: 0 0.05rem;
+        box-sizing:border-box;
+        background-clip: content;
+    }
+    .sy_hborder:before{
+        width: 0.03rem;height: 0.03rem;
+        content: "";
+        display: block;
+        float: left;
+        margin-left: -0.1rem;
+        margin-top: -0.01rem;
+        background: #1F82F7;
+        border-radius: 50%;s
+    }
+    .sy_hborder:after{
+        width: 0.03rem;height: 0.03rem;
+        content: "";
+        display: block;
+        float: right;
+        margin-right: -0.1rem;
+        margin-top: -0.01rem;
+        background: #1F82F7;
+        border-radius: 50%;s
+    }
+/*个人主页的设置*/
+    .sy_settimg_box{
+        width: 7.02rem;height: auto;
+        margin: 0.2rem auto;
+    }
+    .sy_setting_li{
+        width: 100%;height: 1rem;  
+        margin: 0.1rem 0;
+        padding: 0.08rem;
+        box-sizing:border-box; 
+        background: #fff;
+        border-radius: 0.1rem;
+        box-shadow: 0 0 0.05rem rgba(0,0,0,0.2);
+        display: flex;
+    }
+    .sy_set_leftimg{
+        width: 0.8rem;height: 0.8rem;
+        margin: 0.02rem 0;
+        border-radius: 50%;
+        overflow: hidden;
+        float: left;
+        background: #121643;
+        position: relative;
+    }
+    .sy_set_leftimg img{
+        position: absolute;
+        left: 0;top: 0;right: 0;left: 0;
+        margin: auto;
+    }
+    .sy_set_conbox{
+        width: 4.8rem;
+        padding-left: 0.2rem;
+        padding-top: 0.04rem;
+        box-sizing:border-box;
+        flex-grow:1;
+        overflow: hidden;
+    }
+    .sy_set_border{
+        width: 2.2rem;height: 0;
+        float: left;
+        margin-left: 0.05rem;
+        border-top: 0.01rem dashed #D5D5D5;
+    }
+    .sy_set_border:before{
+        content: "";
+        display: block;
+        width: 0.03rem;height: 0.03rem;
+        border-radius: 50%;
+        float: left;
+        margin-left: -0.05rem;
+        margin-top: -0.02rem;
+        background: #626262;
+    }
+    .sy_set_border:after{
+        content: "";
+        display: block;
+        width: 0.03rem;height: 0.03rem;
+        border-radius: 50%;
+        float: right;
+        margin-right: -0.05rem;
+        margin-top: -0.02rem;
+        background: #626262;
+    }
+    .sy_setright{
+        width: 1.1rem;height: 100%;
+        float: right;
+        text-align: right;
+        position: relative;
+    }
+    .sy_set_top{
+        font-size: 0.3rem;
+        color: #666;
+        float: left;
+        width: 100%;
+    }
+    .sy_set_bottom{
+        font-size: 0.22rem;
+        color: #999;
+        float: left;
+        width: 100%;
+    }
+    .sy_setrght_con{
+        width: 0.5rem;height: 0.5rem;
+        border-radius: 50%;
+        background: #F0F0F0;
+        border: 0.01rem solid #DDDDDD;
+        box-sizig:border-box;
+        position: absolute;
+        top: 0;right: 0.1rem;bottom: 0;
+        margin: auto;
+    }
+    .sy_setrght_con img{
+        position: absolute;
+        left: 0;top: 0;right: 0;bottom: 0;
+        margin: auto;
+    }
+    .sy_setting_li:nth-child(3) .sy_setrght_con{
+        width: 1rem;height: 0.5rem;
+        border-radius: 0.5rem;
+        background: #1CA650;
+        border: 0.01rem solid #DDDDDD;
+        padding: 0.05rem;
+        box-sizing:border-box;
+        position: relative;
+        margin-top: 0.17rem;
+        margin-right: 0;
+    }
+    .sy_setrght_con-active{
+        width: 0.54rem;height: 0.38rem;
+        background: url(../../images/sy_images/sy_item06.png) no-repeat center/cover;
+        position: absolute;
+        left: 0.05rem;top: 0.05rem;
+        border-radius: 0.38rem;
+        display: block;
+    }
+/*退出登录*/
+    .sy_quit{
+        width: 6.8rem;height: 1rem;
+        margin: 0.6rem auto;
+        background: #2975FF;
+        text-align: center;
+        overflow: hidden;
+        border-radius: 0.05rem;
+    }
+    .sy_hquit{
+        width: 2.2rem;height: 100%;
+        margin: 0.09rem auto;
+    }
+    .sy_hquit p{
+        font-size: 0.34rem;
+        color: #fff;
+        font-weight: normal;
+    }
+    .sy_hquit span{
+        font-size: 0.24rem;
+        color: #000;
+        opacity: 0.3;
+        text-transform: uppercase;
+        margin-top: -0.02rem;
+        display: block;
+    }
+    .sy_qborder{
+        width: 100%;height: 0.05rem;
+    }
+    .sy_qborder:before{
+        content: "";
+        display: block;
+        float: left;
+        width: 0.14rem;height: 100%;
+        background: url(../../images/sy_images/sy_out_left.png) no-repeat center/cover;
+    }
+    .sy_qborder:after{
+        content: "";
+        display: block;
+        float: right;
+        width: 0.14rem;height: 100%;
+        background: url(../../images/sy_images/sy_out_left.png) no-repeat center/cover;
+    }
 /*底留白*/
     .sy_bbottom{
         width: 100%;height: 1rem;
