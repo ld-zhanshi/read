@@ -33,7 +33,7 @@
     <div class="ld_search ld_searchactive">
             <div class="sy_qz_condi">
                 <div class="ld_sy_search">
-                    <form action=""><input type="text" placeholder="锦绣未央"/></form>
+                    <form action=""><input type="text" placeholder="锦绣未央" ng-model='ss.sousuo' ng-change='startss(ss.sousuo)'/></form>
                     <div class="ld_sy_btn"></div>
                 </div>
             </div>
@@ -127,7 +127,7 @@
         
     </ul> -->
     <!-- 同类推荐列表 -->
-<li class="ld_tuijian gl_clearfix" ng-repeat="v in tltuijian track by $index">
+<li class="ld_tuijian gl_clearfix" ng-repeat="v in ssjg track by $index">
     <div class="gl_nnleft">
         <a href="#/show" class="ld_tuijiana"><img src="{{v.bookcover}}"alt="" /></a>
     </div>
@@ -152,6 +152,16 @@
         </div>
     </div>
 </li>
+
+<!-- 搜索失败弹框开始 -->
+    <div class="yhp_searchfail_window" ng-show='ssno'>
+        <p class="yhp_searchfail_sorry">SORRY</p>
+        <p class="yhp_searchfail_cn">嘤~找不到了~</p>
+        <p class="yhp_searchfail_en">DON`T FIND</p>
+        <p class="yhp_searchfail_bott">不如换个词再来试试吧...</p>
+    </div>
+<!-- 搜索失败弹框结束 -->
+
 <!-- 支付金额 -->
     <br>
     <br>
@@ -161,6 +171,6 @@
     <br>
     <br>
 <!-- 底 -->
-    <div class="sy_bbottom"></div>
+    <!-- <div class="sy_bbottom"></div> -->
 
 <!-- --沈阳个人主页页面结束-- -->
