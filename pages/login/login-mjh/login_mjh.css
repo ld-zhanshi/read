@@ -18,7 +18,8 @@ body,html{width:7.5rem;height: 100%;overflow: hidden;}
 }
 .mjh-dl-tozc{
     position:absolute;
-    top: .24rem;right: .24rem;
+    top: .3rem;right: .24rem;
+    font-size:.3rem;
 }
 .mjh-dl-bg1{
     position:absolute;

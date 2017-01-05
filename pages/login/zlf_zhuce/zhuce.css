@@ -17,8 +17,9 @@ body,html{width:7.5rem;height: 100%;overflow: hidden;}
     top: .24rem;left: .24rem;
 }
 .mjh-dl-todl{
-  position:absolute;
-  top: .24rem;right: .24rem;
+    position:absolute;
+    top: .3rem;right: .24rem;
+    font-size:.3rem;
 }
 .zlf_dl_bg1{
     position:absolute;
