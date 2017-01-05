@@ -8,7 +8,10 @@
     color:#fff;
 }
 .yhp_bankcard_back{
+    width: 0.51rem;
+    height: 0.90rem;
     background: url(../../images/sy_images/sy_backbtn.gif) no-repeat 0 center;
+    background-size: 100% auto;
 }
 .yhp_bankcard_search{
     display:none;

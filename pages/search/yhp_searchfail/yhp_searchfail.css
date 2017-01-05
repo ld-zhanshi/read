@@ -24,10 +24,10 @@
 		outline: none;
 	}
 	.yhp_searchfail_back{
-		width: 0.90rem;
+		width: 0.51rem;
 		height: 0.88rem;
 		background:url(../../../images/yhp_images/yhp_backbtn.png) no-repeat left center;
-		background-size: 0.63rem 0.49rem;
+		background-size: 100% auto;
 		float: left;
 	}
 	.yhp_searchfail_title{

@@ -32,10 +32,10 @@
 		outline: none;
 	}
 	.yhp_bankcard_back{
-		width: 0.90rem;
+		width: 0.51rem;
 		height: 0.90rem;
 		background:url(../../../images/yhp_images/yhp_backbtn.png) no-repeat left center;
-		background-size: 0.63rem 0.49rem;
+		background-size: 100% auto;
 		float: left;
 	}
 	.yhp_bankcard_back a{
