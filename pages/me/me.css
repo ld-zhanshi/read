@@ -130,13 +130,19 @@
         left: -1.15rem;bottom: -1.05rem;
     }
     .sy_header_img{
-        width: 1.6rem;height: 1.6rem;
-        background: url(../../images/sy_images/sy_ld.jpg) no-repeat center/cover;
+        width: 1.7rem;height: 1.7rem;
         position: absolute;
         left: 0.05rem;bottom: 0.06rem;top: 0;right: 0;
         margin: auto;
         border:2px solid #fff;
+        overflow: hidden;
         border-radius: 50%;
+    }    
+    .sy_header_img img{
+        width: 100%;
+        position: absolute;
+        left: 0.05rem;bottom: 0.06rem;top: 0;right: 0;
+        margin: auto;
     }
   /*红心*/
     .sy_heat{
