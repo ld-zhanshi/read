@@ -89,7 +89,7 @@
                 bdyh.push(yhobj)
                 setbdyh(bdyh)
             }
-            
+            location.replace('../../../index.html')
         }
     })
 
@@ -110,6 +110,8 @@ app.controller('dlc',function($scope){
     $scope.yhdj=function(v){
         $('.mjh-dl-yhm').val(v.yhm)
         $('.mjh-dl-mm').val(v.mm)
+        dlk=true
+        dlyz('yhm',v.yhm)
         $('.mjh-dl-yhxz').hide()
     }
 })
