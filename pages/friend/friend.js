@@ -18,11 +18,13 @@ frienditem.directive('synews',function(){
 			$scope.index=0
 		},
 		link:function(scope,element,attr){ 
-            $(".sy_news_left").click(function(e){
-            	var mu=e.target;
-            	$(this).children().removeClass("active")
-            	$(mu).addClass("active")
-            })
+			touch.on('.sy_left_list', 'tap', function(e){
+            	// var mu=e.target||srcElement;
+            	// console.log($(this))
+            	// console.log(e)
+            	$(this).addClass("active").siblings().removeClass("active")
+            	
+			})
 		}
 	}
 })
