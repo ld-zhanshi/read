@@ -1,12 +1,27 @@
+.zlf_mask{
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0;right:0;
+	z-index:88;
+	display:none;
+}
+
 /*小说内容页外框设置开始*/
-	.swiper-container{
+	.zlf_swiper{
 		width: 100%;
 		height: 3.10rem;
 		background:#2358df;
 		position: fixed;
-		bottom: 0;
+		bottom: 0rem;
 		left: 0;
 		margin: 0 auto;
+		transform: translateY(100%);
+        transition: all 0.5s;
+	}
+
+    .zlf_hot{
+	  transform: translateY(0);
 	}
 /*第一屏设置开始*/
 	.yhp_showset_inner1{
