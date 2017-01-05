@@ -56,3 +56,16 @@ var meitem=angular.module("meitem",[])
 meitem.controller("me",function($scope){
     // $scope.sy_lists=sy_lists
 })
+meitem.directive('setwifi',function(){
+     return {
+          controller:function($scope){
+               $scope.index=0
+          },
+          link:function(scope,element,attr){ 
+            $(".sy_setrght_con").click(function(e){
+               var mu=e.target;
+               $(this).toggleClass("active").children().toggleClass("active")
+            })
+          }
+     }
+})

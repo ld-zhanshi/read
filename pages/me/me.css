@@ -367,6 +367,7 @@
         margin: auto;
     }
     .sy_setrght_con img{
+        width: 0.15rem;
         position: absolute;
         left: 0;top: 0;right: 0;bottom: 0;
         margin: auto;
@@ -374,7 +375,7 @@
     .sy_setting_li:nth-child(3) .sy_setrght_con{
         width: 1rem;height: 0.5rem;
         border-radius: 0.5rem;
-        background: #1CA650;
+        background: #F0F0F0;
         border: 0.01rem solid #DDDDDD;
         padding: 0.05rem;
         box-sizing:border-box;
@@ -382,13 +383,22 @@
         margin-top: 0.17rem;
         margin-right: 0;
     }
-    .sy_setrght_con-active{
+    .sy_setting_li:nth-child(3) .sy_setrght_con.active{
+        background: #1CA650;
+    }
+    .sy_setrght_con_active{
         width: 0.54rem;height: 0.38rem;
         background: url(../../images/sy_images/sy_item06.png) no-repeat center/cover;
         position: absolute;
         left: 0.05rem;top: 0.05rem;
         border-radius: 0.38rem;
         display: block;
+        transition:all .2s;
+        transform:translateX(0);
+    }
+    .sy_setrght_con_active.active{
+        /*background: #1CA650;*/
+        transform:translateX(0.39rem);
     }
 /*退出登录*/
     .sy_quit{
