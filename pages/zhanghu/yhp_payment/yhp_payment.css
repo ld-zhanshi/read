@@ -109,7 +109,7 @@
 	}
 	.yhp_payment_right{
 		float: left;
-		width: 60%;
+		width: auto;
 		height:auto;
 		margin-top: 0.22rem;
 	}
@@ -173,7 +173,7 @@
 	}
 	.yhp_chooseup_icon{
 		display: block;
-		width: 0.73rem;
+		width: 0.98rem;
 		height: 0.70rem;
 		background: url(../../../images/yhp_images/yhp_pay_meth.png) no-repeat center;
 		background-size: 0.73rem 0.70rem;
@@ -221,11 +221,14 @@
 		border-radius: 0;
 		cursor: pointer;
 		background: url(../../../images/yhp_images/yhp_pay_zhi.png) no-repeat center;
+		background-size: 3.42rem 1.28rem;
 	}
 	.yhp_choose_chat{
 		width: 3.42rem;
 		height: 2.18rem;
 		background: url(../../../images/yhp_images/yhp_pay_chat.png) no-repeat center;
+		background-size: 3.42rem 1.28rem;
+
 	}
 
 /*支付中介选择结束	*/

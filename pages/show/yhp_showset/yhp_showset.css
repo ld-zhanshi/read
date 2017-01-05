@@ -1,0 +1,377 @@
+/*小说内容页外框设置开始*/
+	.swiper-container{
+		width: 100%;
+		height: 3.10rem;
+		background:#2358df;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		margin: 0 auto;
+	}
+/*第一屏设置开始*/
+	.yhp_showset_inner1{
+		width: 7.02rem;
+		height: 100%;
+		margin: 0 auto;
+	}
+/*屏幕亮度设置开始*/
+	.yhp_showset_up1{
+		width: 100%;
+		display: flex;
+		align-items:center;
+		height: 0.49rem;
+		margin-bottom: 0.31rem;
+		margin-top: 0.22rem;
+	}
+	.yhp_up1_01{
+		width: 0.37rem;
+		height: 100%;
+		background:url(../../../images/yhp_images/yhp_show3.png) no-repeat center;
+		background-size: 0.37rem 0.38rem;
+		margin-right: 0.15rem;
+	}
+	.yhp_up1_02{
+		width: 4.09rem;
+		height: 0.07rem;
+		background:#204FC7;
+		border-radius: 0.60rem;
+		display: flex;
+		border:0.01rem solid #1f4bb9;
+	}
+	.yhp_up1_02 .yhp_up1_02btn{
+		width: 0.14rem;
+		height: 0.14rem;
+		background:#fff;
+		border-radius: 50%;
+		margin-top: -0.04rem;
+		margin-left: 2.66rem;
+		position: relative;
+	}
+	.yhp_up1_02btn:before{
+		content:"";
+		display: block;
+		width: 2.66rem;
+		height: 0.07rem;
+		background: #1944AF;
+		margin-left: -2.66rem;
+		margin-top:0.04rem;
+		border-radius: 0.60rem;
+	}
+	.yhp_up1_03{
+		width: 0.49rem;
+		height: 0.49rem;
+		background:url(../../../images/yhp_images/yhp_show2.png) no-repeat center;
+		background-size: 0.49rem 0.49rem;
+		margin-left: 0.18rem;
+		margin-right: 0.41rem;
+	}
+	.yhp_up1_04{
+		width: 1.34rem;
+		height: 0.45rem;
+		border: 0.02rem solid #fff;
+		outline: none;
+		color: #fff;
+		font-size: 0.24rem;
+		text-align: center;
+		background: transparent;
+		border-radius: 0.04rem;
+	}
+/*屏幕亮度设置结束*/
+
+/*字体大小设置开始*/
+	.yhp_showset_center1{
+		width: 100%;
+		display: flex;
+		align-items:center;
+		height: 0.49rem;
+		margin-bottom: 0.24rem;
+	}
+	.yhp_center1_01{
+		width: 1.34rem;
+		height: 0.45rem;
+		border: 0.02rem solid #fff;
+		outline: none;
+		color: #fff;
+		font-size: 0.30rem;
+		text-align: center;
+		background: transparent;
+		border-radius: 0.04rem;
+		margin-right: 0.36rem;
+		display: flex;
+		padding-left: 0.46rem;
+		box-sizing:border-box;
+	}
+	.yhp_center1_01 span{
+		display:block;
+	}
+	.yhp_center1_02{
+		width: 1.34rem;
+		height: 0.45rem;
+		border: 0.02rem solid #fff;
+		outline: none;
+		color: #fff;
+		font-size: 0.30rem;
+		text-align: center;
+		background: transparent;
+		border-radius: 0.04rem;
+		margin-right: 0.36rem;
+	}
+/*字体大小设置结束*/
+
+/*行间距设置开始*/
+	.yhp_center1_03{
+		width: 0.49rem;
+		height:0.43rem;
+		background: transparent;
+		border:none;
+		outline: none;
+	}
+	.yhp_showset_space{
+		width: 100%;
+		display: block;
+		height: 0.04rem;
+		margin-bottom: 0.04rem;
+		background: #fff;
+		border-radius: 0.60rem;
+	}
+	.yhp_center1_04{
+		width: 0.49rem;
+		height:0.43rem;
+		background: transparent;
+		border:none; 
+		margin: 0 0.54rem; 
+		outline: none;
+	}
+	.yhp_showset_space1{
+		width: 100%;
+		display: block;
+		height: 0.04rem;
+		margin-bottom: 0.06rem;
+		background: #08BA04;
+		border-radius: 0.60rem;
+	}
+	.yhp_center1_05{
+		width: 0.49rem;
+		height:0.43rem;
+		background: transparent;
+		border:none; 
+		margin-right: 0.56rem; 
+		outline: none;
+	}
+	.yhp_showset_space2{
+		width: 100%;
+		display: block;
+		height: 0.04rem;
+		margin-bottom: 0.09rem;
+		background: #fff;
+		border-radius: 0.60rem;
+	}
+	.yhp_center1_06{
+		width: 0.49rem;
+		height:0.43rem;
+		background: transparent;
+		border:none; 
+		outline: none;
+	}
+	.yhp_showset_space3{
+		width: 100%;
+		display: block;
+		height: 0.04rem;
+		margin-bottom: 0.16rem;
+		background: #fff;
+		border-radius: 0.60rem;
+	}
+/*行间距设置结束*/
+
+/*背景颜色设置开始*/
+	.yhp_showset_bottom1{
+		width: 100%;
+		display: flex;
+		align-items:center;
+		height: 0.88rem;
+		margin-bottom: 0.31rem;
+	}
+	.yhp_showset_bottom1 button{
+		width: 0.82rem;
+		height: 0.82rem;
+		border-radius: 50%;
+		border:0.03rem solid #fff;
+		text-align: center;
+		line-height:0.82rem; 
+		background: transparent;
+		outline: none;
+	}
+	.yhp_showset_bottom1 .yhp_bottom1_01{
+		background: #fff;
+	}
+	.yhp_showset_bottom1 .yhp_bottom1_02{
+		background: #DCC39A;
+		margin: 0 0.42rem;
+	}
+	.yhp_showset_bottom1 .yhp_bottom1_03{
+		background: #B9CFBE;
+	}
+	.yhp_showset_bottom1 .yhp_bottom1_04{
+		background: #FA9031;
+		margin: 0 0.42rem;
+	}
+	.yhp_showset_bottom1 .yhp_bottom1_05{
+		background: #F93B79;
+		margin-right:0.42rem;
+	}
+	.yhp_showset_bottom1 .yhp_bottom1_06{
+		background: #51FA59;
+	}
+
+/*背景颜色设置结束*/
+
+
+/*第一屏结束*/
+
+
+/*第二屏开始*/
+	.yhp_showset_inner2{
+		width: 7.02rem;
+		height: 100%;
+		margin: 0 auto;
+	}
+/*页面翻阅格式开始*/
+	.yhp_showset_up2{
+		width: 100%;
+		display: flex;
+		align-items:center;
+		height: 0.58rem;
+		margin-bottom: 0.31rem;
+		margin-top: 0.22rem;
+	}
+	.yhp_showset_up2 button{
+		width: 1.61rem;
+		height: 0.54rem;
+		border: 0.02rem solid #fff;
+		outline: none;
+		color: #fff;
+		font-size: 0.24rem;
+		text-align: center;
+		background: transparent;
+		border-radius: 0.04rem;
+	}
+	.yhp_up2_02{
+		margin: 0 1.08rem;
+	}
+/*页面翻阅格式结束*/
+
+/*设置自动翻阅开始*/
+	.yhp_showset_center2{
+		width: 100%;
+		display: flex;
+		align-items:center;
+		height: 0.56rem;
+		margin-bottom: 0.24rem;
+	}
+	.yhp_showset_center2 button{
+		width: 6.89rem;
+		height: 0.52rem;
+		border:0.02rem solid #fff;
+		margin: 0 auto;
+		display: block;
+		border-radius: 0.04rem;
+		background: transparent;
+		display: flex;
+		align-items:center;
+		justify-content:center;
+		outline: none;
+	}
+	.yhp_showset_point{
+		display: block;
+		width: 0.03rem;
+		height: 0.03rem;
+		border-radius: 50%;
+		background: #15fb86;
+		margin: 0 0.04rem;
+	}
+/*设置自动翻阅结束*/
+
+/*声音设置开始*/
+	.yhp_showset_bottom2{
+		width: 100%;
+		display: flex;
+		align-items:center;
+		height: 0.54rem;
+		margin-bottom: 0.31rem;
+	}
+	.yhp_showset_bottom2 .yhp_bottom2_btn{
+		width: 50%;
+		height: 100%;
+		display: flex;
+		align-items:center;
+	}
+	.yhp_bottom2_btn button{
+		width: 1.05rem;
+		height: 0.52rem;
+		border-radius: 0.60rem;
+		text-align: center;
+		line-height:0.50rem; 
+		outline: none;
+	}
+	.yhp_bottom2_btn .yhp_bottom2_01{
+		background: #08BA04;
+		border:0.02rem solid #0b9108;
+
+	}
+	.yhp_bottom2_btn .yhp_bottom2_02{
+		background: #0636B0;
+		border:0.02rem solid #093093;
+	}
+	.yhp_bottom2_btn button span{
+		width: 0.44rem;
+		height: 0.44rem;
+		display: block;
+		border-radius: 50%;
+		margin-left: 0.04rem;
+	}
+	.yhp_showset_btn1{
+		background:#fff url(../../../images/yhp_images/yhp_on_icon1.png) no-repeat center;
+		background-size: 0.30rem 0.30rem;
+	}
+	.yhp_showset_btn2{
+		background:#fff url(../../../images/yhp_images/yhp_off_icon2.png) no-repeat center;
+		background-size: 0.30rem 0.30rem;
+	}
+	.yhp_bottom2_btn label{
+		width: auto;
+		height: 0.50rem;
+		text-align: center;
+		line-height:0.50rem; 
+		outline: none;
+		margin-left: 0.14rem;
+		color: #fff;
+	}
+/*声音设置结束*/
+
+/*轮播设置*/
+	.swiper-slide {
+	    text-align: center;
+	    /* Center slide text vertically */
+	    display: -webkit-box;
+	    display: -ms-flexbox;
+	    display: -webkit-flex;
+	    display: flex;
+	    -webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	    -webkit-justify-content: center;
+	    justify-content: center;
+	    -webkit-box-align: center;
+	    -ms-flex-align: center;
+	    -webkit-align-items: center;
+	    align-items: center;
+	}
+
+	.swiper-pagination-bullet{
+		background: #fff;
+		opacity: 1;
+	}
+	.swiper-pagination-bullet-active{
+		background: #fff;
+		width: 0.24rem;
+		border-radius: 0.60rem;
+	}

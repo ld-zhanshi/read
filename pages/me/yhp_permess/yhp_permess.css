@@ -1,0 +1,140 @@
+/*编辑资料外框开始*/
+	.yhp_permess_box{
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+	}
+/*编辑资料头部开始*/
+	.yhp_permess_up{
+		width: 7.50rem;
+		height: 0.90rem;
+		margin: 0 auto;
+		background: #fff;
+		padding-left: 0.24rem;
+		padding-right: 0.11rem;
+		box-sizing:border-box;
+	}
+	.yhp_permess_up:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.yhp_permess_up button{
+		border: none;
+		outline: none;
+	}
+	.yhp_permess_back{
+		width: 0.90rem;
+		height: 0.90rem;
+		background:url(../../../images/yhp_images/yhp_backbtn.png) no-repeat left center;
+		background-size: 0.63rem 0.49rem;
+		float: left;
+	}
+	.yhp_permess_title{
+		width: 5.22rem;
+		height: 0.90rem;
+		float: left;
+	}
+	.yhp_permess_title p{
+		text-align: center;
+		padding: 0;
+	}
+	.yhp_permess_titleup{
+		color: #484747;
+		height: 0.40rem;
+		line-height: 0.40rem;
+		font-size: 0.3634rem;
+		margin-top: 0.10rem;
+	}
+	.yhp_permess_titlebot{
+		color: #8d8a8b;
+		font-size: 0.2086rem;
+		height: 0.20rem;
+		line-height: 0.20rem;
+	}
+	.yhp_permess_finish{
+		width: 0.90rem;
+		height: 0.90rem;
+		line-height: 0.90rem;
+		background: #fff;
+		float: right;
+		color: #8d8a8b;
+		font-size: 0.3634rem;
+	}
+/*编辑资料头部结束*/
+
+/*编辑资料主体开始*/
+	.yhp_permess_inner{
+		width: 7.02rem;
+		height: auto;
+		margin: 0 auto;
+		margin-top:0.20rem;
+		margin-bottom: 3.22rem;
+	}
+	.yhp_permess_li{
+		width: 6.89rem ;
+		height:0.93rem;
+		background: #fff;
+		box-shadow: 0 0 0.02rem 0.01rem #dad9d9;
+		display: flex;
+		margin: 0 auto;
+		margin-bottom: 0.12rem;
+		border-radius: 0.04rem;
+	}
+	.yhp_permess_label{
+		width: auto;
+		height: 100%;
+		display: block;
+		line-height:0.93rem;
+		font-size: 0.28rem;
+		color: #5b5a5a;
+		padding-left: 0.24rem;
+		box-sizing:border-box;
+		margin-right: 0.20rem;
+	}
+	.yhp_permess_li input{
+		border:none;
+		outline: none;
+		color: #8d8a8b;
+		font-size: 0.20rem;
+		width: 85%;
+	}
+	.yhp_permess_li2{
+		width: 6.89rem ;
+		height:3.22rem;
+		background: #fff;
+		box-shadow: 0 0 0.02rem 0.01rem #dad9d9;
+		margin: 0 auto;
+		margin-bottom: 0.12rem;
+		position: relative;
+	}
+	.yhp_permess_li2 .yhp_permess_label{
+		width: auto;
+		height: auto;
+		display: block;
+		font-size: 0.28rem;
+		color: #5b5a5a;
+		padding-left: 0.24rem;
+		box-sizing:border-box;
+		margin-right: 0.20rem;
+	}
+	.yhp_permess_li2 textarea{
+		border:none;
+		outline: none;
+		color: #8d8a8b;
+		font-size: 0.20rem;
+		width: 99%;
+		height: 69%;
+		padding-left: 0.12rem;
+		box-sizing:border-box;
+	}
+	.yhp_permess_li2 span{
+		color: #8d8a8b;
+		font-size: 0.28rem;
+		position: absolute;
+		right: 0.12rem;
+		bottom: 0.12rem;
+	}
+/*编辑资料主体结束*/
+
+/*编辑资料外框结束*/
