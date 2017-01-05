@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-30 16:42:17
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-04 19:28:35
+* @Last Modified time: 2017-01-05 10:06:08
 */
 var dir=angular.module('dir',[]);
 // 首页底部tab栏
@@ -230,8 +230,7 @@ dir.directive('neiyetop',function(){
         templateUrl:'directive/public/neiyetop.html',
         scope: {
             title:"@title",
-            titleenglish:"@titleenglish",
-            back:"@back"
+            titleenglish:"@titleenglish"
         }
     }
 })
