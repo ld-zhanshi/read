@@ -196,7 +196,12 @@ dir.directive('tongleituijian',function(){
     return {
         restrict: 'ECMA',
         templateUrl:'directive/public/tongleituijian.html',
-        link:function(){
+        link:function(scope,element,attr){
+            console.log(element)
+            $(".ld_tuijian").click(function(){
+                console.log(1)
+            })
+            
             touch.on(".gl_plpl","tap",function(){
                 alert(1)
                 $(".gl_plpl").css("background","url(../images/gl_images/zlf_xin_06.png)")
