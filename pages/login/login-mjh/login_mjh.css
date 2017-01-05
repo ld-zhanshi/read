@@ -18,7 +18,7 @@ body,html{width:7.5rem;height: 100%;overflow: hidden;}
 }
 .mjh-dl-tozc{
     position:absolute;
-    top: .3rem;right: .24rem;
+    top: .36rem;right: .24rem;
     font-size:.3rem;
 }
 .mjh-dl-bg1{
@@ -194,6 +194,9 @@ body,html{width:7.5rem;height: 100%;overflow: hidden;}
     width:.7rem;height:.7rem;
     border-radius: 50%;
     overflow:hidden;
+}
+.mjh-dl-yhxz .zlf_tx{
+    width:.7rem;height:.7rem;
 }
 .mjh-dl-yhxz p{
     line-height: .3rem;
