@@ -49,11 +49,11 @@ var indexjiejiu=[
 ]
 var indexxinshu=[
     {
-        bookcover:'https://img3.km.com/bookimg/public/uploads/cover/thumb2/20151127115509.jpg',
-        title:'透视之眼',
-        author:'星辉',
+        bookcover:'http://img5.readnovel.com/incoming/book/0/911/350911_jr.jpg',
+        title:'民国诡案录',
+        author:'墨绿青苔',
         type:'小说',
-        mes:'不平凡的际遇让他的双眼有了奇特功能。',
+        mes:'草根侦探许可在那个纷乱的战争年代。',
         done:'[连载中...]'
     },
     {
