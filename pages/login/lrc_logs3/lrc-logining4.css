@@ -48,7 +48,7 @@ html,body{width:100%;height:auto;background: #eaeaea;}
 	position: absolute;
 	left:-.35rem;
 	top:0;
-	transform: rotate(45deg)
+	transform: rotate(45deg);
 }
 .jsdu{
 	position: absolute;
@@ -61,7 +61,7 @@ html,body{width:100%;height:auto;background: #eaeaea;}
 	position: absolute;
 	right:-.35rem;
 	top:0;
-	transform: rotate(-45deg)
+	transform: rotate(-45deg);
 }
 .lrc_yiyang{
 	width:.12rem;
