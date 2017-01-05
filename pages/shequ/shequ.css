@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-29 13:45:24
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-04 23:25:36
+* @Last Modified time: 2017-01-05 13:37:54
 */
 /*社区顶部开始*/
 .ld_sqtopbar{
@@ -24,6 +24,13 @@
     width:.76rem;height:.76rem;
     border-radius:50%;
     overflow:hidden;
+}
+.mjh_logo{
+    display:block;
+    width:.81rem;height:.71rem;
+}
+.mjh_logo img{
+    width:100%;
 }
 .ld_sq_dian{
     display:block;

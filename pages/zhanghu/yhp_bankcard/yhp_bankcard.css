@@ -21,6 +21,8 @@
 		position:fixed;
 		left:0;top:0;
 		z-index: 100;
+		display:flex;
+		justify-content: space-between;
 	}
 	.yhp_bankcard_up:after{
 		content: "";

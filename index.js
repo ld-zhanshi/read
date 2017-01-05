@@ -2,11 +2,11 @@
 * @Author: Marte
 * @Date:   2016-12-30 10:26:56
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-04 16:41:39
+* @Last Modified time: 2017-01-05 11:44:42
 */
 
 // 创建ng主模块ng-app入口模块
-var app=angular.module('app',['ngRoute','dir','shequitem','shujiaitem','homeitem','zhanghuitem','bookcoveritem','showitem','frienditem','meitem','friendqunitem','addfrienditem','specialitem','fil','searchitem','commentitem'])
+var app=angular.module('app',['ngRoute','dir','shequitem','shujiaitem','homeitem','zhanghuitem','bookcoveritem','showitem','frienditem','meitem','friendqunitem','addfrienditem','specialitem','fil','searchitem','commentitem','rechargeitem','yhp_permessitem','yhp_memberitem'])
 app.config(['$routeProvider',function($r){
     $r.when('/',{
         templateUrl:'pages/home/home.html',
@@ -47,5 +47,14 @@ app.config(['$routeProvider',function($r){
     }).when('/comment',{
         templateUrl:'pages/comment/comment.html',
         controller:'comment'
+    }).when('/recharge',{
+        templateUrl:'pages/me/recharge/recharge.html',
+        controller:'recharge'
+    }).when('/yhp_permess',{
+        templateUrl:'pages/me/yhp_permess/yhp_permess.html',
+        controller:'yhp_permess'
+    }).when('/yhp_member',{
+        templateUrl:'pages/me/yhp_member/yhp_member.html',
+        controller:'yhp_member'
     })
 }])
