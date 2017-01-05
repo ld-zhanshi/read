@@ -69,7 +69,7 @@
 		height: auto;
 		margin: 0 auto;
 		margin-top:0.20rem;
-		margin-bottom: 3.22rem;
+		margin-bottom: 1.22rem;
 	}
 	.yhp_permess_li{
 		width: 6.89rem ;
@@ -135,6 +135,46 @@
 		right: 0.12rem;
 		bottom: 0.12rem;
 	}
+
+	.yhp_permess_surebtn{
+		width: 100%;
+		height:2.00rem;
+		/*background:#fff;*/
+		display: flex;
+		align-items:center;
+
+	}
+
+	.yhp_regsucbtn{
+			width: 2.45rem;
+			height: 1.03rem;
+			background: #31363A;
+			border-radius: 0.60rem;
+			margin: 0 auto;
+			margin-top: 0.52rem;
+			border: 0.03rem solid #fff;	
+			padding-bottom: 0.40rem;
+			margin-bottom: 0.40rem;
+		}
+		.yhp_regsucbtn:after{
+			content: "";
+			display: block;
+			clear: both;
+		}
+		.yhp_regsucbtn .yhp_regsucsure{
+			width: 2.33rem;
+			height: 0.90rem;
+			background: #1EFD23 url("../../../images/yhp_images/yhp_loginfailspoint.png") no-repeat center;
+			background-size: 1.99rem 0.12rem;
+			border: none;
+			border-radius: 0.60rem;
+			margin-top: 0.03rem;
+			margin-left: 0.03rem;
+			float: left;
+			color: #fff;
+			font-size: 0.30rem;
+			outline: none;
+		}
 /*编辑资料主体结束*/
 
 /*编辑资料外框结束*/
