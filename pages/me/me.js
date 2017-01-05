@@ -66,6 +66,11 @@ meitem.directive('setwifi',function(){
                var mu=e.target;
                $(this).toggleClass("active").children().toggleClass("active")
             })
+            // touch.on('.sy_setrght_con', 'tap', function(){
+            //    $(this).toggleClass("active")
+            //    console.log($(this))
+            //    // .children().toggleClass("active")
+            // })
           }
      }
 })

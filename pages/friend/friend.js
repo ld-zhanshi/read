@@ -18,12 +18,8 @@ frienditem.directive('synews',function(){
 			$scope.index=0
 		},
 		link:function(scope,element,attr){ 
-			touch.on('.sy_left_list', 'tap', function(e){
-            	// var mu=e.target||srcElement;
-            	// console.log($(this))
-            	// console.log(e)
+			touch.on('.sy_left_list', 'tap', function(){
             	$(this).addClass("active").siblings().removeClass("active")
-            	
 			})
 		}
 	}
