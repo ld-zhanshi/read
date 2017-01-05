@@ -2,11 +2,11 @@
 * @Author: Marte
 * @Date:   2016-12-30 10:26:56
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-05 15:40:30
+* @Last Modified time: 2017-01-05 18:32:18
 */
 
 // 创建ng主模块ng-app入口模块
-var app=angular.module('app',['ngRoute','dir','shequitem','shujiaitem','homeitem','zhanghuitem','bookcoveritem','showitem','frienditem','meitem','friendqunitem','addfrienditem','specialitem','fil','searchitem','commentitem','rechargeitem','yhp_permessitem','yhp_memberitem','muluitem','shuqianitem'])
+var app=angular.module('app',['ngRoute','dir','shequitem','shujiaitem','homeitem','zhanghuitem','bookcoveritem','showitem','frienditem','meitem','friendqunitem','addfrienditem','specialitem','fil','searchitem','commentitem','rechargeitem','yhp_permessitem','yhp_memberitem','muluitem','shuqianitem','yhp_cacheitem'])
 app.config(['$routeProvider',function($r){
     $r.when('/',{
         templateUrl:'pages/home/home.html',
@@ -62,5 +62,8 @@ app.config(['$routeProvider',function($r){
     }).when('/shuqian',{
         templateUrl:'pages/show/mulu/shuqian.html',
         controller:'shuqian'
+    }).when('/yhp_cache',{
+        templateUrl:'pages/me/yhp_cache/yhp_cache.html',
+        controller:'yhp_cache'
     })
 }])

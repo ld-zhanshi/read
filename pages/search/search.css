@@ -1,6 +1,4 @@
-body{
-    background: #eaeaea;
-}
+
 /*固定*/
     .sy_fix{
     	width: 100%;height: 0.88rem;
@@ -37,7 +35,6 @@ body{
     }
 /*搜索*/
     .ld_qz_condi{
-        width: 7.02rem;
         margin: 0.3rem auto 0.5rem auto;
     }
     .ld_search{

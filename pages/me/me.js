@@ -66,11 +66,12 @@ meitem.directive('setwifi',function(){
                var mu=e.target;
                $(this).toggleClass("active").children().toggleClass("active")
             })
-            // touch.on('.sy_setrght_con', 'tap', function(){
-            //    $(this).toggleClass("active")
-            //    console.log($(this))
-            //    // .children().toggleClass("active")
-            // })
+            $(".ld_huancun").click(function(){
+                $(".yhp_cache_box").addClass('ld_catch_box')
+            })
+            $(".yhp_cache_box").click(function(){
+                 $(".yhp_cache_box").removeClass('ld_catch_box')
+            })
           }
      }
 })

@@ -119,11 +119,8 @@
     	overflow: hidden;
     }
     .sy_right_img{
-    	width: 100%;height: auto;
-        overflow: hidden;
-    }
-    .sy_right_img img{
-        width: 100%;
+    	width: 100%;height: 4.6rem;
+    	background: url(../../images/sy_images/sy_conbg.png) no-repeat center/cover;
     }
     .sy_right_content{
     	width: 100%;height: auto;

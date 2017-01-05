@@ -2,8 +2,17 @@
 	.yhp_cache_box{
 		width: 100%;
 		height: auto;
+		height:100%;
 		margin: 0 auto;
 		background: rgba(234,234,234,0.8);
+		transform:scale(0);
+		transition: transform .35s;
+		position:fixed;
+		left:0;top:0;
+		z-index: 100;
+	}
+	.ld_catch_box{
+		transform:scale(1);
 	}
 	/*注册成功內宽开始*/
 		.yhp_cache_inner{
@@ -11,8 +20,10 @@
 			height:6.00rem;
 			background:url("../../../images/yhp_images/yhp_loginfailbg.png") no-repeat center top;
 			background-size: 7.02rem 5.55rem;
-			margin: 0 auto;
-			margin-top: 3.00rem;
+			position:absolute;
+			left:0;top:0;bottom:0;right:0;
+			z-index: 102;
+			margin:auto;
 			padding-top: 1.28rem;
 			box-sizing:border-box;
 		}
@@ -34,11 +45,17 @@
 			background:url("../../../images/yhp_images/yhp_loginfail_wave.png") no-repeat center;
 			background-size: 1.18rem 0.33rem;
 		}
+		@keyframes rotate {
+		    0%{transform:rotate(0);}100%{transform:rotate(360deg);}
+		}
 		.yhp_cache_up{
-			width: 100%;
+			width: 1.61rem;
 			height: 1.61rem;
-			background:url("../../../images/yhp_images/yhp_cache.png") no-repeat center bottom;
-			background-size: 3.27rem 1.69rem;
+			margin:auto;
+			border-radius: 50%;
+			background:url("../../../images/yhp_images/yhp_cache.png") no-repeat center center;
+			background-size:100%;
+			animation:rotate 1s infinite;
 		}
 		.yhp_cache_title{
 			text-align: center;

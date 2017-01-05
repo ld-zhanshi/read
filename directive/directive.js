@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-30 16:42:17
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-05 17:57:01
+* @Last Modified time: 2017-01-05 11:23:01
 */
 var dir=angular.module('dir',[]);
 // 首页底部tab栏
@@ -242,29 +242,6 @@ dir.directive('neiyetop',function(){
         scope: {
             title:"@title",
             titleenglish:"@titleenglish"
-        }
-    }
-})
-
-// 内容页设置
-dir.directive('seting',function(){
-    return {
-        restrict: 'ECMA',
-        templateUrl:'directive/public/seting.html',
-        link:function(){
-            var swiper = new Swiper('.zlf_swiper', {
-                pagination: '.swiper-pagination',
-                paginationClickable: true,
-            });
-            touch.on(".zlf_set","tap",function(){
-                $(".zlf_swiper").addClass('zlf_hot').css('zIndex','222');
-                $('.zlf_mask').css({display:'block',background:'rgba(0,0,0,0.1)'});
-            })
-            touch.on(".zlf_mask","tap",function(){
-                $(".zlf_swiper").removeClass('zlf_hot');
-                $('.zlf_mask').css({display:'none',background:'rgba(0,0,0,0.1)'});
-            })
-
         }
     }
 })

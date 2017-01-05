@@ -2,7 +2,7 @@
 .zlf_ml_box{
     width:6.84rem;
     height:auto;
-    margin:0 auto;
+    margin:.2rem auto;
     padding:.1rem .08rem;
     background:#fff;
     border-radius: .1rem;
@@ -27,7 +27,7 @@
 .zlf_sq_box{
     width:6.84rem;
     height:auto;
-    margin:0 auto;
+    margin:.2rem auto;
     padding:.1rem .08rem;
     background:#fff;
     border-radius: .1rem;
