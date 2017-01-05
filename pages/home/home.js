@@ -49,11 +49,11 @@ var indexjiejiu=[
 ]
 var indexxinshu=[
     {
-        bookcover:'http://img5.readnovel.com/incoming/book/0/911/350911_jr.jpg',
-        title:'民国诡案录',
-        author:'墨绿青苔',
+        bookcover:'images/zlf_images/zlf_cy.jpg',
+        title:'穿越千里...',
+        author:'司徒嫣',
         type:'小说',
-        mes:'草根侦探许可在那个纷乱的战争年代。',
+        mes:'一个混在广州新版外来妹的奋斗史。',
         done:'[连载中...]'
     },
     {
