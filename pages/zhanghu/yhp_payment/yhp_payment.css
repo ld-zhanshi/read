@@ -57,7 +57,7 @@
 		width: 0.90rem;
 		height: 0.90rem;
 		background:url(../../../images/mjh/sy-mjh_08.png) no-repeat right center;
-		background-size: 0.81rem 0.87rem;
+		background-size: 0.51rem 0.50rem;
 		float: right;
 	}
 /*支付头部结束*/
@@ -142,7 +142,8 @@
 		border-radius: 0.20rem;
 		margin-left: 0.07rem;
 		color: #fff;
-		font-size: 0.16rem;
+		font-size: 16px;
+		/*transform:scale(0.5);*/
 		margin-top: 0.04rem;
 		text-align: center;
 		line-height: 0.31rem;

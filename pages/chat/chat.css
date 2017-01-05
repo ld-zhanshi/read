@@ -48,10 +48,14 @@
 			padding-left: 0.08rem;
 			box-sizing:border-box;
 		}
-		.yhp_pic_bg img{
+		.yhp_pic_img{
 			width: 0.58rem;
 			height: 0.58rem;
 			border-radius: 50%;
+			overflow: hidden;
+		}
+		.yhp_pic_bg img{
+			height: 100%;
 		}
 		.yhp_chat_nick{
 			width: auto;

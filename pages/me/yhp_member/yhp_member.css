@@ -81,20 +81,31 @@
 		margin-left: 0.24rem;
 	}
 	.yhp_innerup_bg{
-		background: url(../../../images/sy_images/sy_person.png) no-repeat center;
+		background:url(../../../images/sy_images/sy_person.png) no-repeat center;
 		width: 2.35rem;
 		height: 1.97rem;
 		background-size: 2.35rem 1.97rem;
 		text-align: center;
 		padding-top: 0.20rem;
-		padding-left: 0.08rem;
+		padding-left: 0.49rem;
 		box-sizing:border-box;
 		margin-right: 0.24rem;
 	}
-	.yhp_member_innerup img{
+	.yhp_innerup_img{
 		border-radius: 50%;
 		width: 1.45rem;
 		height: 1.45rem;
+		overflow: hidden;
+		position: relative;
+	}
+	.yhp_member_innerup img{
+		width: 100%;
+		position: absolute;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		margin: auto;
 	}
 	.yhp_innerup_text{
 		width: 60%;
