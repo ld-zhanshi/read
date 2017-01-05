@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-30 16:42:17
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-05 10:06:08
+* @Last Modified time: 2017-01-05 11:23:01
 */
 var dir=angular.module('dir',[]);
 // 首页底部tab栏
@@ -195,7 +195,13 @@ dir.directive('shequfriend',function(){
 dir.directive('tongleituijian',function(){
     return {
         restrict: 'ECMA',
-        templateUrl:'directive/public/tongleituijian.html'
+        templateUrl:'directive/public/tongleituijian.html',
+        link:function(){
+            touch.on(".gl_plpl","tap",function(){
+                alert(1)
+                $(".gl_plpl").css("background","url(../images/gl_images/zlf_xin_06.png)")
+            })
+        }
     }
 })
 
