@@ -6,14 +6,21 @@
 		background: #EDEBEC;
 	}
 /*添加银行卡头部开始*/
+	.ld_backcard_up{
+		width: 7.50rem;
+		height: 0.90rem;
+		display:block;
+	}
 	.yhp_bankcard_up{
 		width: 7.50rem;
 		height: 0.90rem;
 		margin: 0 auto;
 		background: #fff;
-		padding-left: 0.24rem;
-		padding-right: 0.11rem;
+		padding:0 0.24rem;
 		box-sizing:border-box;
+		position:fixed;
+		left:0;top:0;
+		z-index: 100;
 	}
 	.yhp_bankcard_up:after{
 		content: "";
@@ -30,6 +37,10 @@
 		background:url(../../../images/yhp_images/yhp_backbtn.png) no-repeat left center;
 		background-size: 0.63rem 0.49rem;
 		float: left;
+	}
+	.yhp_bankcard_back a{
+		display:block;
+		width:100%;height:100%;
 	}
 	.yhp_bankcard_title{
 		width: 5.22rem;
@@ -54,10 +65,10 @@
 		line-height: 0.20rem;
 	}
 	.yhp_bankcard_search{
-		width: 0.90rem;
+		width: .51rem;
 		height: 0.90rem;
 		background:url(../../../images/mjh/sy-mjh_08.png) no-repeat right center;
-		background-size: 0.81rem 0.87rem;
+		background-size:100% auto;
 		float: right;
 	}
 /*添加银行卡头部结束*/

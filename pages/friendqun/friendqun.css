@@ -2,11 +2,11 @@
 * @Author: Marte
 * @Date:   2017-01-03 00:58:18
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-03 11:09:21
+* @Last Modified time: 2017-01-05 00:24:09
 */
 .ld_qundi{
     width:100%;
-    padding:0 .24rem;
+    padding:.24rem;
     box-sizing: border-box;
 }
 .ld_friend{

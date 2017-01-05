@@ -3,44 +3,7 @@
     <div class="index_contain" ng-controller="shequ">
             <!-- <indexsearch></indexsearch> -->
         <!-- 搜索 -->
-        <!-- <div ng-class="{true:'ld_search ld_searchactive',false:'ld_search'}[searchFlag]">
-            <div class="sy_qz_condi">
-                <div class="ld_sy_search">
-                    <form action=""><input type="text" placeholder="锦绣未央"/></form>
-                    <div class="ld_sy_btn"></div>
-                </div>
-            </div>
-            <ul class="sy_filterul">
-                <li class="sy_filterlis">
-                    <div class="sy_fcircle_box">
-                        <div class="sy_fcircle active"></div>
-                    </div>
-                    <div class="sy_fcon">
-                        <p>全部</p>
-                        <span>entire</span>
-                    </div>
-                </li>
-                <li class="sy_filterlis">
-                    <div class="sy_fcircle_box">
-                        <div class="sy_fcircle"></div>
-                    </div>
-                    <div class="sy_fcon">
-                        <p>作品</p>
-                        <span>article</span>
-                    </div>
-                </li>
-                <li class="sy_filterlis">
-                    <div class="sy_fcircle_box">
-                        <div class="sy_fcircle"></div>
-                    </div>
-                    <div class="sy_fcon">
-                        <p>作者</p>
-                        <span>writer</span>
-                    </div>
-                </li>
-            </ul>
-        </div> -->
-           
+
         <!-- 圈子顶部栏开始 -->
         <!-- <shequtopbar personurl="images/ld_images/ld_qz_photo.png" left="圈子" right="书友"></shequtopbar> -->
         
@@ -53,36 +16,11 @@
             </ul>
             <div class="ld_sq_rig"><a href="#/search"></a></div>
         </div>
-
         <!-- 圈子顶部栏结束 -->
         <!-- 社会圈子下面内容开始 -->
         <div class="ld_qz_condi">
                 <!-- 社会圈子 -->
             <div class="ld_shqz_di" ng-show="topFlag">
-                <!-- <div class="ld_qz_con" ng-repeat="v in sheququanzi track by $index">
-                    <div class="ld_qz_contop">
-                        <img src="{{v.bgurl}}" alt="" />
-                        <div class="ld_qz_label">
-                            <span><img src={{v.photourl}} alt="" /></span>
-                            <ul class="ld_qz_labelcon"><li>{{v.name}}</li><li class="ld_qz_labelzan"><i></i>{{v.love}}</li></ul>
-                        </div>
-                    </div>
-                    <div class="ld_qz_conbtm">
-                        <h4 class="ld_qz_tit">{{v.title}}<span>{{v.titleenglish}}</span></h4>
-                        <p class="ld_qz_tit1">{{v.comment}}</p>
-                        <div class="ld_qz_dizhi">
-                            <div class="ld_dizhi_icon"></div>
-                            <div class="ld_dizhi_con">
-                                <h4>{{v.city}}<span></span></h4>
-                                <h5>{{v.cityenglish}}</h5>
-                            </div>
-                            <ul class="ld_dizhi_rig">
-                                <li><div class="ld_dizhi_num">{{v.zannum}}</div><span class="ld_dizhi_icon1"></span></li>
-                                <li><a href="#/comment"><div class="ld_dizhi_num">{{v.commentnum}}</div><span class="ld_dizhi_icon2"></span></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div> -->
                 <sheququanzi ng-repeat="v in sheququanzi track by $index"></sheququanzi>
             </div>   
                 <!-- 社会书友 -->

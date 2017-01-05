@@ -8,11 +8,10 @@
 /*搜索失败头部开始*/
 	.yhp_searchfail_up{
 		width: 7.50rem;
-		height: 0.90rem;
+		height: 0.88rem;
 		margin: 0 auto;
 		background: #fff;
-		padding-left: 0.24rem;
-		padding-right: 0.11rem;
+		padding:0 0.24rem;
 		box-sizing:border-box;
 	}
 	.yhp_searchfail_up:after{
@@ -26,14 +25,14 @@
 	}
 	.yhp_searchfail_back{
 		width: 0.90rem;
-		height: 0.90rem;
+		height: 0.88rem;
 		background:url(../../../images/yhp_images/yhp_backbtn.png) no-repeat left center;
 		background-size: 0.63rem 0.49rem;
 		float: left;
 	}
 	.yhp_searchfail_title{
 		width: 5.22rem;
-		height: 0.90rem;
+		height: 0.88rem;
 		float: left;
 	}
 	.yhp_searchfail_title p{
@@ -54,10 +53,10 @@
 		line-height: 0.20rem;
 	}
 	.yhp_searchfail_search{
-		width: 0.90rem;
-		height: 0.90rem;
-		background:url(../../../images/mjh/sy-mjh_08.png) no-repeat right center;
-		background-size: 0.81rem 0.87rem;
+		width: 0.51rem;
+		height: 100%;
+		background:url(../../../images/mjh/sy-mjh_08.png) no-repeat center center;
+		background-size: 100% auto;
 		float: right;
 	}
 /*搜索失败头部结束*/

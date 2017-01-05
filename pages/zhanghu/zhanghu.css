@@ -11,8 +11,8 @@
 		height: 0.90rem;
 		margin: 0 auto;
 		background: #fff;
-		padding-left: 0.24rem;
-		padding-right: 0.11rem;
+		padding:0 0.24rem;
+		/*padding-right: 0.11rem;*/
 		box-sizing:border-box;
 	}
 	.yhp_payment_up:after{

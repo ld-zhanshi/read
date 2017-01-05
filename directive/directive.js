@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-30 16:42:17
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-04 17:15:28
+* @Last Modified time: 2017-01-04 19:28:35
 */
 var dir=angular.module('dir',[]);
 // 首页底部tab栏
@@ -220,5 +220,18 @@ dir.directive('speciallis',function(){
     return {
         restrict: 'ECMA',
         templateUrl:'directive/public/speciallis.html'
+    }
+})
+
+// 内页top栏
+dir.directive('neiyetop',function(){
+    return {
+        restrict: 'ECMA',
+        templateUrl:'directive/public/neiyetop.html',
+        scope: {
+            title:"@title",
+            titleenglish:"@titleenglish",
+            back:"@back"
+        }
     }
 })

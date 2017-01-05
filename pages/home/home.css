@@ -18,10 +18,12 @@ img{
 }
 .mjh_yhtx{border-radius: 50%;}
 
+.mjh_banner{
+    margin-top:.3rem;
+}
 .mjh_banner,.mjh_banner img{
     width:7.5rem;
 }
-
 .mjh_banner .swiper-pagination-bullet{ background: #fff;width:.16rem;height:.16rem;border-radius: .08rem;opacity:1;}
 .mjh_banner .swiper-pagination-bullet-active { width:.3rem;}
 .mjh_banner .swiper-pagination-clickable.swiper-pagination-bullets{
