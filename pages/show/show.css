@@ -9,11 +9,16 @@
 	margin:0 auto;
 	overflow: hidden;
 }
+.ld_top{
+	width:100%;height:.88rem;
+}
 .lrc_top{
 	width:100%;
-	height:.7rem;
+	height:.88rem;
 	background:#2358df;
-	padding: .1rem .2rem;
+	padding:.2rem;
+	position:fixed;
+	left:0;top:0;
 }
 .lrc_topleft{
 	float: left;
@@ -26,12 +31,12 @@
 	height:100%;
 }
 .lrc_topleft>a>img{
-	width:.7rem;
-	height:.5rem;
+	width:.51rem;
+	/*height:.5rem;*/
 }
 .lrc_topright>img{
-	width:.6rem;
-	height:.5rem;
+	width:.51rem;
+	/*height:.5rem;*/
 }
 .lrc_huadong{
 	width:1.05rem;
@@ -43,7 +48,7 @@
 }
 .lrc_baikuai>img{
 	width:.35rem;
-	height:.15rem;
+	/*height:.15rem;*/
 }
 .lrc_baikuai{
 	width:.45rem;
@@ -59,7 +64,7 @@
 	display: block;
 	float: right;
 }
-.lrc_top{
+.lrc_top:after{
 	content: "";
 	display: block;
 	clear:both;
@@ -134,7 +139,7 @@
 /*底部开始*/
 .lrc_bottom1{
 	width:100%;
-	height:.35rem;
+	height:1.35rem;
 }
 .lrc_bottom{
 	width:100%;
@@ -154,19 +159,19 @@
 	height:.85rem;
 }
 .lrc_bleft{
-	margin-top:.09rem;
+	/*margin-top:.09rem;*/
 	width:15%;
 	float: left;
 	color: #fff;
 	font-size: .3rem;
 }
 .lrc_bmil{
-	margin:.25rem .15rem;
+	margin:.22rem .15rem;
 	width:65%;
 	float: left;
 }
 .lrc_brig{
-	margin-top:.09rem;
+	/*margin-top:.09rem;*/
 	width:15%;
 	float: right;
 	color: #fff;
@@ -192,19 +197,22 @@
 	width:20%;
 	height:100%;
 	float:left; 
+	text-align:center;
 }
 .lrc_xtbiao a{
 	display:block;
 	width:100%;height:100%;
+	text-align: center;
 }
 .lrc_xtbiao img{
 	display: block;
 	margin-left: .5rem;
 	width:.4rem;
-	height:.4rem;
+	/*height:.4rem;*/
+	margin:0 auto;
 }
 .lrc_xtbiao p{
-	margin-left: .45rem;
+	/*margin-left: .45rem;*/
 	color: #fff;
 	font-size: .34rem;
 }

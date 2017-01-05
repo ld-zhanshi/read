@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-30 16:42:17
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-05 20:01:24
+* @Last Modified time: 2017-01-06 00:00:27
 */
 var dir=angular.module('dir',[]);
 // 首页底部tab栏
@@ -245,6 +245,8 @@ dir.directive('neiyetop',function(){
         }
     }
 })
+
+// show页面底部文字设置
 dir.directive('seting',function(){
     return {
         restrict: 'ECMA',
@@ -256,11 +258,11 @@ dir.directive('seting',function(){
             });
             touch.on(".zlf_set","tap",function(){
                 $(".zlf_swiper").addClass('zlf_hot').css('zIndex','222');
-                $('.zlf_mask').css({display:'block',background:'rgba(0,0,0,0.1)'});
+                $('.zlf_mask').css({display:'block',background:'rgba(0,0,0,0.5)'});
             })
             touch.on(".zlf_mask","tap",function(){
                 $(".zlf_swiper").removeClass('zlf_hot');
-                $('.zlf_mask').css({display:'none',background:'rgba(0,0,0,0.1)'});
+                $('.zlf_mask').css({display:'none',background:'rgba(0,0,0,0.5)'});
             })
 
         }

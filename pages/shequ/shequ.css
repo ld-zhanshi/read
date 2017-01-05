@@ -2,11 +2,11 @@
 * @Author: Marte
 * @Date:   2016-12-29 13:45:24
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-05 19:17:08
+* @Last Modified time: 2017-01-06 01:05:45
 */
 /*社区顶部开始*/
 .ld_sqtopbar{
-    width:100%;height:.88rem;
+    width:100%;height:.9rem;
     padding:0 .24rem;
     box-sizing: border-box;
     background:#fff;
@@ -525,6 +525,10 @@ span.ld_sy_circle2{
     background:url(../../images/ld_images/ld_line.png) 0 .3rem no-repeat;
     background-size:50%;
     margin-left:.38rem;
+}
+.ld_friend_cona{
+    display:block;
+    width:4.65rem;height:.87rem;
 }
 .ld_friend_con li{
     line-height: .35rem;
