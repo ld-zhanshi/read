@@ -76,7 +76,7 @@
 }
 .lrc_zimu{
 	text-transform: uppercase;
-	font-size:.36rem;
+	font-size:.40rem;
 	font-weight: bold;
 	display: block;
 }
@@ -101,7 +101,7 @@
 }
 .lrc-shuming{
 	margin-top:.1rem;
-	font-size: .28rem;
+	font-size: .36rem;
 }
 .lrc_sdian{
 	margin-top:.8rem;
@@ -118,14 +118,14 @@
 .lrc_diyid{
 	margin-top:.4rem;
 	text-indent: .5rem;
-	font-size: .24rem;
+	font-size: .32rem;
 	color: #737373;
 	text-align: justify;
 }
 .lrc_dierd{
 	margin-top:.6rem;
 	text-indent: .5rem;
-	font-size: .24rem;
+	font-size: .32rem;
 	color: #737373;
 	text-align: justify;
 }
@@ -206,6 +206,7 @@
 .lrc_xtbiao p{
 	margin-left: .45rem;
 	color: #fff;
+	font-size: .34rem;
 }
 /*底部结束*/
 /*详情页结束
