@@ -110,7 +110,7 @@
 .gl_btn{
     width:2.17rem;
     height:.79rem;
-    padding:.2rem .4rem;
+    padding:.2rem 0 .2rem 0.6rem;
     box-sizing: border-box;
     border-radius: 39px;
     border:2px solid #e1dfdf;
@@ -122,6 +122,8 @@
     background:url(../../images/gl_images/bg.png)no-repeat;
     background-size: 1rem auto;
     float:left;
+    position: absolute;
+    left: -0.3rem;top: 0;
 }
 .gl_ii1{
     background-position: -0.45rem -0.99rem;
@@ -135,9 +137,9 @@
 .gl_eng{
     float:right;
     text-align: center;
-    width:.8rem;
+    width:100%;
     height:auto;
-    overflow:hidden;
+    position: relative;
 }
 .gl_che{
     display:block;
