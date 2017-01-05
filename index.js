@@ -2,11 +2,11 @@
 * @Author: Marte
 * @Date:   2016-12-30 10:26:56
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-05 11:44:42
+* @Last Modified time: 2017-01-05 15:40:30
 */
 
 // 创建ng主模块ng-app入口模块
-var app=angular.module('app',['ngRoute','dir','shequitem','shujiaitem','homeitem','zhanghuitem','bookcoveritem','showitem','frienditem','meitem','friendqunitem','addfrienditem','specialitem','fil','searchitem','commentitem','rechargeitem','yhp_permessitem','yhp_memberitem'])
+var app=angular.module('app',['ngRoute','dir','shequitem','shujiaitem','homeitem','zhanghuitem','bookcoveritem','showitem','frienditem','meitem','friendqunitem','addfrienditem','specialitem','fil','searchitem','commentitem','rechargeitem','yhp_permessitem','yhp_memberitem','muluitem','shuqianitem'])
 app.config(['$routeProvider',function($r){
     $r.when('/',{
         templateUrl:'pages/home/home.html',
@@ -24,7 +24,7 @@ app.config(['$routeProvider',function($r){
         templateUrl:'pages/bookcover/bookcover.html',
         controller:'bookcover'
     }).when('/show',{
-        templateUrl:'pages/show/lrc-xqy.html',
+        templateUrl:'pages/show/show.html',
         controller:'show'
     }).when('/friend',{
         templateUrl:'pages/friend/friend.html',
@@ -56,5 +56,11 @@ app.config(['$routeProvider',function($r){
     }).when('/yhp_member',{
         templateUrl:'pages/me/yhp_member/yhp_member.html',
         controller:'yhp_member'
+    }).when('/mulu',{
+        templateUrl:'pages/show/mulu/mulu.html',
+        controller:'mulu'
+    }).when('/shuqian',{
+        templateUrl:'pages/show/mulu/shuqian.html',
+        controller:'shuqian'
     })
 }])
