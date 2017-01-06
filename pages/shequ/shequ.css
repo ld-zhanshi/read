@@ -2,11 +2,11 @@
 * @Author: Marte
 * @Date:   2016-12-29 13:45:24
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-06 01:05:45
+* @Last Modified time: 2017-01-05 13:37:54
 */
 /*社区顶部开始*/
 .ld_sqtopbar{
-    width:100%;height:.9rem;
+    width:100%;height:.88rem;
     padding:0 .24rem;
     box-sizing: border-box;
     background:#fff;
@@ -16,7 +16,6 @@
     position:fixed;
     left:0;top:0;
     z-index: 100;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 .ld_sqtopbar_di{
     width:100%;height:.88rem;
@@ -340,11 +339,15 @@ li.ld_qz_labelzan{
     margin-right:.08rem;
 }
 .ld_dizhi_icon1{
-    background:url(../../images/ld_images/ld_icon02.png) center center no-repeat;
+    background:url(../../images/sy_images/sy_icon03.png) center center no-repeat;
+    background-size:100%;
+}
+.ld_dizhi_icon1.active{
+    background:url(../../images/sy_images/sy_icon031.png) center center no-repeat;
     background-size:100%;
 }
 .ld_dizhi_icon2{
-    background:url(../../images/ld_images/ld_icon01.png) center center no-repeat;
+    background:url(../../images/sy_images/sy_icon011.png) center center no-repeat;
     background-size:100%;
 }
 .ld_dizhi_num{
@@ -525,10 +528,6 @@ span.ld_sy_circle2{
     background:url(../../images/ld_images/ld_line.png) 0 .3rem no-repeat;
     background-size:50%;
     margin-left:.38rem;
-}
-.ld_friend_cona{
-    display:block;
-    width:4.65rem;height:.87rem;
 }
 .ld_friend_con li{
     line-height: .35rem;

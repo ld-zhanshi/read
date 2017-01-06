@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-30 16:42:17
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-06 00:00:27
+* @Last Modified time: 2017-01-05 11:23:01
 */
 var dir=angular.module('dir',[]);
 // 首页底部tab栏
@@ -196,17 +196,6 @@ dir.directive('tongleituijian',function(){
     return {
         restrict: 'ECMA',
         templateUrl:'directive/public/tongleituijian.html',
-        link:function(scope,element,attr){
-            console.log(element)
-            $(".ld_tuijian").click(function(){
-                console.log(1)
-            })
-            
-            touch.on(".gl_plpl","tap",function(){
-                alert(1)
-                $(".gl_plpl").css("background","url(../images/gl_images/zlf_xin_06.png)")
-            })
-        }
     }
 })
 
@@ -242,29 +231,6 @@ dir.directive('neiyetop',function(){
         scope: {
             title:"@title",
             titleenglish:"@titleenglish"
-        }
-    }
-})
-
-// show页面底部文字设置
-dir.directive('seting',function(){
-    return {
-        restrict: 'ECMA',
-        templateUrl:'directive/public/seting.html',
-        link:function(){
-            var swiper = new Swiper('.zlf_swiper', {
-                pagination: '.swiper-pagination',
-                paginationClickable: true,
-            });
-            touch.on(".zlf_set","tap",function(){
-                $(".zlf_swiper").addClass('zlf_hot').css('zIndex','222');
-                $('.zlf_mask').css({display:'block',background:'rgba(0,0,0,0.5)'});
-            })
-            touch.on(".zlf_mask","tap",function(){
-                $(".zlf_swiper").removeClass('zlf_hot');
-                $('.zlf_mask').css({display:'none',background:'rgba(0,0,0,0.5)'});
-            })
-
         }
     }
 })

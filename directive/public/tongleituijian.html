@@ -1,5 +1,5 @@
 <!-- 同类推荐列表 -->
-<li class="ld_tuijian gl_clearfix" ng-repeat="v in tltuijian track by $index">
+<li ng-controller="bookcover" class="ld_tuijian gl_clearfix" ng-repeat="v in tltuijian track by $index">
     <div class="gl_nnleft">
         <a href="#/show" class="ld_tuijiana"><img src="{{v.bookcover}}"alt="" /></a>
     </div>
@@ -22,7 +22,7 @@
         <div class="gl_nnbottom">
             <p>{{v.contain}} </p>
             <div class="gl_zz"><a href="#/comment"></a></div>
-            <div class="gl_plpl zlf_pl"></div>
+            <div class="{{v.xin_show?'gl_plpl zlf_pl active':'gl_plpl zlf_pl'}}" ng-click="xinshow(v)"></div>
         </div>
     </div>
 </li>

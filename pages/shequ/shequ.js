@@ -9,40 +9,43 @@ var sheququanzi=[
         "bgurl":"images/ld_images/ld_sq_lis01.png",
         "photourl":"images/ld_images/ld_qz_photo.png",
         "name":"软萌萌",
-        "love":"89",
+        "love":89,
         "title":"冬雪",
         "titleenglish":"the first snow",
         "comment":"秋雨不宜相见，冬雪不能饮醉，从春到夏，一直...",
         "city":"太原·小店区",
         "cityenglish":"taiyuan knick-knacks",
-        "zannum":"234",
-        "commentnum":"534"
+        "zannum":234,
+        "commentnum":534,
+        "rig_show":false
     },
     {
         "bgurl":"images/ld_images/ld_sq_lis01.png",
         "photourl":"images/ld_images/ld_qz_photo.png",
         "name":"软萌萌",
-        "love":"89",
+        "love":89,
         "title":"冬雪",
         "titleenglish":"the first snow",
         "comment":"秋雨不宜相见，冬雪不能饮醉，从春到冬，一直...",
         "city":"太原·小店区",
         "cityenglish":"taiyuan knick-knacks",
-        "zannum":"234",
-        "commentnum":"534"
+        "zannum":234,
+        "commentnum":534,
+        "rig_show":false
     },
     {
         "bgurl":"images/ld_images/ld_sq_lis01.png",
         "photourl":"images/ld_images/ld_qz_photo.png",
         "name":"软萌萌",
-        "love":"89",
+        "love":89,
         "title":"冬雪",
         "titleenglish":"the first snow",
         "comment":"秋雨不宜相见，冬雪不能饮醉，从春到冬，一直...",
         "city":"太原·小店区",
         "cityenglish":"taiyuan knick-knacks",
-        "zannum":"234",
-        "commentnum":"534"
+        "zannum":234,
+        "commentnum":534,
+        "rig_show":false
     }
 ]
 var shequadd=[
@@ -152,5 +155,10 @@ shequitem.controller('shequ',function($scope,$filter){
     $scope.searchFlag=false;
     $scope.indexsearch=function(){
         $scope.searchFlag=!$scope.searchFlag;
+    }
+
+    $scope.rig_show=false;
+    $scope.rigshow=function(v){
+        v.rig_show=!v.rig_show
     }
 })

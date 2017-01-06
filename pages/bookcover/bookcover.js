@@ -8,15 +8,16 @@ var tltuijian=[
         author:'圣埃克苏佩里',
         contain:'小王子驾到！大家好，我是小王子，生活在B612星球，别看我是王子出生...',
         tags:[
-        {name:"小王子"},
-        {name:"童话"},
-        {name:"圣埃克苏佩里"},
-        {name:"法国"},
-        {name:"经典"},
-        {name:"外国文学"},
-        {name:"感动"},
-        {name:"寓言"}
-        ]
+            {name:"小王子"},
+            {name:"童话"},
+            {name:"圣埃克苏佩里"},
+            {name:"法国"},
+            {name:"经典"},
+            {name:"外国文学"},
+            {name:"感动"},
+            {name:"寓言"}
+        ],
+        xin_show:false
     },
     {
         bookcover:'https://img1.doubanio.com/mpic/s3901817.jpg',
@@ -26,15 +27,16 @@ var tltuijian=[
         author:'哲思社区',
         contain:'本书的内容主要来自CPyUG社区的邮件列表，由Python的行者根据自身经验...',
         tags:[
-        {name:"Python"},
-        {name:"编程"},
-        {name:"Programming"},
-        {name:"计算机"},
-        {name:"经典"},
-        {name:"哲思"},
-        {name:"程序设计"},
-        {name:"可爱,Python"}
-        ]
+            {name:"Python"},
+            {name:"编程"},
+            {name:"Programming"},
+            {name:"计算机"},
+            {name:"经典"},
+            {name:"哲思"},
+            {name:"程序设计"},
+            {name:"可爱,Python"}
+        ],
+        xin_show:false
     },
     {
         bookcover:'https://img1.doubanio.com/mpic/s6569607.jpg',
@@ -42,7 +44,8 @@ var tltuijian=[
         titleenglish:'Business Common',
         photo:'images/gl_images/tx.png',
         author:'申音',
-        contain:'★为什么美国没有史玉柱，中国没有乔布斯？★什么是“对的行业”、“错的...'
+        contain:'★为什么美国没有史玉柱，中国没有乔布斯？★什么是“对的行业”、“错的...',
+        xin_show:false
     }
 ]
 var bookcon=[
@@ -65,8 +68,12 @@ app.run(function($rootScope){
     $rootScope.bookcon=bookcon;
 })
 var bookcoveritem=angular.module("bookcoveritem",[])
-bookcoveritem.controller("bookcover",function($scope){
+bookcoveritem.controller("bookcover",function($scope,$filter){
     // $scope.tltuijian=tltuijian;
     // $scope.bookcon=bookcon;
+    $scope.xinshow=function(v){
+        console.log(1)
+        v.xin_show=!v.xin_show
+    }
 })
 

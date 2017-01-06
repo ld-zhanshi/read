@@ -16,7 +16,7 @@
                 <h5>{{v.cityenglish}}</h5>
             </div>
             <ul class="ld_dizhi_rig">
-                <li><div class="ld_dizhi_num">{{v.zannum}}</div><span class="ld_dizhi_icon1"></span></li>
+                <li ng-click="rigshow(v)"><div class="ld_dizhi_num">{{v.rig_show?(v.zannum+1):(v.zannum)}}</div><span class="{{v.rig_show?'ld_dizhi_icon1 active':'ld_dizhi_icon1'}}"></span></li>
                 <li><a href="#/comment"><div class="ld_dizhi_num">{{v.commentnum}}</div><span class="ld_dizhi_icon2"></span></a></li>
             </ul>
         </div>
