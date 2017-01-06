@@ -238,3 +238,26 @@ dir.directive('neiyetop',function(){
         }
     }
 })
+
+// show页面底部文字设置
+dir.directive('seting',function(){
+    return {
+        restrict: 'ECMA',
+        templateUrl:'directive/public/seting.html',
+        link:function(){
+            var swiper = new Swiper('.zlf_swiper', {
+                pagination: '.swiper-pagination',
+                paginationClickable: true,
+            });
+            touch.on(".zlf_set","tap",function(){
+                $(".zlf_swiper").addClass('zlf_hot').css('zIndex','222');
+                $('.zlf_mask').css({display:'block',background:'rgba(0,0,0,0.5)'});
+            })
+            touch.on(".zlf_mask","tap",function(){
+                $(".zlf_swiper").removeClass('zlf_hot');
+                $('.zlf_mask').css({display:'none',background:'rgba(0,0,0,0.5)'});
+            })
+
+        }
+    }
+})
