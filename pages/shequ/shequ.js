@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-12-29 09:23:48
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-04 14:52:25
+* @Last Modified time: 2017-01-06 17:05:46
 */
 var sheququanzi=[
     {
@@ -59,7 +59,7 @@ var shequadd=[
     },
     {
         url:'#/friendqun',
-        photo:"images/ld_images/ld_photo01.png",
+        photo:"images/ld_images/ld_photo02.png",
         title:"好友群",
         mes:"查看我收藏的好友群进行群聊",
         // myhref:"http://localhost/angular_app/read/index.html#/shequ",
@@ -67,7 +67,7 @@ var shequadd=[
     },
     {
         url:'#/special',
-        photo:"images/ld_images/ld_photo01.png",
+        photo:"images/ld_images/ld_photo03.png",
         title:"特殊关注",
         mes:"您可以选择五位好友作为特殊关注",
         // myhref:"http://localhost/angular_app/read/index.html#/shequ",

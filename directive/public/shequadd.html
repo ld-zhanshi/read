@@ -1,12 +1,14 @@
 <!-- 社区新增好友 -->
 <div class="ld_shuyou">
-    <div class="ld_sy_photo"><img src="{{v.photo}}" alt="" /></div>
-    <ul class="ld_sy_add">
-        <li class="ld_sy_addtit">{{v.title}}<span></span><span class="ld_sy_circle2"></span></li>
-        <li>{{v.mes}}</li>
-    </ul>
-    <div class="ld_addfriend_right">
-         <div class="ld_sy_num ld_sy_numactive" ng-show="{{v.flag}}"><a href="{{v.url}}">02</a></div>
-         <div class="ld_sy_num" ng-hide="{{v.flag}}"><a href="{{v.url}}">&gt;</a></div>
-    </div>
+    <a href="{{v.url}}" class="ld_blocka">
+        <div class="ld_sy_photo"><img src="{{v.photo}}" alt="" /></div>
+        <ul class="ld_sy_add">
+            <li class="ld_sy_addtit">{{v.title}}<span></span><span class="ld_sy_circle2"></span></li>
+            <li>{{v.mes}}</li>
+        </ul>
+        <div class="ld_addfriend_right">
+             <div class="ld_sy_num ld_sy_numactive" ng-show="{{v.flag}}">02</div>
+             <div class="ld_sy_num" ng-hide="{{v.flag}}">&gt;</div>
+        </div>
+    </a>
 </div>

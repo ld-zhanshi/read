@@ -232,7 +232,10 @@ img{
     text-align: center;
     line-height: .5rem;
 }
-.mjh-sy-tab .mjh-sy-tabt.active{
+.mjh-sy-tab p{
+    color:#666;
+}
+.mjh-sy-tab .mjh-sy-tabt.active p{
     color:#6CA1E7;
 }
 .mjh-sy-tab a img{
