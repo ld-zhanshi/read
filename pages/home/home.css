@@ -223,7 +223,7 @@ img{
     z-index:100;
    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
 }
-.mjh-sy-tab a{
+.mjh-sy-tab .mjh-sy-tabt a{
     display:block;
     width:.7rem;
     height:1rem;
@@ -231,6 +231,9 @@ img{
     font-size: .22rem;
     text-align: center;
     line-height: .5rem;
+}
+.mjh-sy-tab .mjh-sy-tabt.active{
+    color:#6CA1E7;
 }
 .mjh-sy-tab a img{
     width:.54rem;height:.5rem

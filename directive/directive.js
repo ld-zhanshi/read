@@ -2,14 +2,18 @@
 * @Author: Marte
 * @Date:   2016-12-30 16:42:17
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-01-05 11:23:01
+* @Last Modified time: 2017-01-06 14:08:58
 */
 var dir=angular.module('dir',[]);
 // 首页底部tab栏
 dir.directive('indextab',function(){
     return {
         restrict: 'ECMA',
-        templateUrl:'directive/public/indextab.html'
+        templateUrl:'directive/public/indextab.html',
+        controller:function($scope,$routeParams){
+            // console.log($routeParams.id)
+            $scope.id=$routeParams.id
+        }
     }
 })
 // 首页标题
